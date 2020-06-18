@@ -570,153 +570,142 @@
     ]
   },
   {
-    "id": "Garrand",
-    "title": "",
-    "image": "",
+    "id": "148473",
+    "title": "Lemon Butter Chicken",
+    "image": "https://www.cookingclassy.com/wp-content/uploads/2018/07/lemon-butter-chicken-16-768x1152.jpg",
     "imageType": "jpg",
-    "servings": "numb",
-    "readyInMinutes": "45min",
+    "servings": "4",
+    "readyInMinutes": "30min",
     "aggregateLikes": "",
-    "difficultyLevel": "",
+    "difficultyLevel": "Easy",
     "summary": "",
-    "dishTypes": ["lunch", "main course", "main dish", "dinner"],
+    "dishTypes": ["main course", "main dish", "dinner"],
     "ingredients": [
       {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
+        "name": "4 5oz Chicken Breasts",
+        "original": "4 Chicken Breasts",
+        "originalName": "Chicken Breasts",
+        "unit": "5 oz",
+        "amount": 4
+      },
+      {
+        "name": "Salt & Freshly ground black pepper",
+        "original": "Salt & Freshly Ground black pepper",
+        "originalName": "Salt & Freshly Ground black pepper",
+        "unit": "to taste",
         "amount": 1
       },
       {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
+        "name": "1/3 cup all-purpose flour",
+        "original": "all purpose flour",
+        "originalName": "all purpose flour",
+        "unit": "cup",
+        "amount": "1/3"
+      },
+      {
+        "name": "1 Tbsp olive oil",
+        "original": "olive oil",
+        "originalName": "olive oil",
+        "unit": "Tbsp",
         "amount": 1
       },
       {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
+        "name": "4 Tbsp unsalted butter, sliced into 1 Tbsp pices",
+        "original": "unsalted butter, divided evenly",
+        "originalName": "unsalted butter",
+        "unit": "Tbsp",
+        "amount": 4
       },
       {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
+        "name": "1 1/2 tsp minced garlic",
+        "original": "minced garlic",
+        "originalName": "minced garlic",
+        "unit": "tsp",
+        "amount": "1-1/2"
       },
       {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
+        "name": "1/2 cup low-sodium chicken broth",
+        "original": "low-sodium chicken broth",
+        "originalName": "low-sodium chicken broth",
+        "unit": "cup",
+        "amount": "1/2"
       },
       {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
+        "name": "3 Tbsp fresh lemon juice",
+        "original": "fresh lemon juice",
+        "originalName": "fresh lemon juice",
+        "unit": "Tbsp",
+        "amount": 3
       },
       {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
+        "name": "1/2 tsp fresh lemon zest",
+        "original": "fresh lemon zest",
+        "originalName": "fresh lemon zest",
+        "unit": "tsp",
+        "amount": "1/2"
       },
       {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
-      },
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
-      },
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
-      },
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
+        "name": "1 1/2 Tbsp minced fresh parsley (optional)",
+        "original": "minced fresh parsley (optional)",
+        "originalName": "minced fresh parsley (optional)",
+        "unit": "Tbsp",
+        "amount": "1 1/2"
       }
     ],
     "Equipment": [
       {
         "id": 1,
-        "name": ""
+        "name": "Shallow dish"
       },
       {
         "id": 2,
-        "name": ""
+        "name": "12 inch skillet"
       },
       {
         "id": 3,
-        "name": ""
-      },
-      {
-        "id": 4,
-        "name": ""
-      },
-      {
-        "id": 5,
-        "name": ""
+        "name": "Plate"
       }
     ],
     "steps": [
       {
         "number": 1,
-        "step": ""
+        "step": "Season both sides of chicken with salt and pepper."
       },
       {
         "number": 2,
-        "step": ""
+        "step": "Place flour in a shallow dish then dredge both sides of chicken breasts in flour, one at a time."
       },
       {
         "number": 3,
-        "step": "" 
+        "step": "Heat 12-inch skillet over medium-high heat." 
       },
       {
         "number": 4,
-        "step": "" 
+        "step": "Add olive oil and 1 Tbsp butter, let butter melt, then add in chicken breasts  in a single layer." 
       },
       {
         "number": 5,
-        "step": "" 
+        "step": "Sear until golden brown on bottom, about 4 - 5 minutes then flip and continue to cook until chicken registers 165 degrees in center, about 4 - 5 minutes longer." 
       },
       {
         "number": 6,
-        "step": "" 
+        "step": "Transfer chicken to a plate while leaving any little bit of excess oil in pan." 
       },
       {
         "number": 7,
-        "step": "" 
+        "step": "Reduce to medium heat, add garlic and saute 20 seconds, or until just lightly golden brown, then pour in chicken broth while scraping browned bits up." 
       },
       {
         "number": 8,
-        "step": "" 
+        "step": "Pour in lemon juice then bring mixture to a simmer, reduce heat slightly and let simmer until liquid has reduced by about half, about 2 minutes." 
       },
       {
         "number": 9,
-        "step": ""
+        "step": "Add in remaining 3 Tbsp butter and lemon zest, stir to melt butter."
+      },
+      {
+        "number": 10,
+        "step": "Return chicken to skillet, spoon sauce over chicken and garnish with parsley. Serve warm."
       }
     ]
   },
