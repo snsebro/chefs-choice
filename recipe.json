@@ -1,0 +1,103 @@
+const recipes = [
+  {
+    "id": 716429,
+    "title": "Pasta with Garlic, Scallions, Cauliflower & Breadcrumbs",
+    "image": "https://spoonacular.com/recipeImages/716429-556x370.jpg",
+    "imageType": "jpg",
+    "servings": 2,
+    "readyInMinutes": 45,
+    "aggregateLikes": 209,
+    "difficultyLevel": "easy",
+    "summary": "Pasta with Garlic, Scallions, Cauliflower & Breadcrumbs might be a good recipe to expand your main course repertoire. One portion of this dish contains approximately 19g of protein , 20g of fat , and a total of  <b>584 calories </b>. For  <b>$1.63 per serving </b>, this recipe  <b>covers 23% </b> of your daily requirements of vitamins and minerals. This recipe serves 2. It is brought to you by fullbellysisters.blogspot.com. 209 people were glad they tried this recipe. A mixture of scallions, salt and pepper, white wine, and a handful of other ingredients are all it takes to make this recipe so scrumptious. From preparation to the plate, this recipe takes approximately  <b>45 minutes </b>. All things considered, we decided this recipe  <b>deserves a spoonacular score of 83% </b>. This score is awesome" ,
+    "dishTypes": [
+      "lunch",
+      "main course",
+      "main dish",
+      "dinner"
+    ],
+    "extendedIngredients": [
+      {
+        "meta": [],
+        "name": "butter",
+        "original": "1 tbsp butter",
+        "originalName": "butter",
+        "unit": "tbsp",
+        "amount": "1.0"
+      },
+      {
+        "name": "cauliflower florets",
+        "original": "about 2 cups frozen cauliflower florets, thawed, cut into bite-sized pieces",
+        "originalName": "about frozen cauliflower florets, thawed, cut into bite-sized pieces",
+        "unit": "cups",
+        "amount": "2.0"
+      },
+      {
+        "name": "cheese",
+        "original": "2 tbsp grated cheese (I used romano)",
+        "originalName": "grated cheese (I used romano)",
+        "amount": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "meta": [],
+        "name": "extra virgin olive oil",
+        "original": "1-2 tbsp extra virgin olive oil",
+        "originalName": "extra virgin olive oil",
+        "amount": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "meta": [],
+        "name": "garlic",
+        "original": "5-6 cloves garlic",
+        "originalName": "garlic",
+        "amount": 5.0,
+        "unit": "cloves"
+      },
+      {
+        "name": "pasta",
+        "original": "6-8 ounces pasta (I used linguine)",
+        "originalName": "pasta (I used linguine)",
+        "amount": 6.0,
+        "unit": "ounces"
+      },
+      {
+        "name": "red pepper flakes",
+        "original": "couple of pinches red pepper flakes, optional",
+        "originalName": "couple of red pepper flakes, optional",
+        "amount": 2.0,
+        "unit": "pinches"
+      },
+      {
+        "name": "salt and pepper",
+        "original": "salt and pepper, to taste",
+        "originalName": "salt and pepper, to taste",
+        "amount": 2.0,
+        "unit": "servings"
+      },
+      {
+        "name": "scallions",
+        "original": "3 scallions, chopped, white and green parts separated",
+        "originalName": "scallions, chopped, white and green parts separated",
+        "unit": "",
+        "amount": 3.0,
+      },
+      {
+        "name": "white wine",
+        "original": "2-3 tbsp white wine",
+        "originalName": "white wine",
+        "amount": 3.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "whole wheat bread crumbs",
+        "original": "1/4 cup whole wheat bread crumbs (I used panko)",
+        "originalName": "whole wheat bread crumbs (I used panko)",
+        "unit": "cup",
+        "amount": 0.25,
+      }
+    ],
+  },
+  {}
+] 
+export {recipes }
