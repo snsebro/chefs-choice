@@ -75,7 +75,7 @@ const main = async () => {
         "review": "I've got a fetish for good food and this place gets me hot! After my meal, I was knocked into a food coma. Everything from the starters to the entrees to the desserts meshed perfectly with my flavor-profile. I found the ambiance to be very charming. The waitress was prompt and polite. I'd give more than 5 stars if I could!",
         "starCount": "5",
         "featuredChef": "true"
-      },
+      }
   ]
 
 await Review.insertMany(reviews)
