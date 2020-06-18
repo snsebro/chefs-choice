@@ -24,7 +24,8 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^5.9.19",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "sass": "^1.26.8"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
