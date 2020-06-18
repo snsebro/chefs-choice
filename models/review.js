@@ -1,11 +1,6 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
-const Name = new Schema(
-  {
-    first: { type: String, required: true },
-    last: { type: String, required: true }
-  }
-)
+
 const Review = new Schema(
   {
     name: [{first: String, last: String}],
@@ -16,5 +11,6 @@ const Review = new Schema(
   },
   { timestamps: true }
 )
+
 module.exports = mongoose.model('review', Review)
 
