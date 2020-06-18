@@ -1600,23 +1600,15 @@
     "Equipment": [
       {
         "id": 1,
-        "name": ""
+        "name": "bowl"
       },
       {
         "id": 2,
-        "name": ""
+        "name": "skillet"
       },
       {
         "id": 3,
-        "name": ""
-      },
-      {
-        "id": 4,
-        "name": ""
-      },
-      {
-        "id": 5,
-        "name": ""
+        "name": "grill"
       }
     ],
     "steps": [
