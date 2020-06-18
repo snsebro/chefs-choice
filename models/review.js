@@ -8,12 +8,13 @@ const Name = new Schema(
 )
 const Review = new Schema(
   {
-    name: [Name],
+    name: [{first: String, last: String}],
     imgURL: { type: String, required: true },
     review: { type: String, required: true },
-    starCount: { type: num, required: true },
-    featuredChef: { type: boolean, required: true }
+    starCount: { type: Number, required: true },
+    featuredChef: { type: Boolean, required: true }
   },
   { timestamps: true }
 )
 module.exports = mongoose.model('review', Review)
+
