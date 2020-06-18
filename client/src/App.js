@@ -1,5 +1,6 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom'
+import Layout from './components/shared/Layout'
 import Homepage from './pages/homepage/Hompage'
 import ChefPage from './pages/chef-page/ChefPage'
 import ChefProfile from './pages/chef-profile/ChefProfile'
