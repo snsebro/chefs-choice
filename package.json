@@ -1,0 +1,20 @@
+{
+  "name": "chefs-choice",
+  "version": "1.0.0",
+  "description": "# PROJECT 3 PLANNING WORKSHEET README TEMPLATE <!-- omit in toc -->",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snsebro/chefs-choice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snsebro/chefs-choice/issues"
+  },
+  "homepage": "https://github.com/snsebro/chefs-choice#readme"
+}
