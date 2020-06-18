@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
-const Review = new Schema(
+const REVIEW = new Schema(
   {
     name: [{first: String, last: String}],
     imgURL: { type: String, required: true },
@@ -12,5 +12,5 @@ const Review = new Schema(
   { timestamps: true }
 )
 
-module.exports = mongoose.model('review', Review)
+module.exports = mongoose.model('review', REVIEW)
 
