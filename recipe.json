@@ -1,4 +1,4 @@
-const recipes = [
+[
   {
     "id": 716429,
     "title": "Pasta with Garlic, Scallions, Cauliflower & Breadcrumbs",
@@ -8,13 +8,8 @@ const recipes = [
     "readyInMinutes": 45,
     "aggregateLikes": 209,
     "difficultyLevel": "easy",
-    "summary": "Pasta with Garlic, Scallions, Cauliflower & Breadcrumbs might be a good recipe to expand your main course repertoire. One portion of this dish contains approximately 19g of protein , 20g of fat , and a total of  <b>584 calories </b>. For  <b>$1.63 per serving </b>, this recipe  <b>covers 23% </b> of your daily requirements of vitamins and minerals. This recipe serves 2. It is brought to you by fullbellysisters.blogspot.com. 209 people were glad they tried this recipe. A mixture of scallions, salt and pepper, white wine, and a handful of other ingredients are all it takes to make this recipe so scrumptious. From preparation to the plate, this recipe takes approximately  <b>45 minutes </b>. All things considered, we decided this recipe  <b>deserves a spoonacular score of 83% </b>. This score is awesome" ,
-    "dishTypes": [
-      "lunch",
-      "main course",
-      "main dish",
-      "dinner"
-    ],
+    "summary": "Pasta with Garlic, Scallions, Cauliflower & Breadcrumbs might be a good recipe to expand your main course repertoire. One portion of this dish contains approximately 19g of protein , 20g of fat , and a total of  <b>584 calories </b>. For  <b>$1.63 per serving </b>, this recipe  <b>covers 23% </b> of your daily requirements of vitamins and minerals. This recipe serves 2. It is brought to you by fullbellysisters.blogspot.com. 209 people were glad they tried this recipe. A mixture of scallions, salt and pepper, white wine, and a handful of other ingredients are all it takes to make this recipe so scrumptious. From preparation to the plate, this recipe takes approximately  <b>45 minutes </b>. All things considered, we decided this recipe  <b>deserves a spoonacular score of 83% </b>. This score is awesome",
+    "dishTypes": ["lunch", "main course", "main dish", "dinner"],
     "ingredients": [
       {
         "meta": [],
@@ -80,7 +75,7 @@ const recipes = [
         "original": "3 scallions, chopped, white and green parts separated",
         "originalName": "scallions, chopped, white and green parts separated",
         "unit": "",
-        "amount": 3.0,
+        "amount": 3.0
       },
       {
         "name": "white wine",
@@ -94,71 +89,182 @@ const recipes = [
         "original": "1/4 cup whole wheat bread crumbs (I used panko)",
         "originalName": "whole wheat bread crumbs (I used panko)",
         "unit": "cup",
-        "amount": 0.25,
+        "amount": 0.25
       }
     ],
-"Equipment": [{
+    "Equipment": [
       {
         "id": 404784,
-        "name": "skillet",
-    },
-  {
-    "id": 40434,
-    "name": "bowl",
-}, 
-{
-  "id": 4123,
-  "name": "tablespoon",
-},
-{
-  "id": 1223,
-  "name": "Cup",
-},
-{
-  "id": 1223,
-  "name": "Drainer",
-}
-    }],
+        "name": "skillet"
+      },
+      {
+        "id": 40434,
+        "name": "bowl"
+      },
+      {
+        "id": 4123,
+        "name": "tablespoon"
+      },
+      {
+        "id": 1223,
+        "name": "Cup"
+      },
+      {
+        "id": 1223,
+        "name": "Drainer"
+      }
+    ],
     "steps": [
       {
-          "number": 1,
-          "step": "In a large skillet, melt butter over medium heat until foamy",
+        "number": 1,
+        "step": "In a large skillet, melt butter over medium heat until foamy"
+      },
+      {
+        "number": 2,
+        "step": "Then add bread crumbs, tossing to coat in butter, until toasted and lightly browned"
+      },
+      {
+        "number": 3,
+        "step": "Remove from pan into small bowl; mix in cheese and about a tablespoon of the green scallion tops."
+      },
+      {
+        "number": 4,
+        "step": "In the meantime, begin to prepare your pasta according to the directions on the package. While the pasta is cooking, put about a tablespoon of olive oil in the same pan you used for the bread crumbs."
+      },
+      {
+        "number": 5,
+        "step": "Over medium heat, add the garlic, whites of the scallions, and cauliflower to the skillet. Saute until the cauliflower shows some caramelization."
+      },
+      {
+        "number": 6,
+        "step": "Over medium heat, add the garlic, whites of the scallions, and cauliflower to the skillet. Saute until the cauliflower shows some caramelization."
+      },
+      {
+        "number": 7,
+        "step": "Then add the wine until the florets are tender-crisp. Add salt, pepper, and red pepper flakes."
+      },
+      {
+        "number": 8,
+        "step": "When pasta is just shy of al dente, reserve about a cup of the cooking water and drain the pasta. Add the drained pasta to the skillet—still over medium heat—with the veggies and toss with some pasta water, as necessary (I added a little at a time; I ended up using about 1/2 cup), till the pasta is coated and turns easily. "
+      },
+      {
+        "number": 9,
+        "step": "You may want to add another little drizzle of olive oil. Again, taste and season accordingly."
+      }
+    ]
   },
+
   {
-    "number": 2,
-    "step": "Then add bread crumbs, tossing to coat in butter, until toasted and lightly browned",
-},
-{
-  "number": 3,
-  "step": "Remove from pan into small bowl; mix in cheese and about a tablespoon of the green scallion tops.",
-},
-{
-  "number": 4,
-  "step": "In the meantime, begin to prepare your pasta according to the directions on the package. While the pasta is cooking, put about a tablespoon of olive oil in the same pan you used for the bread crumbs.",
+    "id": 716432,
+    "title": "GARLIC BUTTER GRILLED STEAK & SHRIMP",
+    "image": "https://images.unsplash.com/photo-1578332049773-b6f35e587618?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1358&q=80",
+    "imageType": "jpg",
+    "servings": 4,
+    "readyInMinutes": 25,
+    "aggregateLikes": 209,
+    "difficultyLevel": "medium",
+    "summary": "Grilled Steak & Shrimp (SURF AND TURF) slathered in garlic butter makes for the BEST steak recipe! A gourmet steak dinner that tastes like something out of a restaurant, ready and on the table in less than 15 minutes.",
+    "dishTypes": ["dinner"],
+    "ingredients": [
+      {
+        "meta": [],
+        "name": "butter",
+        "original": "6 tbsp butter",
+        "originalName": "butter",
+        "unit": "tbsp",
+        "amount": "6.0"
+      },
+      {
+        "meta": [],
+        "name": "garlic",
+        "original": "4 cloves of garlic",
+        "originalName": "garlic",
+        "unit": "cloves",
+        "amount": "4.0"
+      },
+      {
+        "meta": [],
+        "name": "parseley",
+        "original": "1 tablespoon fresh parsley, chopped",
+        "originalName": "parsley",
+        "unit": "tablespoon",
+        "amount": "1.0"
+      },
+      {
+        "meta": [],
+        "name": "olive oil",
+        "original": "1 tablespoon olive oil",
+        "originalName": "olive oil",
+        "unit": "tablespoon",
+        "amount": "1.0"
+      },
+      {
+        "meta": [],
+        "name": "strip steaks",
+        "original": "4 New York Steak strip steaks (Porterhouse steaks)",
+        "originalName": "strip steaks",
+        "unit": "lbs",
+        "amount": "4.0/each"
+      },
+      {
+        "meta": [],
+        "name": " Salt and pepper",
+        "original": " Salt and pepper",
+        "originalName": " Salt and pepper",
+        "unit": "",
+        "amount": ""
+      },
+      {
+        "meta": [],
+        "name": "shrimp",
+        "original": "8 ounces shrimp deveined, tails on or off",
+        "originalName": "shrimp",
+        "unit": "oz",
+        "amount": "8.0"
+      }
+    ],
+    "Equipment": [{
+      "id": 404784,
+      "name": "skillet"
+    },
+    {
+      "id": 4047234,
+      "name": "Grill"
+    },
+    {
+      "id": 4047234,
+      "name": "bowl"
+    },
+    {
+      "id": 124,
+      "name": "knife"
+    }
+  ],
 
-},
-{
-  "number": 5,
-  "step": "Over medium heat, add the garlic, whites of the scallions, and cauliflower to the skillet. Saute until the cauliflower shows some caramelization.",
-
-},
-{
-  "number": 6,
-  "step": "Over medium heat, add the garlic, whites of the scallions, and cauliflower to the skillet. Saute until the cauliflower shows some caramelization.",
-},
-{
-  "number": 7,
-  "step": "Then add the wine until the florets are tender-crisp. Add salt, pepper, and red pepper flakes.",
-},
-{
-  "number": 8,
-  "step": "When pasta is just shy of al dente, reserve about a cup of the cooking water and drain the pasta. Add the drained pasta to the skillet—still over medium heat—with the veggies and toss with some pasta water, as necessary (I added a little at a time; I ended up using about 1/2 cup), till the pasta is coated and turns easily. ",
-},
-{
-  "number": 9,
-  "step": "You may want to add another little drizzle of olive oil. Again, taste and season accordingly."
-}
-
-]}] 
-
-export default { recipes }
+    "steps": [{
+      "number": 1,
+      "step": "Mix together butter, garlic and fresh chopped parsley. Refrigerate until ready to use."
+    },
+    {
+      "number": 2,
+      "step": "Heat a large grill over high heat. Lightly grease grill plates with oil. Pat steaks dry with paper towel. Brush lightly with oil and generously season with salt and pepper."
+    },
+    {
+      "number": 3,
+      "step": "Grill steaks for 4-5 minutes each side until browned and cooked to desired doneness. Spread half of the butter all over of steaks. Transfer steaks to a warm plate and let rest for 5 minutes."
+    },
+    {
+      "number": 4,
+      "step": "While steaks are resting, melt remaining butter. Season shrimp with salt and pepper. "
+    },
+    {
+      "number": 5,
+      "step": "Reduce heat to medium and grill your shrimp for 5-6 minutes, depending not the size and thickness of your shrimp. Flip each one halfway through cook time and continue cooking until they turn nice and pink in colour while white and opaque on the inside."
+    },
+    {
+      "number": 6,
+      "step": "Toss remaining butter through shrimp and serve with steak!"
+    }
+  ]
+  }
+]
