@@ -8,7 +8,7 @@
     "readyInMinutes": 45,
     "aggregateLikes": 209,
     "difficultyLevel": "easy",
-    "summary": "Pasta with Garlic, Scallions, Cauliflower & Breadcrumbs might be a good recipe to expand your main course repertoire. One portion of this dish contains approximately 19g of protein , 20g of fat , and a total of  <b>584 calories </b>. For  <b>$1.63 per serving </b>, this recipe  <b>covers 23% </b> of your daily requirements of vitamins and minerals. This recipe serves 2. It is brought to you by fullbellysisters.blogspot.com. 209 people were glad they tried this recipe. A mixture of scallions, salt and pepper, white wine, and a handful of other ingredients are all it takes to make this recipe so scrumptious. From preparation to the plate, this recipe takes approximately  <b>45 minutes </b>. All things considered, we decided this recipe  <b>deserves a spoonacular score of 83% </b>. This score is awesome",
+    "summary": "Pasta with Garlic, Scallions, Cauliflower & Breadcrumbs might be a good recipe to expand your main course repertoire. One portion of this dish contains approximately 19g of protein , 20g of fat , and a total of  584 calories . For $1.63 per serving , this recipe  covers 23%  of your daily requirements of vitamins and minerals. This recipe serves 2. It is brought to you by fullbellysisters.blogspot.com. 209 people were glad they tried this recipe. A mixture of scallions, salt and pepper, white wine, and a handful of other ingredients are all it takes to make this recipe so scrumptious. From preparation to the plate, this recipe takes approximately 45 minutes . All things considered, we decided this recipe  <b>deserves a spoonacular score of 83%. This score is awesome",
     "dishTypes": ["lunch", "main course", "main dish", "dinner"],
     "ingredients": [
       {
@@ -271,12 +271,12 @@
     "id": "716344",
     "title": "Chicken & Waffles",
     "image": "https://images.unsplash.com/photo-1565880112491-e7c4c313850d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-    "imageType": "",
-    "servings": "numb",
+    "imageType": "splash",
+    "servings": "6",
     "readyInMinutes": "45min",
-    "aggregateLikes": "",
-    "difficultyLevel": "",
-    "summary": "",
+    "aggregateLikes": "10/10",
+    "difficultyLevel": "hard",
+    "summary": "If you like buttermilk fried chicken tenders and cornmeal waffles, then Southern-Style Chicken and Waffles are for you!  If you don’t want to fry a whole chicken, this easy chicken and waffles recipe is the answer with pan fried chicken tenders and crisp, tender buttermilk waffles from scratch.",
     "dishTypes": ["lunch", "main course", "main dish", "dinner"],
     "ingredients": [
       {
@@ -288,8 +288,8 @@
       },
       {
         "name": "2 cups buttermilk ",
-        "original": "",
-        "originalName": "",
+        "original": "buttermilk",
+        "originalName": "buttermilk",
         "unit": "cups",
         "amount": 2
       },
@@ -329,92 +329,205 @@
         "amount": 1
       },
       {
-        "name": "",
-        "original": "",
+        "name": "1/2 teaspoon cayenne pepper, plus more if needed",
+        "original": "cayenne pepper",
+        "originalName": "cayenne pepper",
+        "unit": "teaspoon",
+        "amount": 0.25
+      },
+      {
+        "name": "1/4 cup milk, plus more if needed",
+        "original": "milk",
+        "originalName": "milk",
+        "unit": "cup",
+        "amount": 0.25
+      },
+      {
+        "name": "Vegetable oil, for frying ",
+        "original": "Vegetable oil",
+        "originalName": "Vegetable oil",
+        "unit": "a pinch",
+        "amount": 1
+      },
+      {
+        "name": "2 cups all-purpose flour",
+        "original": "all-purpose flour",
+        "originalName": "all-purpose flour",
+        "unit": "cups",
+        "amount": 2
+      },
+      {
+        "name": "1/4 cup sugar ",
+        "original": "sugar",
+        "originalName": "sugar",
+        "unit": "cup",
+        "amount": 0.25
+      },
+      {
+        "name": "1 tablespoon baking powder",
+        "original": "baking powder",
+        "originalName": "baking powder",
+        "unit": "tablespoon",
+        "amount": 1
+      },
+      {
+        "name": "1/2 teaspoon kosher salt ",
+        "original": "1 1/2 cups milk ",
         "originalName": "",
         "unit": "",
         "amount": 1
       },
       {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
+        "name": "1 tablespoon vanilla extract ",
+        "original": "vanilla extract",
+        "originalName": "vanilla extract",
+        "unit": "tablespoon",
         "amount": 1
       },
       {
-        "name": "",
-        "original": "",
-        "originalName": "",
+        "name": "4 large egg whites plus 2 large egg yolks ",
+        "original": "egg",
+        "originalName": "egg",
+        "unit": "eggs",
+        "amount": 6
+      },
+      {
+        "name": "8 tablespoons (1 stick) salted butter, melted ",
+        "original": "butter",
+        "originalName": "butter",
+        "unit": "tablespoon",
+        "amount": 8
+      },
+      {
+        "name": "1 to 2 jalapenos, chopped",
+        "original": "jalapenos",
+        "originalName": "jalapenos",
         "unit": "",
+        "amount": "1-2"
+      },
+      {
+        "name": "1 cup pancake syrup",
+        "original": "pancake syrup",
+        "originalName": "pancake syrup",
+        "unit": "cup",
         "amount": 1
       },
       {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
+        "name": "1/4 cup bourbon ",
+        "original": "bourbon",
+        "originalName": "bourbon",
+        "unit": "cup",
+        "amount": 0.25
+      },
+      {
+        "name": "4 tablespoons (1/2 stick) salted butter ",
+        "original": "butter",
+        "originalName": "butter",
+        "unit": "tablespoons",
+        "amount": 4
+      },
+      {
+        "name": "1/4 teaspoon cayenne pepper ",
+        "original": "cayenne pepper ",
+        "originalName": "cayenne pepper ",
+        "unit": "teaspoon",
+        "amount": 0.25
       }
     ],
     "Equipment": [
       {
-        "id": 1,
-        "name": ""
+        "id": 2345,
+        "name": "deepfrier"
       },
       {
-        "id": 2,
-        "name": ""
+        "id": 124,
+        "name": "cup"
       },
       {
         "id": 3,
-        "name": ""
+        "name": "measuring spoons"
       },
       {
         "id": 4,
-        "name": ""
+        "name": "mixing bowl"
       },
       {
         "id": 5,
-        "name": ""
+        "name": "oven"
+      },
+      {
+        "id": 6,
+        "name": "waffle iron"
+      },
+      {
+        "id": 7,
+        "name": "spantual/mixer"
+      },
+      {
+        "id": 8,
+        "name": "whisk"
+      },
+      {
+        "id": 9,
+        "name": "stove top"
       }
     ],
     "steps": [
       {
         "number": 1,
-        "step": ""
+        "step": "For the fried chicken: Thoroughly rinse the chicken, then cover all the pieces with 1 3/4 cups of buttermilk. Soak in the fridge overnight or up to 24 hours."
       },
       {
         "number": 2,
-        "step": ""
+        "step": "When you're ready to fry the chicken, remove the bowl from the fridge and let it sit on the counter for 30 minutes to take off the chill."
       },
       {
         "number": 3,
-        "step": "" 
+        "step": "In the meantime, preheat the oven to 360 degrees F and mix the breading. Put the flour, seasoned salt, paprika, pepper, thyme and cayenne (extra cayenne if you like heat) in a very large bowl and stir together well." 
       },
       {
         "number": 4,
-        "step": "" 
+        "step": "In a small bowl, combine the milk and remaining 1/4 cup buttermilk. Pour into the flour mixture and, with a fork, gradually mix until there are little lumps throughout. This will adhere to the chicken and make for a crispier breading. If necessary, add a little more flour or milk to the bowl in order to make it slightly lumpy." 
       },
       {
         "number": 5,
-        "step": "" 
+        "step": "Heat 1 1/2 to 2 inches of vegetable oil in a deep skillet over medium-high heat until a deep-fry thermometer registers 365 degrees F. Lower the heat slightly, if necessary, to keep the oil from getting hotter." 
       },
       {
         "number": 6,
-        "step": "" 
+        "step": "Working in batches, thoroughly coat each chicken piece with the breading, pressing extra breading onto the chicken if necessary. Place the breaded pieces on a plate." 
       },
       {
         "number": 7,
-        "step": "" 
+        "step": "Add the chicken to the oil 3 or 4 pieces at a time. Make sure they aren't sticking together, then cover the skillet and fry for 5 to 7 minutes, checking occasionally to make sure the chicken isn't getting too brown. Turn the pieces over, cover again and cook 3 to 5 minutes more. All the while, monitor the temperature of the oil to make sure the chicken doesn't burn. Transfer the fried chicken pieces to a baking sheet (they will not be completely cooked through) and continue frying the rest of the chicken." 
       },
       {
         "number": 8,
-        "step": "" 
+        "step": "Bake the thighs for 15 minutes to finish the cooking process. Sometimes I'll cut into the thicker part of one of the larger pieces, just to make sure the chicken is cooked through. (If any pink juice or meat is visible, the chicken needs to continue cooking in the oven.) Cover and keep warm." 
       },
       {
         "number": 9,
-        "step": ""
+        "step": "For the waffles: Preheat the waffle iron to the regular setting. Sift together the flour, sugar, baking powder and salt in a bowl."
+      },
+      {
+        "number": 10,
+        "step": "In a separate bowl, whisk together the milk, vanilla and 2 egg yolks. Pour over the dry ingredients and very gently stir until halfway combined. Pour in the melted butter and chopped jalapenos and continue mixing very gently until combined."
+      },
+      {
+        "number": 11,
+        "step": "In a separate bowl (or using a mixer), beat the 4 egg whites with a whisk until stiff. Slowly fold them into the batter, stopping short of mixing them all the way through."
+      },
+      {
+        "number": 12,
+        "step": "Scoop the batter into your waffle iron in batches and cook according to the manufacturer's directions (lean toward being a little deep golden and crisp!). Keep warm."
+      },
+      {
+        "number": 13,
+        "step": "For the sauce: Pour the pancake syrup and bourbon in a small pot and bring to a boil. Turn down the heat and simmer for 3 to 4 minutes. Turn off the heat and whisk in the butter 1 tablespoon at a time, then the cayenne."
+      },
+      {
+        "number": 14,
+        "step": "To serve: Place 2 chicken thighs on top of a waffle. Pour the warm sauce over everything and serve immediately."
       }
     ]
   },
@@ -1188,92 +1301,162 @@
     ]
   },
   {
-    "id": "",
-    "title": "",
-    "image": "",
+    "id": "232543",
+    "title": "Perfect Fish Tacos",
+    "image": "https://images.unsplash.com/photo-1512838243191-e81e8f66f1fd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
     "imageType": "jpg",
-    "servings": "numb",
-    "readyInMinutes": "45min",
-    "aggregateLikes": "",
-    "difficultyLevel": "",
-    "summary": "",
+    "servings": "8",
+    "readyInMinutes": "35min",
+    "aggregateLikes": "8.6/10",
+    "difficultyLevel": "easy",
+    "summary": "Love fish tacos? Well, these are the end-all be-all. Read on to see what makes these tacos so special. The fish—we use cod, but any flaky variety works—marinates in a mixture of lime juice, chili powder, and cumin that will become your standard. (Seriously, steak or chicken marinated in this will also taste bomb.) But the real gem of this recipe is the cabbage slaw—don't skip it. It takes just a few minutes to toss together and it's brightness is the perfect condiment to the spiced cod. ",
     "dishTypes": ["lunch", "main course", "main dish", "dinner"],
     "ingredients": [
       {
-        "name": "",
-        "original": "",
-        "originalName": "",
+        "name": "3 tbsp. extra-virgin olive oil",
+        "original": "extra-virgin olive oil",
+        "originalName": "extra-virgin olive oil",
+        "unit": "tbsp",
+        "amount": 3
+      },
+      {
+        "name": "Juice of 1 lime",
+        "original": "Lime",
+        "originalName": "Lime",
         "unit": "",
         "amount": 1
       },
       {
-        "name": "",
-        "original": "",
-        "originalName": "",
+        "name": "2 tsp. chili powder",
+        "original": "chili powder",
+        "originalName": "chili powder",
+        "unit": "tsp.",
+        "amount": 2
+      },
+      {
+        "name": "1 tsp. paprika ",
+        "original": "paprika",
+        "originalName": "paprika",
+        "unit": "tsp.",
+        "amount": 1
+      },
+      {
+        "name": "1/2 tsp. ground cumin",
+        "original": "ground cumin",
+        "originalName": "ground cumin",
+        "unit": "tsp.",
+        "amount": 0.5
+      },
+      {
+        "name": "1/2 tsp. cayenne pepper",
+        "original": "cayenne pepper",
+        "originalName": "cayenne pepper",
+        "unit": "tsp.",
+        "amount": 0.5
+      },
+      {
+        "name": "1 1/2 lb. cod",
+        "original": "cod",
+        "originalName": "cod",
+        "unit": "lbs",
+        "amount": 1.5
+      },
+      {
+        "name": "1/2 tbsp. vegetable oil",
+        "original": "vegetable oil",
+        "originalName": "vegetable oil",
+        "unit": "tbsp.",
+        "amount": 0.5
+      },
+      {
+        "name": "Kosher salt",
+        "original": "Kosher salt",
+        "originalName": "Kosher salt",
         "unit": "",
         "amount": 1
       },
       {
-        "name": "",
-        "original": "",
-        "originalName": "",
+        "name": "Kosher salt",
+        "original": "Kosher salt",
+        "originalName": "Kosher salt",
         "unit": "",
         "amount": 1
       },
       {
-        "name": "",
-        "original": "",
-        "originalName": "",
+        "name": "8 corn tortillas",
+        "original": "corn tortillas",
+        "originalName": "corn tortillas",
+        "unit": "",
+        "amount": 8
+      },
+      {
+        "name": "1 avocado, diced",
+        "original": "avocado",
+        "originalName": "avocado",
         "unit": "",
         "amount": 1
       },
       {
-        "name": "",
-        "original": "",
-        "originalName": "",
+        "name": "Lime wedges, for serving",
+        "original": "Lime wedges",
+        "originalName": "Lime wedges",
         "unit": "",
         "amount": 1
       },
       {
-        "name": "",
-        "original": "",
-        "originalName": "",
+        "name": "Sour cream",
+        "original": "Sour cream",
+        "originalName": "Sour cream",
         "unit": "",
         "amount": 1
       },
       {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
+        "name": "1/4 c. mayonnaise",
+        "original": "mayonnaise",
+        "originalName": "mayonnaise",
+        "unit": "cups",
+        "amount": 0.25
+      },
+      {
+        "name": "1 lime",
+        "original": "1 lime",
+        "originalName": "1 lime",
+        "unit": "juice",
         "amount": 1
       },
       {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
+        "name": "2 tbsp. freshly chopped cilantr",
+        "original": "cilantr",
+        "originalName": "cilantr",
+        "unit": "tbsp.",
+        "amount": 2
+      },
+      {
+        "name": "1 tbsp. honey",
+        "original": "honey",
+        "originalName": "honey",
+        "unit": "tbsp.",
         "amount": 1
       },
       {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
+        "name": "2 cup shredded purple cabbage",
+        "original": "purple cabbage",
+        "originalName": "purple cabbage",
+        "unit": "cup",
+        "amount": 2
+      },
+      {
+        "name": "1 c. corn kernels",
+        "original": "corn kernels",
+        "originalName": "corn kernels",
+        "unit": "cup",
         "amount": 1
       },
       {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
-      },
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
+        "name": "1 jalapeño, minced",
+        "original": "jalapeño",
+        "originalName": "jalapeño",
+        "unit": "minced",
         "amount": 1
       }
     ],
@@ -1302,39 +1485,23 @@
     "steps": [
       {
         "number": 1,
-        "step": ""
+        "step": "In a medium shallow bowl, whisk together olive oil, lime juice, paprika, chili powder, cumin, and cayenne."
       },
       {
         "number": 2,
-        "step": ""
+        "step": "Add cod, tossing until evenly coated. Let marinate 15 minutes."
       },
       {
         "number": 3,
-        "step": "" 
+        "step": "Meanwhile, make slaw: In a large bowl, whisk together mayonnaise, lime juice, cilantro, and honey. Stir in cabbage, corn, and jalapeño. Season with salt and pepper." 
       },
       {
         "number": 4,
-        "step": "" 
+        "step": "In a large nonstick skillet over medium-high heat, heat vegetable oil. Remove cod from marinade and season both sides of each filet with salt and pepper. Add fish flesh side-down. Cook until opaque and cooked through, 3 to 5 minutes per side. Let rest 5 minutes before flaking with a fork." 
       },
       {
         "number": 5,
-        "step": "" 
-      },
-      {
-        "number": 6,
-        "step": "" 
-      },
-      {
-        "number": 7,
-        "step": "" 
-      },
-      {
-        "number": 8,
-        "step": "" 
-      },
-      {
-        "number": 9,
-        "step": ""
+        "step": "Assemble tacos: Serve fish over grilled tortillas with corn slaw and avocado. Squeeze lime juice on top and garnish with sour cream." 
       }
     ]
   }
