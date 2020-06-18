@@ -25,7 +25,7 @@ const createReview = async (req, res) => {
 
 const updateReview = async (req, res) => {
   const { id } = req.params
-  await Post.findByIdAndUpdate(id, req.body, { new: true }, (error, review) => {
+  await Review.findByIdAndUpdate(id, req.body, { new: true }, (error, review) => {
       if (error) {
           return res.status(500).json({ error: error.message })
       }
