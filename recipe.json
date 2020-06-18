@@ -15,7 +15,7 @@ const recipes = [
       "main dish",
       "dinner"
     ],
-    "extendedIngredients": [
+    "ingredients": [
       {
         "meta": [],
         "name": "butter",
@@ -97,7 +97,68 @@ const recipes = [
         "amount": 0.25,
       }
     ],
+"Equipment": [{
+      {
+        "id": 404784,
+        "name": "skillet",
+    },
+  {
+    "id": 40434,
+    "name": "bowl",
+}, 
+{
+  "id": 4123,
+  "name": "tablespoon",
+},
+{
+  "id": 1223,
+  "name": "Cup",
+},
+{
+  "id": 1223,
+  "name": "Drainer",
+}
+    }],
+    "steps": [
+      {
+          "number": 1,
+          "step": "In a large skillet, melt butter over medium heat until foamy",
   },
-  {}
-] 
-export {recipes }
+  {
+    "number": 2,
+    "step": "Then add bread crumbs, tossing to coat in butter, until toasted and lightly browned",
+},
+{
+  "number": 3,
+  "step": "Remove from pan into small bowl; mix in cheese and about a tablespoon of the green scallion tops.",
+},
+{
+  "number": 4,
+  "step": "In the meantime, begin to prepare your pasta according to the directions on the package. While the pasta is cooking, put about a tablespoon of olive oil in the same pan you used for the bread crumbs.",
+
+},
+{
+  "number": 5,
+  "step": "Over medium heat, add the garlic, whites of the scallions, and cauliflower to the skillet. Saute until the cauliflower shows some caramelization.",
+
+},
+{
+  "number": 6,
+  "step": "Over medium heat, add the garlic, whites of the scallions, and cauliflower to the skillet. Saute until the cauliflower shows some caramelization.",
+},
+{
+  "number": 7,
+  "step": "Then add the wine until the florets are tender-crisp. Add salt, pepper, and red pepper flakes.",
+},
+{
+  "number": 8,
+  "step": "When pasta is just shy of al dente, reserve about a cup of the cooking water and drain the pasta. Add the drained pasta to the skillet—still over medium heat—with the veggies and toss with some pasta water, as necessary (I added a little at a time; I ended up using about 1/2 cup), till the pasta is coated and turns easily. ",
+},
+{
+  "number": 9,
+  "step": "You may want to add another little drizzle of olive oil. Again, taste and season accordingly."
+}
+
+]}] 
+
+export default { recipes }
