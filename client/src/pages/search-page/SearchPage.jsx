@@ -22,8 +22,8 @@ class SearchPage extends React.Component {
 
   handleSearchChange = event => {
     const filter = () => {
-      const filteredRecipes = this.state.products.filter(recipe => {
-        return recipe.name.toLowerCase().includes(this.state.filterValue.toLowerCase())
+      const filteredRecipes = this.state.recipes.filter(recipe => {
+        return recipe.title.toLowerCase().includes(this.state.filterValue.toLowerCase())
       })
       this.setState({ filteredRecipes })
     }
@@ -34,10 +34,10 @@ class SearchPage extends React.Component {
 
   async nextRecipe() {
     this.setState((prevState) => ({
-      currentRecipe: [...prevState.currentRecipe, response.data],
+      currentRecipe: [...prevState.currentRecipe, recipes],
     }));
     this.setState((prevState) => ({
-      index: prevState.index + 1, listOfRecipes: [...prevState.listOfRecipes, response.data]}));
+      index: prevState.index + 1, listOfRecipes: [...prevState.listOfRecipes, recipes]}));
   }
 
   previousRecipe= () => {
@@ -45,32 +45,41 @@ class SearchPage extends React.Component {
   }
 
   render() {
+
+    const setRecipes = this.state.filteredRecipes ? this.state.filteredRecipes : this.state.recipes
+
+    const RECIPES = setRecipes.map(recipe => <div>{recipe.title}</div>)
+    
     return (
-      <Layout>
+      <>
         <h1>Search</h1>
         <Search onSubmit={this.handleSubmit} value={this.state.filterValue} onChange={this.handleSearchChange} />
         <form className="sort-container" onSubmit={this.handleSubmit}></form>
         <div className="recipes">
           {this.state.recipes.map(recipes =>
-            <button className="ViewDetailsButton"><Link to={`../RecipeDetails/RecipeDetails/${recipes.name}/edit`}>View Details</Link>
-            </button>)}
-          <div className="detail">
-            <div className="name">{recipes.name}</div>
-            <div className="user">{`${recipes.user}`}</div>
-            <div className="description">{recipes.description}</div>
-            <img className="recipes-detail-image" src={recipes.imgURL} alt={recipes.name} />
-            <div className="button-container">
-              <button className="ViewDetailsButton"><Link className="ViewDetails" to={`../RecipeDetails/RecipeDetails/${recipe._id}/edit`}>View Details</Link></button>
+            <div className='recipe'>
+              <img src={recipes.image}/>
+              <div className="viewDetailsButton"><Link to={`/recipes/${recipes.title}`}>
+                <h3>View Details</h3></Link>
+              </div>
+              <div className="detail">
+                <div className="name">{recipes.title}</div>
+                <div className="user">{recipes.chefName}</div>
+                <div className="description">{recipes.summary}</div>    
             </div>
-          </div>
         </div>
+          )}
+          
+        </div>
+           {RECIPES}
+        
         <footer>
-          <div className="recipeButtoon">
-          <button className="New" onClick={this.nextRecipe}>Next</button>
-          <button className="Prev"  onClick={this.previousRecipe}>Previous</button>
-        </div>
-      </footer>
-      </Layout>
+        <div className="recipeButton">
+         <button className="New" onClick={this.nextRecipe}>Next</button>
+            <button className="Prev"  onClick={this.previousRecipe}>Previous</button>
+         </div>
+        </footer>
+      </>
     )
 
   }
