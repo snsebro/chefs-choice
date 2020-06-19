@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Layout from '../../components/shared/Layout'
 import '../chef-page/ChefProfile.scss'
 import data from '../../recipe.json'
+import '../..Cheflist.jsx'
 
 export default class ChefProfile extends Component {
   contructor() {
@@ -19,7 +20,7 @@ export default class ChefProfile extends Component {
   render() {
 
     const { chefList } = this.state.chefs
-    const allChefs = chefList.map(chef => {
+    const chefProfile = chefList.map(chef => {
       return (
         <div className='container'>
           <img src={`${chefProfile.picture.large}`} />
