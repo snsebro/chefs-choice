@@ -34,14 +34,14 @@ class SearchPage extends React.Component {
 
   render() {
     return (
-      <Layout>
+      <>
         <h1>Search</h1>
         <Search onSubmit={this.handleSubmit} value={this.state.filterValue} onChange={this.handleSearchChange} />
         <form className="sort-container" onSubmit={this.handleSubmit}></form>
         <div className="recipes">
           <div className="detail">
             <div className="name">{recipes.name}</div>
-            <div className="user">{`$${recipes.user}`}</div>
+            <div className="user">{recipes.user}</div>
             <div className="description">{recipes.description}</div>
             <img className="recipes-detail-image" src={recipes.imgURL} alt={recipes.name} />
             <div className="button-container">
@@ -49,7 +49,7 @@ class SearchPage extends React.Component {
             </div>
           </div>
         </div>
-      </Layout>
+      </>
     )
   }
 }
