@@ -1,26 +1,91 @@
 .hompage {
-  height: 100%;
+  // height: 100%;
   display: flex;
   flex-direction: column;
 
   div {
-    height: 215px;
-    width: 100%;
+    // height: 215px;
     border: 1px solid black;
 
-    div {
-      height:80px;
-      width: 80px;
-    }
+    // div {
+    //   height:80px;
+    //   width: 80px;
+    // }
   }
+}
 
-  .search-plan-inspire {
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 215px;
+  background-image: url(../../assets/Rectangle.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.search-plan-inspire{
+    height: 70%;
+    width: 70%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
 
-    div {
-  
-    }
-  }
+.icon {
+  height: 70%;
+  width: 30%;
+}
+
+.top-chefs {
+  display: flex;
+  flex-direction: column;
+  height: 215px;
+  background-image: url(../../assets/chef-image-large.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: grey;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-chefs button {
+  background-color: #EF8325;
+  outline: none;
+  border: none;
+  color: white;
+  border-radius: 2px;
+  width: 150px;
+  height: 44px;
+
+}
+
+.images {
+  height: 48%;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  background-color: white;
+  color: black;
+}
+
+.recipes {
+display: flex;
+width: 100%;
+}
+
+.recipes img {
+  width: 180px;
+  height: 117px;
+}
+
+.recipe {
+  margin: 0 10px;
+  font-size: 14px;
 }

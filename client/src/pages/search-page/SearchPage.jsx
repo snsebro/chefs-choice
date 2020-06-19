@@ -1,8 +1,9 @@
 import React from 'react'
-import { Link } from "react-router-dom";
+import Layout from '../../components/shared/Layout'
+import { Link } from 'react-router-dom'
+import Search from '../../components/Search'
 import "./SearchPage.scss";
-import recipes from `../../recipe.json`
-import Layout from '../../shared/Layout.jsx' 
+import recipes from '../../recipe.json'
 
 class SearchPage extends React.Component {
   constructor() {

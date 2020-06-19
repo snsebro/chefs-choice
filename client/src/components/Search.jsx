@@ -1,6 +1,6 @@
 import React from 'react'
 import './Search.scss'
-import recipes from `../../recipe.json`
+import recipes from '../../src/recipe.json'
 
 const Search = (props) => {
     return (
