@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import Layout from '.../components/shared/Layout'
-import Recipes from '../chef-page/ChefPage.scss'
-import data from '.../recipe.json'
+import Layout from '../../components/shared/Layout'
+import '../chef-page/ChefPage.scss'
+import data from '../../recipe.json'
 
 export default class ChefPage extends Component {
   constructor() {
