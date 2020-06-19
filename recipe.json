@@ -8,7 +8,7 @@
     "readyInMinutes": 45,
     "aggregateLikes": 209,
     "difficultyLevel": "easy",
-    "summary": "Pasta with Garlic, Scallions, Cauliflower & Breadcrumbs might be a good recipe to expand your main course repertoire. One portion of this dish contains approximately 19g of protein , 20g of fat , and a total of  <b>584 calories </b>. For  <b>$1.63 per serving </b>, this recipe  <b>covers 23% </b> of your daily requirements of vitamins and minerals. This recipe serves 2. It is brought to you by fullbellysisters.blogspot.com. 209 people were glad they tried this recipe. A mixture of scallions, salt and pepper, white wine, and a handful of other ingredients are all it takes to make this recipe so scrumptious. From preparation to the plate, this recipe takes approximately  <b>45 minutes </b>. All things considered, we decided this recipe  <b>deserves a spoonacular score of 83% </b>. This score is awesome",
+    "summary": "Pasta with Garlic, Scallions, Cauliflower & Breadcrumbs might be a good recipe to expand your main course repertoire. One portion of this dish contains approximately 19g of protein , 20g of fat , and a total of  584 calories . For $1.63 per serving , this recipe  covers 23%  of your daily requirements of vitamins and minerals. This recipe serves 2. It is brought to you by fullbellysisters.blogspot.com. 209 people were glad they tried this recipe. A mixture of scallions, salt and pepper, white wine, and a handful of other ingredients are all it takes to make this recipe so scrumptious. From preparation to the plate, this recipe takes approximately 45 minutes . All things considered, we decided this recipe  <b>deserves a spoonacular score of 83%. This score is awesome",
     "dishTypes": [
       "lunch",
       "main course",
@@ -278,12 +278,12 @@
     "id": "716344",
     "title": "Chicken & Waffles",
     "image": "https://images.unsplash.com/photo-1565880112491-e7c4c313850d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-    "imageType": "",
-    "servings": "numb",
+    "imageType": "splash",
+    "servings": "6",
     "readyInMinutes": "45min",
-    "aggregateLikes": "",
-    "difficultyLevel": "",
-    "summary": "",
+    "aggregateLikes": "10/10",
+    "difficultyLevel": "hard",
+    "summary": "If you like buttermilk fried chicken tenders and cornmeal waffles, then Southern-Style Chicken and Waffles are for you!  If you don’t want to fry a whole chicken, this easy chicken and waffles recipe is the answer with pan fried chicken tenders and crisp, tender buttermilk waffles from scratch.",
     "dishTypes": [
       "lunch",
       "main course",
@@ -300,8 +300,8 @@
       },
       {
         "name": "2 cups buttermilk ",
-        "original": "",
-        "originalName": "",
+        "original": "buttermilk",
+        "originalName": "buttermilk",
         "unit": "cups",
         "amount": 2
       },
@@ -341,105 +341,592 @@
         "amount": 1
       },
       {
-        "name": "",
-        "original": "",
+        "name": "1/2 teaspoon cayenne pepper, plus more if needed",
+        "original": "cayenne pepper",
+        "originalName": "cayenne pepper",
+        "unit": "teaspoon",
+        "amount": 0.25
+      },
+      {
+        "name": "1/4 cup milk, plus more if needed",
+        "original": "milk",
+        "originalName": "milk",
+        "unit": "cup",
+        "amount": 0.25
+      },
+      {
+        "name": "Vegetable oil, for frying ",
+        "original": "Vegetable oil",
+        "originalName": "Vegetable oil",
+        "unit": "a pinch",
+        "amount": 1
+      },
+      {
+        "name": "2 cups all-purpose flour",
+        "original": "all-purpose flour",
+        "originalName": "all-purpose flour",
+        "unit": "cups",
+        "amount": 2
+      },
+      {
+        "name": "1/4 cup sugar ",
+        "original": "sugar",
+        "originalName": "sugar",
+        "unit": "cup",
+        "amount": 0.25
+      },
+      {
+        "name": "1 tablespoon baking powder",
+        "original": "baking powder",
+        "originalName": "baking powder",
+        "unit": "tablespoon",
+        "amount": 1
+      },
+      {
+        "name": "1/2 teaspoon kosher salt ",
+        "original": "1 1/2 cups milk ",
         "originalName": "",
         "unit": "",
         "amount": 1
       },
       {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
+        "name": "1 tablespoon vanilla extract ",
+        "original": "vanilla extract",
+        "originalName": "vanilla extract",
+        "unit": "tablespoon",
         "amount": 1
       },
       {
-        "name": "",
-        "original": "",
-        "originalName": "",
+        "name": "4 large egg whites plus 2 large egg yolks ",
+        "original": "egg",
+        "originalName": "egg",
+        "unit": "eggs",
+        "amount": 6
+      },
+      {
+        "name": "8 tablespoons (1 stick) salted butter, melted ",
+        "original": "butter",
+        "originalName": "butter",
+        "unit": "tablespoon",
+        "amount": 8
+      },
+      {
+        "name": "1 to 2 jalapenos, chopped",
+        "original": "jalapenos",
+        "originalName": "jalapenos",
         "unit": "",
+        "amount": "1-2"
+      },
+      {
+        "name": "1 cup pancake syrup",
+        "original": "pancake syrup",
+        "originalName": "pancake syrup",
+        "unit": "cup",
         "amount": 1
       },
       {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
+        "name": "1/4 cup bourbon ",
+        "original": "bourbon",
+        "originalName": "bourbon",
+        "unit": "cup",
+        "amount": 0.25
+      },
+      {
+        "name": "4 tablespoons (1/2 stick) salted butter ",
+        "original": "butter",
+        "originalName": "butter",
+        "unit": "tablespoons",
+        "amount": 4
+      },
+      {
+        "name": "1/4 teaspoon cayenne pepper ",
+        "original": "cayenne pepper ",
+        "originalName": "cayenne pepper ",
+        "unit": "teaspoon",
+        "amount": 0.25
       }
     ],
     "Equipment": [
       {
-        "id": 1,
-        "name": ""
+        "id": 2345,
+        "name": "deepfrier"
       },
       {
-        "id": 2,
-        "name": ""
+        "id": 124,
+        "name": "cup"
       },
       {
         "id": 3,
-        "name": ""
+        "name": "measuring spoons"
       },
       {
         "id": 4,
-        "name": ""
+        "name": "mixing bowl"
       },
       {
         "id": 5,
-        "name": ""
+        "name": "oven"
+      },
+      {
+        "id": 6,
+        "name": "waffle iron"
+      },
+      {
+        "id": 7,
+        "name": "spantual/mixer"
+      },
+      {
+        "id": 8,
+        "name": "whisk"
+      },
+      {
+        "id": 9,
+        "name": "stove top"
       }
     ],
     "steps": [
       {
         "number": 1,
-        "step": ""
+        "step": "For the fried chicken: Thoroughly rinse the chicken, then cover all the pieces with 1 3/4 cups of buttermilk. Soak in the fridge overnight or up to 24 hours."
       },
       {
         "number": 2,
-        "step": ""
+        "step": "When you're ready to fry the chicken, remove the bowl from the fridge and let it sit on the counter for 30 minutes to take off the chill."
       },
       {
         "number": 3,
-        "step": ""
+        "step": "In the meantime, preheat the oven to 360 degrees F and mix the breading. Put the flour, seasoned salt, paprika, pepper, thyme and cayenne (extra cayenne if you like heat) in a very large bowl and stir together well."
       },
       {
         "number": 4,
-        "step": ""
+        "step": "In a small bowl, combine the milk and remaining 1/4 cup buttermilk. Pour into the flour mixture and, with a fork, gradually mix until there are little lumps throughout. This will adhere to the chicken and make for a crispier breading. If necessary, add a little more flour or milk to the bowl in order to make it slightly lumpy."
       },
       {
         "number": 5,
-        "step": ""
+        "step": "Heat 1 1/2 to 2 inches of vegetable oil in a deep skillet over medium-high heat until a deep-fry thermometer registers 365 degrees F. Lower the heat slightly, if necessary, to keep the oil from getting hotter."
       },
       {
         "number": 6,
-        "step": ""
+        "step": "Working in batches, thoroughly coat each chicken piece with the breading, pressing extra breading onto the chicken if necessary. Place the breaded pieces on a plate."
       },
       {
         "number": 7,
-        "step": ""
+        "step": "Add the chicken to the oil 3 or 4 pieces at a time. Make sure they aren't sticking together, then cover the skillet and fry for 5 to 7 minutes, checking occasionally to make sure the chicken isn't getting too brown. Turn the pieces over, cover again and cook 3 to 5 minutes more. All the while, monitor the temperature of the oil to make sure the chicken doesn't burn. Transfer the fried chicken pieces to a baking sheet (they will not be completely cooked through) and continue frying the rest of the chicken."
       },
       {
         "number": 8,
-        "step": ""
+        "step": "Bake the thighs for 15 minutes to finish the cooking process. Sometimes I'll cut into the thicker part of one of the larger pieces, just to make sure the chicken is cooked through. (If any pink juice or meat is visible, the chicken needs to continue cooking in the oven.) Cover and keep warm."
       },
       {
         "number": 9,
-        "step": ""
+        "step": "For the waffles: Preheat the waffle iron to the regular setting. Sift together the flour, sugar, baking powder and salt in a bowl."
+      },
+      {
+        "number": 10,
+        "step": "In a separate bowl, whisk together the milk, vanilla and 2 egg yolks. Pour over the dry ingredients and very gently stir until halfway combined. Pour in the melted butter and chopped jalapenos and continue mixing very gently until combined."
+      },
+      {
+        "number": 11,
+        "step": "In a separate bowl (or using a mixer), beat the 4 egg whites with a whisk until stiff. Slowly fold them into the batter, stopping short of mixing them all the way through."
+      },
+      {
+        "number": 12,
+        "step": "Scoop the batter into your waffle iron in batches and cook according to the manufacturer's directions (lean toward being a little deep golden and crisp!). Keep warm."
+      },
+      {
+        "number": 13,
+        "step": "For the sauce: Pour the pancake syrup and bourbon in a small pot and bring to a boil. Turn down the heat and simmer for 3 to 4 minutes. Turn off the heat and whisk in the butter 1 tablespoon at a time, then the cayenne."
+      },
+      {
+        "number": 14,
+        "step": "To serve: Place 2 chicken thighs on top of a waffle. Pour the warm sauce over everything and serve immediately."
       }
     ]
   },
   {
-    "id": "GARAND",
-    "title": "",
-    "image": "",
+    "id": 563496,
+    "title": "Chicken Tikka Masala",
+    "image": "https://cafedelites.com/wp-content/uploads/2018/04/Best-Chicken-Tikka-Masala-IMAGE-2.jpg",
     "imageType": "jpg",
-    "servings": "numb",
+    "servings": "5",
     "readyInMinutes": "45min",
+    "aggregateLikes": "20,000",
+    "difficultyLevel": "medium",
+    "summary": "Also called 'Butter Chicken, Chicken Tikki is easy to make and full of beautiful flavors'",
+    "dishTypes": [
+      "main dish",
+      "dinner"
+    ],
+    "ingredients": [
+      {
+        "name": "boneless, skinless chicken",
+        "original": "chicken breasts",
+        "originalName": "Chicken breasts",
+        "unit": "oz",
+        "amount": 28
+      },
+      {
+        "name": "plain yogurt",
+        "original": "plain yogurt",
+        "originalName": "plain yogurt",
+        "unit": "cup",
+        "amount": 0.5
+      },
+      {
+        "name": "minced garlic",
+        "original": "Minced Garlic",
+        "originalName": "Minced Garlic",
+        "unit": "tbsp",
+        "amount": 1.5
+      },
+      {
+        "name": "minced ginger",
+        "original": "Minced Ginger",
+        "originalName": "Minced Ginger",
+        "unit": "tbsp",
+        "amount": 1
+      },
+      {
+        "name": "garam masala",
+        "original": "Garam Masala",
+        "originalName": "Garam Masala",
+        "unit": "tsp",
+        "amount": 2
+      },
+      {
+        "name": "turmeric",
+        "original": "turmeric",
+        "originalName": "turmeric",
+        "unit": "tsp",
+        "amount": 1
+      },
+      {
+        "name": "ground cumin",
+        "original": "Ground cumin",
+        "originalName": "Ground cumin",
+        "unit": "tsp",
+        "amount": 1
+      },
+      {
+        "name": "red chili powder",
+        "original": "red chili powder",
+        "originalName": "red chili powder",
+        "unit": "tsp",
+        "amount": 1
+      },
+      {
+        "name": "salt",
+        "original": "salt",
+        "originalName": "salt",
+        "unit": "tsp",
+        "amount": 1
+      },
+      {
+        "name": "olive oil",
+        "original": "olive oil",
+        "originalName": "olive oil",
+        "unit": "tbsp",
+        "amount": 2
+      },
+      {
+        "name": "ghee",
+        "original": "ghee",
+        "originalName": "ghee",
+        "unit": "tbsp",
+        "amount": 2
+      },
+      {
+        "name": "onion",
+        "original": "onion",
+        "originalName": "onion",
+        "unit": "",
+        "amount": 1
+      },
+      {
+        "name": "garlic",
+        "original": "garlic",
+        "originalName": "garlic",
+        "unit": "tbsp",
+        "amount": 1.5
+      },
+      {
+        "name": "ginger",
+        "original": "ginger",
+        "originalName": "ginger",
+        "unit": "tbsp",
+        "amount": 1
+      },
+      {
+        "name": "ground cumin",
+        "original": "ground cumin",
+        "originalName": "ground cumin",
+        "unit": "tsp",
+        "amount": 1.5
+      },
+      {
+        "name": "garam masala",
+        "original": "garam masala",
+        "originalName": "garam masala",
+        "unit": "tsp",
+        "amount": 1.5
+      },
+      {
+        "name": "coriander",
+        "original": "coriander",
+        "originalName": "coriander",
+        "unit": "tsp",
+        "amount": 1
+      },
+      {
+        "name": "crushed tomatoes",
+        "original": "crushed tomatoes",
+        "originalName": "crushed tomatoes",
+        "unit": "oz",
+        "amount": 14
+      },
+      {
+        "name": "red chilli powder",
+        "original": "red chilli powder",
+        "originalName": "red chilli powder",
+        "unit": "tsp",
+        "amount": 1
+      },
+      {
+        "name": "salt",
+        "original": "salt",
+        "originalName": "salt",
+        "unit": "tsp",
+        "amount": 1.25
+      },
+      {
+        "name": "heavy cream",
+        "original": "heavy cream",
+        "originalName": "heavy cream",
+        "unit": "cup",
+        "amount": 1
+      },
+      {
+        "name": "sugar",
+        "original": "sugar",
+        "originalName": "sugar",
+        "unit": "tbsp",
+        "amount": 1
+      },
+      {
+        "name": "kasoori methi",
+        "original": "kasoori methi",
+        "originalName": "kasoori methi",
+        "unit": "tsp",
+        "amount": 0.5
+      }
+    ],
+    "Equipment": [
+      {
+        "id": 1,
+        "name": "large bowl"
+      },
+      {
+        "id": 2,
+        "name": "skillet/pot"
+      },
+      {
+        "id": 3,
+        "name": "pan"
+      },
+      {
+        "id": 4,
+        "name": "blender"
+      }
+    ],
+    "steps": [
+      {
+        "number": 1,
+        "step": "In a bowl, combine chicken with all of the ingredients for the chicken marinade; let marinate for 30 minutes to an hour (or overnight if time allows)."
+      },
+      {
+        "number": 2,
+        "step": "Heat oil in a large skillet or pot over medium-high heat. When sizzling, add chicken pieces in batches of two or three, making sure not to crowd the pan. Fry until browned for only 3 minutes on each side. Set aside and keep warm. (You will finish cooking the chicken in the sauce.)"
+      },
+      {
+        "number": 3,
+        "step": "Heat butter or ghee in the same pan. Fry the onions until they start to sweat (about 6 minutes) while scraping up any browned bits stuck on the bottom of the pan."
+      },
+      {
+        "number": 4,
+        "step": "Add garlic and ginger and sauté for 1 minute until fragrant, then add ground coriander, cumin and garam masala. Let cook for about 20 seconds until fragrant, while stirring occasionally."
+      },
+      {
+        "number": 5,
+        "step": "Add crushed tomatoes, chili powder and salt. Let simmer for about 10-15 minutes, stirring occasionally until sauce thickens and becomes a deep brown red colour."
+      },
+      {
+        "number": 6,
+        "step": "Remove from heat, scoop mixture into a blender and blend until smooth. You may need to add a couple tablespoons of water to help it blend (up to 1/4 cup). Work in batches depending on the size of your blender."
+      },
+      {
+        "number": 7,
+        "step": "Pour the puréed sauce back into the pan. Stir the cream, sugar and crushed kasoori methi (or fenugreek leaves) through the sauce. Add the chicken with juices back into the pan and cook for an additional 8-10 minutes until chicken is cooked through and the sauce is thick and bubbling."
+      },
+      {
+        "number": 8,
+        "step": "Garnish with chopped cilantro and serve with fresh, hot garlic butter rice and fresh homemade Naan bread!"
+      }
+    ]
+  },
+  {
+    "id": "148473",
+    "title": "Lemon Butter Chicken",
+    "image": "https://www.cookingclassy.com/wp-content/uploads/2018/07/lemon-butter-chicken-16-768x1152.jpg",
+    "imageType": "jpg",
+    "servings": "4",
+    "readyInMinutes": "30min",
     "aggregateLikes": "",
-    "difficultyLevel": "",
+    "difficultyLevel": "Easy",
     "summary": "",
+    "dishTypes": [
+      "main course",
+      "main dish",
+      "dinner"
+    ],
+    "ingredients": [
+      {
+        "name": "4 5oz Chicken Breasts",
+        "original": "4 Chicken Breasts",
+        "originalName": "Chicken Breasts",
+        "unit": "5 oz",
+        "amount": 4
+      },
+      {
+        "name": "Salt & Freshly ground black pepper",
+        "original": "Salt & Freshly Ground black pepper",
+        "originalName": "Salt & Freshly Ground black pepper",
+        "unit": "to taste",
+        "amount": 1
+      },
+      {
+        "name": "1/3 cup all-purpose flour",
+        "original": "all purpose flour",
+        "originalName": "all purpose flour",
+        "unit": "cup",
+        "amount": "1/3"
+      },
+      {
+        "name": "1 Tbsp olive oil",
+        "original": "olive oil",
+        "originalName": "olive oil",
+        "unit": "Tbsp",
+        "amount": 1
+      },
+      {
+        "name": "4 Tbsp unsalted butter, sliced into 1 Tbsp pices",
+        "original": "unsalted butter, divided evenly",
+        "originalName": "unsalted butter",
+        "unit": "Tbsp",
+        "amount": 4
+      },
+      {
+        "name": "1 1/2 tsp minced garlic",
+        "original": "minced garlic",
+        "originalName": "minced garlic",
+        "unit": "tsp",
+        "amount": "1-1/2"
+      },
+      {
+        "name": "1/2 cup low-sodium chicken broth",
+        "original": "low-sodium chicken broth",
+        "originalName": "low-sodium chicken broth",
+        "unit": "cup",
+        "amount": "1/2"
+      },
+      {
+        "name": "3 Tbsp fresh lemon juice",
+        "original": "fresh lemon juice",
+        "originalName": "fresh lemon juice",
+        "unit": "Tbsp",
+        "amount": 3
+      },
+      {
+        "name": "1/2 tsp fresh lemon zest",
+        "original": "fresh lemon zest",
+        "originalName": "fresh lemon zest",
+        "unit": "tsp",
+        "amount": "1/2"
+      },
+      {
+        "name": "1 1/2 Tbsp minced fresh parsley (optional)",
+        "original": "minced fresh parsley (optional)",
+        "originalName": "minced fresh parsley (optional)",
+        "unit": "Tbsp",
+        "amount": "1 1/2"
+      }
+    ],
+    "Equipment": [
+      {
+        "id": 1,
+        "name": "Shallow dish"
+      },
+      {
+        "id": 2,
+        "name": "12 inch skillet"
+      },
+      {
+        "id": 3,
+        "name": "Plate"
+      }
+    ],
+    "steps": [
+      {
+        "number": 1,
+        "step": "Season both sides of chicken with salt and pepper."
+      },
+      {
+        "number": 2,
+        "step": "Place flour in a shallow dish then dredge both sides of chicken breasts in flour, one at a time."
+      },
+      {
+        "number": 3,
+        "step": "Heat 12-inch skillet over medium-high heat."
+      },
+      {
+        "number": 4,
+        "step": "Add olive oil and 1 Tbsp butter, let butter melt, then add in chicken breasts  in a single layer."
+      },
+      {
+        "number": 5,
+        "step": "Sear until golden brown on bottom, about 4 - 5 minutes then flip and continue to cook until chicken registers 165 degrees in center, about 4 - 5 minutes longer."
+      },
+      {
+        "number": 6,
+        "step": "Transfer chicken to a plate while leaving any little bit of excess oil in pan."
+      },
+      {
+        "number": 7,
+        "step": "Reduce to medium heat, add garlic and saute 20 seconds, or until just lightly golden brown, then pour in chicken broth while scraping browned bits up."
+      },
+      {
+        "number": 8,
+        "step": "Pour in lemon juice then bring mixture to a simmer, reduce heat slightly and let simmer until liquid has reduced by about half, about 2 minutes."
+      },
+      {
+        "number": 9,
+        "step": "Add in remaining 3 Tbsp butter and lemon zest, stir to melt butter."
+      },
+      {
+        "number": 10,
+        "step": "Return chicken to skillet, spoon sauce over chicken and garnish with parsley. Serve warm."
+      }
+    ]
+  },
+  {
+    "id": "431207",
+    "title": "Grilled Salmon",
+    "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1296&q=60",
+    "imageType": "jpg",
+    "servings": 6,
+    "readyInMinutes": 16,
+    "aggregateLikes": 200,
+    "difficultyLevel": "easy",
+    "summary": "A simple soy sauce and brown sugar marinade, with hints of lemon and garlic, are the perfect salty-sweet complement to rich salmon fillets. Even my 9 year old loves this recipe!",
     "dishTypes": [
       "lunch",
       "main course",
@@ -448,154 +935,105 @@
     ],
     "ingredients": [
       {
-        "name": "",
+        "name": "salmon fillets",
         "original": "",
         "originalName": "",
-        "unit": "",
-        "amount": 1
+        "unit": "pounds",
+        "amount": 1.5
       },
       {
-        "name": "",
+        "name": "lemon pepper",
         "original": "",
         "originalName": "",
-        "unit": "",
-        "amount": 1
+        "unit": "teaspoon",
+        "amount": 0.5
       },
       {
-        "name": "",
+        "name": "garlic powder",
         "original": "",
         "originalName": "",
-        "unit": "",
-        "amount": 1
+        "unit": "teaspoon",
+        "amount": 0.25
       },
       {
-        "name": "",
+        "name": "salt",
         "original": "",
         "originalName": "",
-        "unit": "",
-        "amount": 1
+        "unit": "teaspoon",
+        "amount": 0.5
       },
       {
-        "name": "",
+        "name": "soy sauce",
         "original": "",
         "originalName": "",
-        "unit": "",
-        "amount": 1
+        "unit": "cup",
+        "amount": 0.33
       },
       {
-        "name": "",
+        "name": "brown sugar",
         "original": "",
         "originalName": "",
-        "unit": "",
-        "amount": 1
+        "unit": "cup",
+        "amount": 0.33
       },
       {
-        "name": "",
+        "name": "water",
         "original": "",
         "originalName": "",
-        "unit": "",
-        "amount": 1
+        "unit": "cup",
+        "amount": 0.33
       },
       {
-        "name": "",
+        "name": "vegetable oil",
         "original": "",
         "originalName": "",
-        "unit": "",
-        "amount": 1
-      },
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
-      },
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
-      },
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
+        "unit": "cup",
+        "amount": 0.25
       }
     ],
     "Equipment": [
       {
         "id": 1,
-        "name": ""
+        "name": "skillet"
       },
       {
         "id": 2,
-        "name": ""
+        "name": "mixing bowl"
       },
       {
         "id": 3,
-        "name": ""
-      },
-      {
-        "id": 4,
-        "name": ""
-      },
-      {
-        "id": 5,
-        "name": ""
+        "name": "grill"
       }
     ],
     "steps": [
       {
         "number": 1,
-        "step": ""
+        "step": "Season salmon fillets with lemon pepper, garlic powder, and salt."
       },
       {
         "number": 2,
-        "step": ""
+        "step": "In a small bowl, stir together soy sauce, brown sugar, water, and vegetable oil until sugar is dissolved. Place fish in a large resealable plastic bag with the soy sauce mixture, seal, and turn to coat. Refrigerate for at least 2 hours."
       },
       {
         "number": 3,
-        "step": ""
+        "step": "Preheat grill for medium heat."
       },
       {
         "number": 4,
-        "step": ""
-      },
-      {
-        "number": 5,
-        "step": ""
-      },
-      {
-        "number": 6,
-        "step": ""
-      },
-      {
-        "number": 7,
-        "step": ""
-      },
-      {
-        "number": 8,
-        "step": ""
-      },
-      {
-        "number": 9,
-        "step": ""
+        "step": "Lightly oil grill grate. Place salmon on the preheated grill, and discard marinade. Cook salmon for 6 to 8 minutes per side, or until the fish flakes easily with a fork."
       }
     ]
   },
   {
-    "id": "Garrand",
-    "title": "",
-    "image": "",
+    "id": 12098,
+    "title": "Grilled Bacon Jalapeno Wraps",
+    "image": "https://images.unsplash.com/photo-1592005243970-8e62149fde11?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1296&q=60",
     "imageType": "jpg",
-    "servings": "numb",
-    "readyInMinutes": "45min",
-    "aggregateLikes": "",
-    "difficultyLevel": "",
-    "summary": "",
+    "servings": 6,
+    "readyInMinutes": 20,
+    "aggregateLikes": 214,
+    "difficultyLevel": "easy",
+    "summary": "Jalapenos are stuffed with cream cheese, wrapped with bacon, and barbecued on the grill.",
     "dishTypes": [
       "lunch",
       "main course",
@@ -604,453 +1042,53 @@
     ],
     "ingredients": [
       {
-        "name": "",
+        "name": "jalapeno peppers",
         "original": "",
         "originalName": "",
         "unit": "",
-        "amount": 1
+        "amount": 6
       },
       {
-        "name": "",
+        "name": "cream cheese",
         "original": "",
         "originalName": "",
-        "unit": "",
-        "amount": 1
+        "unit": "ounces",
+        "amount": 8
       },
       {
-        "name": "",
+        "name": "bacon",
         "original": "",
         "originalName": "",
-        "unit": "",
-        "amount": 1
-      },
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
-      },
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
-      },
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
-      },
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
-      },
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
-      },
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
-      },
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
-      },
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
+        "unit": "slices",
+        "amount": 12
       }
     ],
     "Equipment": [
       {
         "id": 1,
-        "name": ""
+        "name": "grill"
       },
       {
         "id": 2,
-        "name": ""
+        "name": "kebab sticks"
       },
       {
         "id": 3,
-        "name": ""
-      },
-      {
-        "id": 4,
-        "name": ""
-      },
-      {
-        "id": 5,
-        "name": ""
+        "name": "toothpicks"
       }
     ],
     "steps": [
       {
         "number": 1,
-        "step": ""
+        "step": "Preheat an outdoor grill for high heat"
       },
       {
         "number": 2,
-        "step": ""
+        "step": "Spread cream cheese to fill jalapeno halves. Wrap with bacon. Secure with a toothpick."
       },
       {
         "number": 3,
-        "step": ""
-      },
-      {
-        "number": 4,
-        "step": ""
-      },
-      {
-        "number": 5,
-        "step": ""
-      },
-      {
-        "number": 6,
-        "step": ""
-      },
-      {
-        "number": 7,
-        "step": ""
-      },
-      {
-        "number": 8,
-        "step": ""
-      },
-      {
-        "number": 9,
-        "step": ""
-      }
-    ]
-  },
-  {
-    "id": "Shayne",
-    "title": "",
-    "image": "",
-    "imageType": "jpg",
-    "servings": "numb",
-    "readyInMinutes": "45min",
-    "aggregateLikes": "",
-    "difficultyLevel": "",
-    "summary": "",
-    "dishTypes": [
-      "lunch",
-      "main course",
-      "main dish",
-      "dinner"
-    ],
-    "ingredients": [
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
-      },
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
-      },
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
-      },
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
-      },
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
-      },
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
-      },
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
-      },
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
-      },
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
-      },
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
-      },
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
-      }
-    ],
-    "Equipment": [
-      {
-        "id": 1,
-        "name": ""
-      },
-      {
-        "id": 2,
-        "name": ""
-      },
-      {
-        "id": 3,
-        "name": ""
-      },
-      {
-        "id": 4,
-        "name": ""
-      },
-      {
-        "id": 5,
-        "name": ""
-      }
-    ],
-    "steps": [
-      {
-        "number": 1,
-        "step": ""
-      },
-      {
-        "number": 2,
-        "step": ""
-      },
-      {
-        "number": 3,
-        "step": ""
-      },
-      {
-        "number": 4,
-        "step": ""
-      },
-      {
-        "number": 5,
-        "step": ""
-      },
-      {
-        "number": 6,
-        "step": ""
-      },
-      {
-        "number": 7,
-        "step": ""
-      },
-      {
-        "number": 8,
-        "step": ""
-      },
-      {
-        "number": 9,
-        "step": ""
-      }
-    ]
-  },
-  {
-    "id": "Shayne",
-    "title": "",
-    "image": "",
-    "imageType": "jpg",
-    "servings": "numb",
-    "readyInMinutes": "45min",
-    "aggregateLikes": "",
-    "difficultyLevel": "",
-    "summary": "",
-    "dishTypes": [
-      "lunch",
-      "main course",
-      "main dish",
-      "dinner"
-    ],
-    "ingredients": [
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
-      },
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
-      },
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
-      },
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
-      },
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
-      },
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
-      },
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
-      },
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
-      },
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
-      },
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
-      },
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
-      }
-    ],
-    "Equipment": [
-      {
-        "id": 1,
-        "name": ""
-      },
-      {
-        "id": 2,
-        "name": ""
-      },
-      {
-        "id": 3,
-        "name": ""
-      },
-      {
-        "id": 4,
-        "name": ""
-      },
-      {
-        "id": 5,
-        "name": ""
-      }
-    ],
-    "steps": [
-      {
-        "number": 1,
-        "step": ""
-      },
-      {
-        "number": 2,
-        "step": ""
-      },
-      {
-        "number": 3,
-        "step": ""
-      },
-      {
-        "number": 4,
-        "step": ""
-      },
-      {
-        "number": 5,
-        "step": ""
-      },
-      {
-        "number": 6,
-        "step": ""
-      },
-      {
-        "number": 7,
-        "step": ""
-      },
-      {
-        "number": 8,
-        "step": ""
-      },
-      {
-        "number": 9,
-        "step": ""
+        "step": "Place on the grill, and cook until bacon is crispy."
       }
     ]
   },
@@ -1331,15 +1369,15 @@
     ]
   },
   {
-    "id": "",
-    "title": "",
-    "image": "",
+    "id": "232543",
+    "title": "Perfect Fish Tacos",
+    "image": "https://images.unsplash.com/photo-1512838243191-e81e8f66f1fd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
     "imageType": "jpg",
-    "servings": "numb",
-    "readyInMinutes": "45min",
-    "aggregateLikes": "",
-    "difficultyLevel": "",
-    "summary": "",
+    "servings": "8",
+    "readyInMinutes": "35min",
+    "aggregateLikes": "8.6/10",
+    "difficultyLevel": "easy",
+    "summary": "Love fish tacos? Well, these are the end-all be-all. Read on to see what makes these tacos so special. The fish—we use cod, but any flaky variety works—marinates in a mixture of lime juice, chili powder, and cumin that will become your standard. (Seriously, steak or chicken marinated in this will also taste bomb.) But the real gem of this recipe is the cabbage slaw—don't skip it. It takes just a few minutes to toss together and it's brightness is the perfect condiment to the spiced cod. ",
     "dishTypes": [
       "lunch",
       "main course",
@@ -1348,80 +1386,150 @@
     ],
     "ingredients": [
       {
-        "name": "",
-        "original": "",
-        "originalName": "",
+        "name": "3 tbsp. extra-virgin olive oil",
+        "original": "extra-virgin olive oil",
+        "originalName": "extra-virgin olive oil",
+        "unit": "tbsp",
+        "amount": 3
+      },
+      {
+        "name": "Juice of 1 lime",
+        "original": "Lime",
+        "originalName": "Lime",
         "unit": "",
         "amount": 1
       },
       {
-        "name": "",
-        "original": "",
-        "originalName": "",
+        "name": "2 tsp. chili powder",
+        "original": "chili powder",
+        "originalName": "chili powder",
+        "unit": "tsp.",
+        "amount": 2
+      },
+      {
+        "name": "1 tsp. paprika ",
+        "original": "paprika",
+        "originalName": "paprika",
+        "unit": "tsp.",
+        "amount": 1
+      },
+      {
+        "name": "1/2 tsp. ground cumin",
+        "original": "ground cumin",
+        "originalName": "ground cumin",
+        "unit": "tsp.",
+        "amount": 0.5
+      },
+      {
+        "name": "1/2 tsp. cayenne pepper",
+        "original": "cayenne pepper",
+        "originalName": "cayenne pepper",
+        "unit": "tsp.",
+        "amount": 0.5
+      },
+      {
+        "name": "1 1/2 lb. cod",
+        "original": "cod",
+        "originalName": "cod",
+        "unit": "lbs",
+        "amount": 1.5
+      },
+      {
+        "name": "1/2 tbsp. vegetable oil",
+        "original": "vegetable oil",
+        "originalName": "vegetable oil",
+        "unit": "tbsp.",
+        "amount": 0.5
+      },
+      {
+        "name": "Kosher salt",
+        "original": "Kosher salt",
+        "originalName": "Kosher salt",
         "unit": "",
         "amount": 1
       },
       {
-        "name": "",
-        "original": "",
-        "originalName": "",
+        "name": "Kosher salt",
+        "original": "Kosher salt",
+        "originalName": "Kosher salt",
         "unit": "",
         "amount": 1
       },
       {
-        "name": "",
-        "original": "",
-        "originalName": "",
+        "name": "8 corn tortillas",
+        "original": "corn tortillas",
+        "originalName": "corn tortillas",
+        "unit": "",
+        "amount": 8
+      },
+      {
+        "name": "1 avocado, diced",
+        "original": "avocado",
+        "originalName": "avocado",
         "unit": "",
         "amount": 1
       },
       {
-        "name": "",
-        "original": "",
-        "originalName": "",
+        "name": "Lime wedges, for serving",
+        "original": "Lime wedges",
+        "originalName": "Lime wedges",
         "unit": "",
         "amount": 1
       },
       {
-        "name": "",
-        "original": "",
-        "originalName": "",
+        "name": "Sour cream",
+        "original": "Sour cream",
+        "originalName": "Sour cream",
         "unit": "",
         "amount": 1
       },
       {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
+        "name": "1/4 c. mayonnaise",
+        "original": "mayonnaise",
+        "originalName": "mayonnaise",
+        "unit": "cups",
+        "amount": 0.25
+      },
+      {
+        "name": "1 lime",
+        "original": "1 lime",
+        "originalName": "1 lime",
+        "unit": "juice",
         "amount": 1
       },
       {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
+        "name": "2 tbsp. freshly chopped cilantr",
+        "original": "cilantr",
+        "originalName": "cilantr",
+        "unit": "tbsp.",
+        "amount": 2
+      },
+      {
+        "name": "1 tbsp. honey",
+        "original": "honey",
+        "originalName": "honey",
+        "unit": "tbsp.",
         "amount": 1
       },
       {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
+        "name": "2 cup shredded purple cabbage",
+        "original": "purple cabbage",
+        "originalName": "purple cabbage",
+        "unit": "cup",
+        "amount": 2
+      },
+      {
+        "name": "1 c. corn kernels",
+        "original": "corn kernels",
+        "originalName": "corn kernels",
+        "unit": "cup",
         "amount": 1
       },
       {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
-        "amount": 1
-      },
-      {
-        "name": "",
-        "original": "",
-        "originalName": "",
-        "unit": "",
+        "name": "1 jalapeño, minced",
+        "original": "jalapeño",
+        "originalName": "jalapeño",
+        "unit": "minced",
         "amount": 1
       }
     ],
@@ -1450,39 +1558,23 @@
     "steps": [
       {
         "number": 1,
-        "step": ""
+        "step": "In a medium shallow bowl, whisk together olive oil, lime juice, paprika, chili powder, cumin, and cayenne."
       },
       {
         "number": 2,
-        "step": ""
+        "step": "Add cod, tossing until evenly coated. Let marinate 15 minutes."
       },
       {
         "number": 3,
-        "step": ""
+        "step": "Meanwhile, make slaw: In a large bowl, whisk together mayonnaise, lime juice, cilantro, and honey. Stir in cabbage, corn, and jalapeño. Season with salt and pepper."
       },
       {
         "number": 4,
-        "step": ""
+        "step": "In a large nonstick skillet over medium-high heat, heat vegetable oil. Remove cod from marinade and season both sides of each filet with salt and pepper. Add fish flesh side-down. Cook until opaque and cooked through, 3 to 5 minutes per side. Let rest 5 minutes before flaking with a fork."
       },
       {
         "number": 5,
-        "step": ""
-      },
-      {
-        "number": 6,
-        "step": ""
-      },
-      {
-        "number": 7,
-        "step": ""
-      },
-      {
-        "number": 8,
-        "step": ""
-      },
-      {
-        "number": 9,
-        "step": ""
+        "step": "Assemble tacos: Serve fish over grilled tortillas with corn slaw and avocado. Squeeze lime juice on top and garnish with sour cream."
       }
     ]
   }
