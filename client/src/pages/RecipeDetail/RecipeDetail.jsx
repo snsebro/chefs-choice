@@ -15,7 +15,7 @@ export default class RecipeDetail extends Component {
         <div className="video overlay">
           <div className="back"><img src="https://static.thenounproject.com/png/1991936-200.png" /></div>
           <div className="playButton"><img src="https://pluspng.com/img-png/play-button-png-play-button-png-picture-1024.png" /></div>
-          <img src="https://images.unsplash.com/photo-1578332049773-b6f35e587618?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1358&q=80" />
+          <img src="https://img.icons8.com/carbon-copy/2x/bookmark-ribbon.png" />
         </div>
         <div className="title">
           <h2>Recipe Name</h2>
