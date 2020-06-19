@@ -6,6 +6,12 @@ import Carousel from '../../components/Carousel/Carousel'
 import RecipeCard from '../../components/Carousel/RecipeCard'
 
 export default class Hompage extends Component {
+  constructor() {
+    super()
+    this.state = {
+      recipes: recipes
+    }
+  }
   render() {
     return (
       <div className='hompage'>
@@ -28,9 +34,8 @@ export default class Hompage extends Component {
         <div className='top-recipes'>
           <h2>The Week's Top Recipes</h2>
           <div className='recipes'>
-            <Carousel>
-              <RecipeCard recipes={recipes}/>
-            </Carousel>
+            <Carousel recipes={this.state.recipes}/>
+              
             {/* {recipes.map(recipe => 
               <div className='recipe'>
                 <img src={recipe.image}/>
