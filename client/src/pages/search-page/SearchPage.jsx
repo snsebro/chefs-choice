@@ -37,41 +37,41 @@ class SearchPage extends React.Component {
       currentRecipe: [...prevState.currentRecipe, recipes],
     }));
     this.setState((prevState) => ({
-      index: prevState.index + 1, listOfRecipes: [...prevState.listOfRecipes, recipes]}));
+      index: prevState.index + 1, listOfRecipes: [...prevState.listOfRecipes, recipes]
+    }));
   }
 
-  previousRecipe= () => {
-    this.setState(prevState => ({index: prevState.index - 1}));
+  previousRecipe = () => {
+    this.setState(prevState => ({ index: prevState.index - 1 }));
   }
 
   render() {
 
     const setRecipes = this.state.filteredRecipes ? this.state.filteredRecipes : this.state.recipes
 
-    const RECIPES = setRecipes.map(recipe => <div>{recipe.title}</div>)
-    
+    const RECIPES = setRecipes.map(recipes =>
+      <div className='recipe'>
+        <img src={recipes.image} />
+        <div className="viewDetailsButton"><Link to={`/recipes/${recipes.title}`}>
+          <h3>View Details</h3></Link>
+        </div>
+        <div className="detail">
+          <div className="name">{recipes.title}</div>
+          <div className="user">{recipes.chefName}</div>
+          <div className="description">{recipes.summary}</div>
+        </div>
+      </div>
+    )
+  
+
     return (
       <>
         <h1>Search</h1>
         <Search onSubmit={this.handleSubmit} value={this.state.filterValue} onChange={this.handleSearchChange} />
         <form className="sort-container" onSubmit={this.handleSubmit}></form>
         <div className="recipes">
-          {this.state.recipes.map(recipes =>
-            <div className='recipe'>
-              <img src={recipes.image}/>
-              <div className="viewDetailsButton"><Link to={`/recipes/${recipes.title}`}>
-                <h3>View Details</h3></Link>
-              </div>
-              <div className="detail">
-                <div className="name">{recipes.title}</div>
-                <div className="user">{recipes.chefName}</div>
-                <div className="description">{recipes.summary}</div>    
-            </div>
-        </div>
-          )}
-          
-        </div>
            {RECIPES}
+        </div>
         
         <footer>
         <div className="recipeButton">
