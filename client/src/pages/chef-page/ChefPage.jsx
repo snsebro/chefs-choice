@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {Link} from 'react-router-dom'
 import Layout from '../../components/shared/Layout'
 import '../chef-page/ChefPage.scss'
 import data from '../../recipe.json'
@@ -17,8 +18,8 @@ export default class ChefPage extends Component {
   }
 
   render() {
-    const { chefList } = this.state.chefs
-    const allChefs = chefList.map(chef => {
+    const { chefs } = this.state
+    const allChefs = chefs.map(chef => {
       return (
 
         <div className='Chef-List'>
@@ -28,7 +29,7 @@ export default class ChefPage extends Component {
             <img className='profile-pic' src={chef.img} />
             <div className='chef-page-info'>
               <h4>{chef.chefName}</h4>
-              <button>View Full Profile</button>
+              <Link to={`chefs/${chef.chefName}`}><button>View Full Profile</button></Link>
             </div>
           </div>
           <p>Known for:{chef.knownFor}</p>
@@ -41,7 +42,7 @@ export default class ChefPage extends Component {
 
 
     return (
-      <Layout>
+      <>
         <div className='intro-header'>
           <div className='image-cont'>
             <img />
@@ -59,20 +60,20 @@ export default class ChefPage extends Component {
         <div className='spotlight'>
           <h3>Spotlight On:</h3>
           <div className='below-spotlight'>
-            <img />
+            <img src='https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60'/>
             <div className='chef-page-info'>
-              <h4>chef-name</h4>
-              <img>social media icons</img>
+              <h4>Jennifer Thomas</h4>
+              <img src=''></img>
             </div>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis eget urna risus facilisis sit in fusce.
             </p>
-            <button>View Full Profile</button>
+            <Link to='/chefs/Jennifer Thomas'><button>View Full Profile</button></Link>
           </div>
         </div>
 
        {allChefs}
-      </Layout>
+      </>
     )
   }
 }
