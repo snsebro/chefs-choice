@@ -2,8 +2,16 @@ import React, { Component } from 'react'
 import RecipeList from '../../components/RecipeList'
 import './Hompage.scss'
 import recipes from '../../recipe.json'
+import Carousel from '../../components/Carousel/Carousel'
+import RecipeCard from '../../components/Carousel/RecipeCard'
 
 export default class Hompage extends Component {
+  constructor() {
+    super()
+    this.state = {
+      recipes: recipes
+    }
+  }
   render() {
     return (
       <div className='hompage'>
@@ -26,12 +34,14 @@ export default class Hompage extends Component {
         <div className='top-recipes'>
           <h2>The Week's Top Recipes</h2>
           <div className='recipes'>
-            {recipes.map(recipe => 
+            <Carousel recipes={this.state.recipes}/>
+              
+            {/* {recipes.map(recipe => 
               <div className='recipe'>
                 <img src={recipe.image}/>
                 {recipe.title}
               </div>
-            )}
+            )} */}
           </div>
         </div>
         <div className='community'>
