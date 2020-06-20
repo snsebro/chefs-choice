@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import '../Carousel/RecipeCard.scss';
+import bookmark from '../../'
 
 export default class RecipeCard extends Component {
   render() {
