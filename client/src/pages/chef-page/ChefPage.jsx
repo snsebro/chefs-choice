@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
 // import Layout from '../../components/shared/Layout'
-import '../chef-page/ChefPage.scss'
+import './ChefPage.scss'
 import data from '../../recipe.json'
 import ChefProfile from '../chef-profile/ChefProfile'
 
@@ -45,16 +45,16 @@ export default class ChefPage extends Component {
     return (
       <>
         <div className='intro-header'>
-          <div className='image-cont'>
-            <img />
-            <img />
+          <div className='image-header'>
+            <img className='image1'  src='https://images.unsplash.com/photo-1556911220-e15b29be8c8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80' />
+            <img className='image2' src='https://images.unsplash.com/photo-1466637574441-749b8f19452f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60' />
           </div>
           <div className='middle-block'>
             <h1>What is a Top Chef?</h1>
           </div>
           <div className='lower-half'>
-            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lorem.</h4>
-            <h6>Join the Program</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lorem. tantus lutus em gratum ad nausum pre catsum</p>
+            <h4>Join the Program</h4>
           </div>
         </div>
 
