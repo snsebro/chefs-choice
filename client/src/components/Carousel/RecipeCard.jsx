@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import '../Carousel/RecipeCard.scss';
 import bookmark from '../../assets/bookmark.png'
 
+
 export default class RecipeCard extends Component {
   render() {
     return (
