@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../WhiteBookmark/WhiteBookmarkIcon.scss";
+import "./WhiteBookmarkIcon.scss";
 
 export default class Button extends Component {
   render() {
