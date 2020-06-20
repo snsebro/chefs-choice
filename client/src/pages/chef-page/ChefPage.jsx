@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
-import Layout from '../../components/shared/Layout'
+// import Layout from '../../components/shared/Layout'
 import '../chef-page/ChefPage.scss'
 import data from '../../recipe.json'
+import ChefProfile from '../chef-profile/ChefProfile'
 
 export default class ChefPage extends Component {
   constructor() {
@@ -29,7 +30,7 @@ export default class ChefPage extends Component {
             <img className='profile-pic' src={chef.img} />
             <div className='chef-page-info'>
               <h4>{chef.chefName}</h4>
-              <Link to={`chefs/${chef.chefName}`}><button>View Full Profile</button></Link>
+              <Link to={`/chefs/${chef.chefName}`}><button>View Full Profile</button></Link>
             </div>
           </div>
           <p>Known for:{chef.knownFor}</p>
