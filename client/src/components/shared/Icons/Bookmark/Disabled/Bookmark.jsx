@@ -5,9 +5,9 @@ import "../Disabled/Bookmark.scss";
 export default class Button extends Component {
   render() {
     return (
-    <>
+    <div className="bookmarkIcon">
       <img src={Bookmark} />
-    </>
+    </div>
     );
   }
 }
