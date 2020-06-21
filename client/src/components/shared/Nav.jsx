@@ -4,7 +4,7 @@ import { ReactComponent as Search } from '../../assets/white-search-icon.svg'
 import { ReactComponent as Bookmark } from '../../assets/white-bookmark-icon.svg'
 import {ReactComponent as Home} from '../../assets/white-home-icon.svg'
 import './Nav.scss'
-
+import Logo from '../../components/shared/Icons/Logo/Logo'
 
 export default function Nav() {
   return (
@@ -24,6 +24,7 @@ export default function Nav() {
             </ul> */}
           </div>
         </NavLink>
+          <Logo />
         <div className="links">
           <NavLink className="link" to="/search">
             <Search className='nav-icon'/>  
