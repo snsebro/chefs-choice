@@ -65,7 +65,7 @@ class SearchPage extends React.Component {
   
 
     return (
-      <>
+      <div className="search">
         <h1>Search</h1>
         <Search onChange={this.handleSubmit} value={this.state.filterValue} onChange={this.handleSearchChange} />
         <form className="sort-container" onSubmit={this.handleSubmit}></form>
@@ -79,7 +79,7 @@ class SearchPage extends React.Component {
             <button className="Prev"  onClick={this.previousRecipe}>Previous</button>
          </div>
         </footer>
-      </>
+      </div>
     )
 
   }
