@@ -1,8 +1,19 @@
-import React, { Component } from 'react';
-import '../RecipeDetail/RecipeDetail.scss';
+import React, { Component } from "react";
+import "../RecipeDetail/RecipeDetail.scss";
+import Recipe from "../../recipe.json";
+import Bookmark from "../../assets/bookmark.png";
 
 export default class RecipeDetail extends Component {
+  constructor() {
+    super();
+    this.state = {
+      recipe: Recipe,
+    };
+    console.log(Recipe);
+  }
+
   render() {
+    // let id = req.match.params.id
     //   function ScrollToTop() {
     //   const { toTop } = useLocation();
     //   useEffect(() => {
@@ -12,24 +23,36 @@ export default class RecipeDetail extends Component {
     // }
     return (
       <div className="recipePage">
-        <div className="video overlay">
-          <div className="back"><img src="https://static.thenounproject.com/png/1991936-200.png" /></div>
-          <div className="playButton"><img src="https://pluspng.com/img-png/play-button-png-play-button-png-picture-1024.png" /></div>
-          <img src="https://img.icons8.com/carbon-copy/2x/bookmark-ribbon.png" />
+        <div className="overlay">
+        <div className="back">
+          <img src="https://static.thenounproject.com/png/1991936-200.png" />
         </div>
+        <div className="playButton">
+          <img src="https://pluspng.com/img-png/play-button-png-play-button-png-picture-1024.png" />
+        </div>
+        <div className="bookmarkIcon">
+          <img src={Bookmark} />
+        </div>
+          <div className="video">
+            <img src={this.state.recipe[6].image} />
+          </div>
+        </div>
+
         <div className="title">
-          <h2>Recipe Name</h2>
+          <h2>{this.state.recipe[0].title}</h2>
           {/* will need to import chef preview component */}
         </div>
-        <div className="prep">
-
-        </div>
+        <div className="prep"></div>
         <div className="ingredients dropDown shaddow">
           <h1>What you'll need V</h1>
           <div className="list">
             <h3>Ingredients</h3>
             <ul>
-              <li>Ingredient 1</li>
+              {/* {this.state.recipe &&
+                this.state.recipe.map((recipe) => {
+                  <li>{recipe[0].ingredients.original}</li>
+                })
+              } */}
             </ul>
           </div>
           <div className="list">
@@ -44,7 +67,9 @@ export default class RecipeDetail extends Component {
           <div className="list">
             <h3>Steps</h3>
             <ul>
-              <li><span>1</span>Lorem Ipsum</li>
+              <li>
+                <span>1</span>Lorem Ipsum
+              </li>
             </ul>
           </div>
         </div>
@@ -56,7 +81,7 @@ export default class RecipeDetail extends Component {
               <li>Option 1</li>
             </ul>
           </div>
-        </div>  
+        </div>
         <div className="addOns dropDown shaddow">
           <h1>Add-ons V</h1>
           <div className="list">
@@ -64,8 +89,8 @@ export default class RecipeDetail extends Component {
           </div>
         </div>
         <div className="reviews dropDown shaddow">
-        <h1>Reviews V</h1>
-        <div className="list">
+          <h1>Reviews V</h1>
+          <div className="list">
             <h3>See what others thought</h3>
           </div>
           {/* import and map through review components */}
@@ -73,6 +98,6 @@ export default class RecipeDetail extends Component {
         <div className="pageLink"></div>
         <h3>Top of Page ^</h3>
       </div>
-    )
+    );
   }
 }
