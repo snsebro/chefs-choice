@@ -31,6 +31,7 @@ export default class ChefPage extends Component {
             <div className='chefs-page-info'>
               <h2>{chef.chefName}</h2>
               <Link to={`/chefs/${chef.chefName}`}><h1>View Full Profile</h1></Link>
+              <ChefProfile chefs = {this.state.chefs} onChange={this.handleChange} inputValue = {this.state.chef}/>
             </div>
           </div>
           <p>Known for: {chef.knownFor}</p>
