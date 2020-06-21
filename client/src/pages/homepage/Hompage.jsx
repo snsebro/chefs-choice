@@ -1,9 +1,11 @@
-import React, { Component } from 'react'
-import RecipeList from '../../components/RecipeList'
-import './Hompage.scss'
-import recipes from '../../recipe.json'
-import Carousel from '../../components/Carousel/Carousel'
-import RecipeCard from '../../components/Carousel/RecipeCard'
+import React, { Component } from 'react';
+import RecipeList from '../../components/RecipeList';
+import './Hompage.scss';
+import recipes from '../../recipe.json';
+import Carousel from '../../components/Carousel/Carousel';
+import Inspire from '../../components/shared/Icons/Inspire/Inspire';
+import Search from '../../components/shared/Icons/Search/Hero/SearchHero';
+import Plan from '../../components/shared/Icons/Plan/Plan';
 
 export default class Hompage extends Component {
   constructor() {
@@ -17,9 +19,9 @@ export default class Hompage extends Component {
       <div className='hompage'>
         <div className='center'>
           <div className='search-plan-inspire'>
-           <div className='icon search'></div>
-            <div className='icon inspire'></div>
-            <div className='icon plan'></div>
+           <div className='icon search'><Search /></div>
+            <div className='icon inspire'><Inspire /></div>
+            <div className='icon plan'><Plan /></div>
           </div>
         </div>
         <div className='top-chefs'>
@@ -33,16 +35,7 @@ export default class Hompage extends Component {
         </div>
         <div className='top-recipes'>
           <h2>The Week's Top Recipes</h2>
-          <div className='recipes'>
             <Carousel recipes={this.state.recipes}/>
-              
-            {/* {recipes.map(recipe => 
-              <div className='recipe'>
-                <img src={recipe.image}/>
-                {recipe.title}
-              </div>
-            )} */}
-          </div>
         </div>
         <div className='community'>
           <h2>Join Our Community</h2>
