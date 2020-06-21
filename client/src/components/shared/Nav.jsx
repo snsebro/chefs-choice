@@ -5,6 +5,7 @@ import { ReactComponent as Bookmark } from '../../assets/white-bookmark-icon.svg
 import {ReactComponent as Home} from '../../assets/white-home-icon.svg'
 import './Nav.scss'
 
+
 export default function Nav() {
   return (
     <nav>
