@@ -11,10 +11,6 @@
   object-fit: cover;
 }
 
-.back img {
-  height: 44px;
-  width: 44px;
-}
 
 .playButton img {
   height: 57px;
@@ -36,16 +32,21 @@
   text-align: justify;
 }
 
-.back {
-  position: absolute;
-  top: 5px;
+.back img {
+  position: relative;
+  top: 2px;
   left: 5px;
+  height: 44px;
+  width: 44px;
+  z-index: 2;
 }
 
 .playButton {
-  position: absolute;
-  top: 60px;
+  position: relative;
+  width: 57px;
+  top: 15px;
   left: 130px;
+  z-index: 2;
 }
 
 h1 {
@@ -92,12 +93,29 @@ li {
   font-weight: bold;
 }
 
-.video {
+.overlay {
+  height: 186px;
+  box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.video img {
+  position: relative;
+  object-fit: cover;
+  top: -131px;
+  bottom: 0px;
   height: 186px;
   width: 320px;
 }
 
-.overlay {
-  box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.5);
+
+.bookmarkIcon img{
+  position: relative;
+  left: 290px;
+  bottom: -70px;
+  height: 20px;
+  width: 20px;
+  z-index: 2;
 }
+
 
