@@ -16,10 +16,16 @@ export default class RecipeCard extends Component {
            
               return (
               <div className="card">
-                <div className="mealPhoto"><img src={recipe.image} /></div>
-                <div className="bookmark"><Bookmark /></div>
-                <Link><div className="recipeName"><p>{recipe.title}</p></div></Link>
-                </div>
+                  <div className="mealPhoto">
+                    <img src={recipe.image} />
+                  </div>
+                  <div className="bookmark">
+                    <Bookmark />
+                  </div>
+                  <Link to={`recipes/${recipe.title}`}>
+                    <div className="recipeName"><p>{recipe.title}</p></div>
+                  </Link>
+              </div>
               ) 
         
       })

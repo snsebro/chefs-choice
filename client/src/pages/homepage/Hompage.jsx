@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom'
 import RecipeList from '../../components/RecipeList';
 import './Hompage.scss';
 import recipes from '../../recipe.json';
@@ -39,6 +40,17 @@ export default class Hompage extends Component {
         </div>
         <div className='community'>
           <h2>Join Our Community</h2>
+          <div className="carousel">
+            <img src={this.state.recipes[0].image} alt=""/>
+            <img src={this.state.recipes[1].image} alt="" />
+            <img src={this.state.recipes[2].image} alt="" />
+            <img src={this.state.recipes[3].image} alt=""/>
+        <div className="viewMore">
+          <Link>
+            <p>View More Recipes</p>
+          </Link>
+        </div>
+      </div>
         </div>
         <div className='social-links'>
           <h2>Follow us on</h2>
