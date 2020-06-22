@@ -1,19 +1,31 @@
 import React, { Component } from "react";
 import "../RecipeDetail/RecipeDetail.scss";
-import Recipe from "../../recipe.json";
 import Bookmark from "../../assets/bookmark.png";
-
-export default class RecipeDetail extends Component {
-  constructor() {
-    super();
+import { withRouter } from 'react-router-dom';
+class RecipeDetail extends Component {
+  constructor(props) {
+    super(props);
     this.state = {
-      recipe: Recipe,
-    };
-    console.log(Recipe);
+      recipe: []
+    }
   }
-
+  async componentDidMount() {
+    let id = this.props.match.params.id
+    console.log(typeof(id))
+    console.log(this.props.recipes)
+    const recipe = this.props.recipes.filter(recipe =>
+      recipe.id === +id)
+    console.log(recipe)
+    this.setState({
+      recipe: recipe[0]
+    })
+    console.log(recipe)
+  }
+  
   render() {
-    // let id = req.match.params.id
+    let {recipe}= this.state;
+    console.log(this.state.recipe.ingredients[0].name)
+
     //   function ScrollToTop() {
     //   const { toTop } = useLocation();
     //   useEffect(() => {
@@ -34,12 +46,12 @@ export default class RecipeDetail extends Component {
           <img src={Bookmark} />
         </div>
           <div className="video">
-            <img src={this.state.recipe[6].image} />
+            <img src="" />
           </div>
         </div>
 
         <div className="title">
-          <h2>{this.state.recipe[0].title}</h2>
+          <h2>{recipe.title}</h2>
           {/* will need to import chef preview component */}
         </div>
         <div className="prep"></div>
@@ -48,9 +60,9 @@ export default class RecipeDetail extends Component {
           <div className="list">
             <h3>Ingredients</h3>
             <ul>
-              {/* {this.state.recipe &&
-                this.state.recipe.map((recipe) => {
-                  <li>{recipe[0].ingredients.original}</li>
+              {/* {
+                this.state.recipe.ingredients.map(ingredient => {
+                  return <p>{ingredient.original}</p>
                 })
               } */}
             </ul>
@@ -101,3 +113,5 @@ export default class RecipeDetail extends Component {
     );
   }
 }
+
+export default withRouter(RecipeDetail)

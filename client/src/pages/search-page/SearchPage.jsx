@@ -1,9 +1,10 @@
 import React from 'react'
 import Layout from '../../components/shared/Layout'
-import { Link } from 'react-router-dom'
+import { Link, Route } from 'react-router-dom'
 import Search from '../../components/Search'
 import "./SearchPage.scss";
 import recipes from '../../recipe.json'
+import RecipeDetails from '../RecipeDetail/RecipeDetail'
 
 class SearchPage extends React.Component {
   constructor() {
@@ -61,6 +62,8 @@ class SearchPage extends React.Component {
           <div className="description">{recipes.summary}</div>
         </div>
       </div>
+
+      
     )
   
 
@@ -79,7 +82,9 @@ class SearchPage extends React.Component {
             <button className="Prev"  onClick={this.previousRecipe}>Previous</button>
          </div>
         </footer>
+        
       </div>
+      
     )
 
   }
