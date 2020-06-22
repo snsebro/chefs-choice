@@ -9,7 +9,7 @@ export default class Carousel extends Component {
       <div className="carousel">
         <RecipeCard recipes={this.props.recipes}/>
         <div className="viewMore">
-          <Link>
+          <Link to='/search'>
             <p>View More Recipes</p>
           </Link>
         </div>

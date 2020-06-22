@@ -23,7 +23,7 @@ export default class ChefPage extends Component {
     const allChefs = chefs.map(chef => {
       return (
 
-        <div className='Chef-List'>
+        <div key={chef.id} className='Chef-List'>
           <h2 className='top-chef' >This Week's Top Chefs:</h2>
 
           <div className='general-chef-display'>

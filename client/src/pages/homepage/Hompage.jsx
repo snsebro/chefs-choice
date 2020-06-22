@@ -27,7 +27,7 @@ export default class Hompage extends Component {
         </div>
         <div className='top-chefs'>
           <h2>Top Chefs of the Week</h2>
-          <button>Find a Chef</button><br/>
+          <Link to='/chefs'><button>Find a Chef</button></Link><br/>
             <div className='images'>
               <img src='unkonwn.jpg' /> 
               <img src='unkonwn.jpg' />
