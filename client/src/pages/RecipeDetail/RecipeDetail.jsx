@@ -11,20 +11,26 @@ class RecipeDetail extends Component {
   }
   async componentDidMount() {
     let id = this.props.match.params.id
-    console.log(typeof(id))
+    console.log(id)
     console.log(this.props.recipes)
-    const recipe = this.props.recipes.filter(recipe =>
+    const recipePage = this.props.recipes.filter(recipe =>
       recipe.id === +id)
-    console.log(recipe)
+    console.log(...recipePage)
+    let recipeInfo = {...recipePage}
+    console.log(recipeInfo)
     this.setState({
-      recipe: recipe[0]
+      recipe: recipePage
     })
-    console.log(recipe)
+    
   }
   
   render() {
     let {recipe}= this.state;
-    console.log(this.state.recipe.ingredients[0].name)
+    // console.log(recipe.ingredients)
+    {
+      recipe[0] &&
+      console.log(recipe[0].ingredients)
+    }
 
     //   function ScrollToTop() {
     //   const { toTop } = useLocation();
@@ -46,7 +52,8 @@ class RecipeDetail extends Component {
           <img src={Bookmark} />
         </div>
           <div className="video">
-            <img src="" />
+            {recipe[0] &&
+            <img src={recipe[0].image} />}
           </div>
         </div>
 
@@ -60,17 +67,21 @@ class RecipeDetail extends Component {
           <div className="list">
             <h3>Ingredients</h3>
             <ul>
-              {/* {
-                this.state.recipe.ingredients.map(ingredient => {
-                  return <p>{ingredient.original}</p>
+              {recipe[0] &&
+                recipe[0].ingredients.map((ingredient) => {
+                  return <li>{ingredient.original}</li>
                 })
-              } */}
+              }
             </ul>
           </div>
           <div className="list">
             <h3>Tools</h3>
             <ul>
-              <li>Tool 1</li>
+            {recipe[0] &&
+                recipe[0].Equipment.map((equipment) => {
+                  return <li>{equipment.name}</li>
+                })
+              }
             </ul>
           </div>
         </div>
@@ -79,9 +90,11 @@ class RecipeDetail extends Component {
           <div className="list">
             <h3>Steps</h3>
             <ul>
-              <li>
-                <span>1</span>Lorem Ipsum
-              </li>
+            {recipe[0] &&
+                recipe[0].steps.map((step) => {
+                  return <li>{step.step}</li>
+                })
+              }
             </ul>
           </div>
         </div>
@@ -90,7 +103,7 @@ class RecipeDetail extends Component {
           <div className="list">
             <h3>Try some new twists</h3>
             <ul>
-              <li>Option 1</li>
+            
             </ul>
           </div>
         </div>
