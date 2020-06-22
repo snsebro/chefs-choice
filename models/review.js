@@ -3,7 +3,7 @@ const Schema = mongoose.Schema
 
 const Review = new Schema(
   {
-    name: [{first: String, last: String}],
+    name: {first: String, last: String},
     imgURL: { type: String, required: true },
     review: { type: String, required: true },
     starCount: { type: Number, required: true },

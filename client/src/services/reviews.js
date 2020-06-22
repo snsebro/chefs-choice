@@ -10,4 +10,30 @@ export const getReviews = async () => {
   }
 }
 
+export const createReview = async product => {
+  try {
+      const response = await api.post('/reviews', product)
+      return response.data
+  } catch (error) {
+      throw error
+  }
+}
+
+export const updateReview = async (id, product) => {
+  try {
+      const response = await api.put(`/reviews/${id}`, product)
+      return response.data
+  } catch (error) {
+      throw error
+  }
+}
+
+export const deleteReview = async id => {
+  try {
+      const response = await api.delete(`/reviews/${id}`)
+      return response.data
+  } catch (error) {
+      throw error
+  }
+}
 

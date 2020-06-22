@@ -4,6 +4,7 @@ import Bookmark from "../../assets/bookmark.png";
 import { withRouter } from 'react-router-dom';
 import {getReviews} from '../../services/reviews'
 import Review from '../../components/Review/Review'
+import ReviewCreate from "../../components/Review/ReviewCreate";
 class RecipeDetail extends Component {
   constructor(props) {
     super(props);
@@ -129,6 +130,9 @@ class RecipeDetail extends Component {
           </div>
           <Review reviews={this.state.reviews}/>
           {/* import and map through review components */}
+        </div>
+        <div>
+          <ReviewCreate />
         </div>
         <div className="pageLink"></div>
         <h3>Top of Page ^</h3>

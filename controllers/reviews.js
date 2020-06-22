@@ -13,6 +13,7 @@ const getReviews = async (req, res) => {
 }
 
 const createReview = async (req, res) => {
+  console.log(req.body)
   try {
       const review = await new Review(req.body)
       await review.save()
