@@ -40,17 +40,14 @@ export default class Hompage extends Component {
         </div>
         <div className='community'>
           <h2>Join Our Community</h2>
-          <div className="carousel">
+          <div className="community-carousel">
             <img src={this.state.recipes[0].image} alt=""/>
             <img src={this.state.recipes[1].image} alt="" />
             <img src={this.state.recipes[2].image} alt="" />
             <img src={this.state.recipes[3].image} alt=""/>
-        <div className="viewMore">
-          <Link>
-            <p>View More Recipes</p>
-          </Link>
-        </div>
-      </div>
+            <img src={this.state.recipes[4].image} alt="" />
+            <img src={this.state.recipes[5].image} alt=""/>
+          </div>
         </div>
         <div className='social-links'>
           <h2>Follow us on</h2>
