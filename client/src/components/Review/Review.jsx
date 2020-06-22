@@ -10,11 +10,8 @@ export default class Review extends Component {
         </div>
         <div className="side">
           <div className="stars">
-            <h1>star</h1>
           </div>
           <div className="text">
-            <p>test</p>
-            
           </div>
         </div>
       </div>
