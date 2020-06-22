@@ -2,12 +2,14 @@ import React, { Component } from "react";
 import "../RecipeDetail/RecipeDetail.scss";
 import Bookmark from "../../assets/bookmark.png";
 import { withRouter } from 'react-router-dom';
+import {getReviews} from '../../services/reviews'
 import Review from '../../components/Review/Review'
 class RecipeDetail extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      recipe: []
+      recipe: [],
+      reviews: []
     }
   }
   async componentDidMount() {
@@ -22,6 +24,12 @@ class RecipeDetail extends Component {
     this.setState({
       recipe: recipePage
     })
+
+    const newReviews = await getReviews()
+    this.setState({
+      reviews : newReviews
+    })
+    console.log(newReviews)
     
   }
   
@@ -119,7 +127,7 @@ class RecipeDetail extends Component {
           <div className="list">
             <h3>See what others thought</h3>
           </div>
-          <Review />
+          <Review reviews={this.state.reviews}/>
           {/* import and map through review components */}
         </div>
         <div className="pageLink"></div>

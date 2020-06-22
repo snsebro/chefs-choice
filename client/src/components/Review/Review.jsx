@@ -2,11 +2,17 @@ import React, { Component } from "react";
 import "../Review/Review.scss";
 
 export default class Review extends Component {
+  constructor() {
+    super()
+    this.state = {
+      reviews: []
+    }
+  }
+
   render() {
     return (
       <div className="review">
         <div className="chefProfile">
-          <h1>name</h1>
         </div>
         <div className="side">
           <div className="stars">
@@ -14,6 +20,7 @@ export default class Review extends Component {
           <div className="text">
           </div>
         </div>
+        <button>edit</button><button>delete</button>
       </div>
     );
   }
