@@ -41,7 +41,14 @@ export default class ChefPage extends Component {
       )
     })
 
-
+    // const uniqueChefs = this.state.chefs.filter((name, index) => {
+    //   if (this.state.chefs) return this.state.chefs.indexOf(name.chefName) === index
+    // });
+    // console.log(this.state.chefs)
+    // console.log(uniqueChefs)
+    // const backToChefs = [...uniqueChefs]
+    allChefs.splice(0, 1)
+    allChefs.splice(2, 1)
 
 
 
@@ -77,6 +84,8 @@ export default class ChefPage extends Component {
         </div>
 
         {allChefs}
+        {/* {backToChefs} */}
+        {/* {uniqueChefs} */}
       </>
     )
   }
