@@ -287,7 +287,7 @@
     "img": "https://images.unsplash.com/photo-1566554273541-37a9ca77b91f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
     "bio": "Having worked alongside many of top chefs in NYC, Anna brings a unique blend of flavor into each dish. Recently featured in chef's weekly.",
     "knownFor": "healthy, meal planning, low calorie",
-    "id": "716344",
+    "id": 716344,
     "title": "Chicken & Waffles",
     "image": "https://images.unsplash.com/photo-1565880112491-e7c4c313850d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
     "imageType": "splash",
@@ -960,14 +960,14 @@
     "ingredients": [
       {
         "name": "salmon fillets",
-        "original": "",
+        "original": "salmon fillets",
         "originalName": "",
         "unit": "pounds",
         "amount": 1.5
       },
       {
         "name": "lemon pepper",
-        "original": "",
+        "original": "lemon pepper",
         "originalName": "",
         "unit": "teaspoon",
         "amount": 0.5
