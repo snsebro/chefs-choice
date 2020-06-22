@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "../RecipeDetail/RecipeDetail.scss";
 import Bookmark from "../../assets/bookmark.png";
 import { withRouter } from 'react-router-dom';
+import Review from '../../components/Review/Review'
 class RecipeDetail extends Component {
   constructor(props) {
     super(props);
@@ -118,6 +119,7 @@ class RecipeDetail extends Component {
           <div className="list">
             <h3>See what others thought</h3>
           </div>
+          <Review />
           {/* import and map through review components */}
         </div>
         <div className="pageLink"></div>
