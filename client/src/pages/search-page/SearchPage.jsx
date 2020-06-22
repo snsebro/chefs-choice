@@ -52,7 +52,7 @@ class SearchPage extends React.Component {
     const RECIPES = setRecipes.map(recipes =>
       <div className='recipe'>
         <img src={recipes.image} />
-        <div className="viewDetailsButton"><Link to={`/recipes/${recipes.title}`}>
+        <div className="viewDetailsButton"><Link to={`/recipes/${recipes.id}`}>
           <h3>View Details</h3></Link>
         </div>
         <div className="detail">
