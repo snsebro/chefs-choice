@@ -15,6 +15,11 @@ const Steps = new Schema(
   }
 )
 
+const Equipment = new Schema(
+  {
+    name: {type: String, required: true}
+  }
+)
 
 const Recipe = new Schema(
   {
@@ -29,7 +34,9 @@ const Recipe = new Schema(
     difficultyLevel: { type: String, required: true },
     summary: { type: String, required: true },
     ingredients: [IngredientSchema],
-    steps: [Steps]
+    steps: [Steps],
+    Equipment: [Equipment]
+
   },
   { timestamps: true }
 )
