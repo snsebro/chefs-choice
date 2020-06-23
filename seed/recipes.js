@@ -793,162 +793,86 @@ const main = async () => {
         "img": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
         "bio": "Been cooking since I was 12, always enjoyed learning new recipes and teaching things to people",
         "knownFor": "healthy, meal planning, low calorie",
-        "id": 713437,
         "title": "Chicken Sushi Burrito",
         "image": "https://healthynibblesandbits.com/wp-content/uploads/2016/02/Sushi-Burrito-10.jpg",
-        "imageType": "jpg",
         "servings": 2,
         "readyInMinutes": 55,
-        "aggregateLikes": 362,
         "difficultyLevel": "medium",
         "summary": "These chicken sushi burritos are great for lunch or dinner. This recipe makes 4 burritos and each burrito can serve 1 to 2 people",
-        "dishTypes": [
-          "lunch",
-          "main course",
-          "main dish",
-          "dinner"
-        ],
         "ingredients": [
           {
-            "meta": [],
             "name": "Rice",
             "original": "5 cups cooked rice",
-            "originalName": "Sushi Rice",
-            "unit": "cups",
-            "amount": 5.0
           },
           {
-            "meta": [],
             "name": "Seasoning",
             "original": "4 tablespoons sushi seasoning",
-            "originalName": "Sushi Seasoning",
-            "unit": "tbsp",
-            "amount": 1.0
           },
           {
-            "meta": [],
             "name": "kosher salt",
             "original": "pinch of kosher salt",
-            "originalName": "kosher salt",
-            "unit": "pinch",
-            "amount": 1
           },
           {
-            "meta": [],
             "name": "Chicken",
             "original": "1 1/4 pounds chicken breast",
-            "originalName": "1 1/4 pounds chicken breast",
-            "unit": "pounds",
-            "amount": 1.25
           },
           {
-            "meta": [],
             "name": "kosher salt",
             "original": "generous pinch of kosher salt",
-            "originalName": "generous pinch of kosher salt",
-            "unit": "pinch",
-            "amount": 1
           },
           {
-            "meta": [],
             "name": "chili powder",
             "original": "1 teaspoon chili powder",
-            "originalName": "1 teaspoon chili powder",
-            "unit": "tspn",
-            "amount": 1
           },
           {
-            "meta": [],
             "name": "cajun seasoning",
             "original": "1 teaspoon of cajun seasoning",
-            "originalName": "1 teaspoon of cajun seasoning",
-            "unit": "tspn",
-            "amount": 1
           },
           {
-            "meta": [],
             "name": "granulated garlic",
             "original": "1/2 teaspoon granulated garlic",
-            "originalName": "1/2 teaspoon granulated garlic",
-            "unit": "tspn",
-            "amount": 0.5
           },
           {
-            "meta": [],
             "name": "Guacamole",
             "original": "1 large avocado",
-            "originalName": "1 large avocado",
-            "unit": "N/A",
-            "amount": 1
           },
           {
-            "meta": [],
             "name": "Lime juice",
             "original": "1 tbspn lime juice",
-            "originalName": "1 tbsn lime juice",
-            "unit": "tbpsn",
-            "amount": 1
           },
           {
-            "meta": [],
             "name": "garlic clove",
             "original": "1 garlic clove",
-            "originalName": "1 garlic clove",
-            "unit": "N/A",
-            "amount": 1
           },
           {
-            "meta": [],
             "name": "Chopped red onion",
             "original": "2 tbspn chopped red onion",
-            "originalName": "2 tbspn chopped red onion",
-            "unit": "tbspn",
-            "amount": 2
           },
           {
-            "meta": [],
             "name": "Red Pepper",
             "original": "1 small red pepper",
-            "originalName": "1 small red pepper",
-            "unit": "N/A",
-            "amount": 1
           },
           {
-            "meta": [],
             "name": "carrot",
             "original": "1 carrot, peeled and cut to matchsticks",
-            "originalName": "1 carrot, peeled and cut to matchsticks",
-            "unit": "N/A",
-            "amount": 1
           },
           {
-            "meta": [],
             "name": "Persian Cucumber",
             "original": "1 persian cucumber, cut to matchsticks",
-            "originalName": "1 persian cucumber, cut to matchsticks",
-            "unit": "N/A",
-            "amount": 1
           },
           {
-            "meta": [],
             "name": "Roasted suhi seasweed (nori)",
             "original": "4 sheets of roasted sushi seaweed (nori)",
-            "originalName": "4 sheets of roasted sushi seaweed (nori)",
-            "unit": "sheets",
-            "amount": 4
           }
         ],
         "Equipment": [
           {
-            "id": 437,
             "name": "sushi mat"
           },
           {
-            "id": 438,
             "name": "pan"
           },
           {
-            "id": 367,
             "name": "bowl"
           }
         ],
