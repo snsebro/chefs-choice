@@ -1,4 +1,4 @@
-const Review = require('../models/review')
+const Review = require('../models/recipe')
 const db = require('../db/connection')
 
 db.on('error', console.error.bind(console, 'MongoDB connection error:'))
@@ -13,6 +13,7 @@ const getReviews = async (req, res) => {
 }
 
 const createReview = async (req, res) => {
+  console.log(req.body)
   try {
       const review = await new Review(req.body)
       await review.save()

@@ -1,0 +1,72 @@
+.recipe {
+margin: 0px;
+}
+
+
+
+.chef-image{
+  width: 100px;
+  height: 100px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 100px;
+  border: 5px solid #ffffff;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+  margin-right: 50px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+}
+
+.chef {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+}
+
+.chef h3 {
+  font-size: 28px;
+  margin-top: 60px;
+  width: 70px;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+  text-align: left;
+  margin: 0 10px;
+}
+
+.chef-recipes{
+  margin: 0 10px;
+}
+
+h3{
+  text-align: left;
+}
+
+.chef-recipes h3{
+  text-align: left;
+}
+
+.first-time-video {
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.first-time {
+  width: 100%;
+}
+
+.first-time p {
+  margin: 10px;
+}

@@ -1,0 +1,42 @@
+.hamburgerMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 100%;
+}
+
+.hamburgerMenu img {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 75px;
+  width: auto;
+}
+
+input {
+  margin: 5px;
+  width: 70%;
+  background-color: lightgray;
+  border-color: white;
+}
+
+button {
+  position: relative;
+  left: 85px;
+  background-color: orange;
+  border-color: white;
+  margin-bottom: 10px;
+}
+
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  box-shadow: 
+  0 8px 10px 0 rgba(0, 0, 0, 0.2), 
+  0 6px 30px 0 rgba(0, 0, 0, 0.12), 
+  0 16px 24px 0 rgba(0, 0, 0, 0.14);
+  margin-bottom: 15px;
+}

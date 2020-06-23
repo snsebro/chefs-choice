@@ -1,0 +1,121 @@
+.recipePage {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: fit-content;
+}
+
+.recipePage img {
+  height: 186px;
+  width: 320px;
+  object-fit: cover;
+}
+
+
+.playButton img {
+  height: 57px;
+  width: 57px;
+}
+
+.shaddow {
+  box-shadow: 
+  0 8px 10px 0 rgba(0, 0, 0, 0.2), 
+  0 6px 30px 0 rgba(0, 0, 0, 0.12), 
+  0 16px 24px 0 rgba(0, 0, 0, 0.14);
+}
+
+.list {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 281px;
+  text-align: justify;
+}
+
+.back img {
+  position: relative;
+  top: 2px;
+  left: 5px;
+  height: 44px;
+  width: 44px;
+  z-index: 2;
+}
+
+.playButton {
+  position: relative;
+  width: 57px;
+  top: 15px;
+  left: 130px;
+  z-index: 2;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 38px;
+  width: 320px;
+  background-color: #731763;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+h3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: #121212;
+  height: 32.6px;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+li {
+  flex-direction: row;
+  width: 301px;
+  font-size: 16px;
+  border-bottom: 1px solid black;
+  padding-bottom: 2.16px;
+}
+
+.list span {
+  padding: 4px;
+  font-weight: bold;
+}
+
+.overlay {
+  height: 186px;
+  box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.video img {
+  position: relative;
+  object-fit: cover;
+  top: -131px;
+  bottom: 0px;
+  height: 186px;
+  width: 320px;
+}
+
+
+.bookmarkIcon img{
+  position: relative;
+  left: 290px;
+  bottom: -70px;
+  height: 20px;
+  width: 20px;
+  z-index: 2;
+}
+
+

@@ -1,0 +1,29 @@
+.recipes {
+  display: flex;
+  flex-direction: column;
+}
+
+.viewDetailsButton {
+  position: relative;
+  top: -46px;
+}
+
+.viewDetailsButton h3{
+  margin: 0;
+  color: white;
+  position: relative;
+  height: 26px;
+  width: 145px;
+  background-color: black;
+}
+
+a {
+  position: relative;
+  margin: 0;
+}
+
+.search h1 {
+  background-color: white;
+  color: black;
+  margin: 0;
+}
