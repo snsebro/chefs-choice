@@ -211,212 +211,128 @@ const main = async () => {
         "img": "https://images.unsplash.com/photo-1566554273541-37a9ca77b91f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
         "bio": "Having worked alongside many of top chefs in NYC, Anna brings a unique blend of flavor into each dish. Recently featured in chef's weekly.",
         "knownFor": "healthy, meal planning, low calorie",
-        "id": 716344,
         "title": "Chicken & Waffles",
         "image": "https://images.unsplash.com/photo-1565880112491-e7c4c313850d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-        "imageType": "splash",
         "servings": "6",
         "readyInMinutes": "45min",
-        "aggregateLikes": "10/10",
         "difficultyLevel": "hard",
         "summary": "If you like buttermilk fried chicken tenders and cornmeal waffles, then Southern-Style Chicken and Waffles are for you!  If you don’t want to fry a whole chicken, this easy chicken and waffles recipe is the answer with pan fried chicken tenders and crisp, tender buttermilk waffles from scratch.",
-        "dishTypes": [
-          "lunch",
-          "main course",
-          "main dish",
-          "dinner"
-        ],
         "ingredients": [
           {
             "name": "skin-on chicken thighs",
-            "original": "skin-on chicken thighs",
-            "originalName": "8 boneless, skin-on chicken thighs ",
-            "unit": "thighs",
-            "amount": 8
+            "original": "skin-on chicken thighs"
           },
           {
             "name": "2 cups buttermilk ",
-            "original": "buttermilk",
-            "originalName": "buttermilk",
-            "unit": "cups",
-            "amount": 2
+            "original": "buttermilk"
           },
           {
             "name": "2 1/2 cups all-purpose flour, plus more if needed",
             "original": "all-purpose flour",
-            "originalName": "2 1/2 cups all-purpose flour",
-            "unit": "cups",
-            "amount": 2.5
           },
           {
             "name": "1 tablespoon seasoned salt, such as Lawry's ",
             "original": "seasoned salt",
-            "originalName": "seasoned salt",
-            "unit": "tablespoon",
-            "amount": 1
           },
           {
             "name": "1 teaspoon paprika ",
             "original": "paprika",
-            "originalName": "paprika",
-            "unit": "teaspoon",
-            "amount": 1
           },
           {
             "name": "1 teaspoon freshly ground black pepper",
             "original": "freshly ground black pepper",
-            "originalName": "freshly ground black pepper",
-            "unit": "teaspoon",
-            "amount": 1
           },
           {
             "name": "1 teaspoon ground dried thyme ",
             "original": "dried thyme",
-            "originalName": "dried thyme",
-            "unit": "teaspoon",
-            "amount": 1
           },
           {
             "name": "1/2 teaspoon cayenne pepper, plus more if needed",
             "original": "cayenne pepper",
-            "originalName": "cayenne pepper",
-            "unit": "teaspoon",
-            "amount": 0.25
           },
           {
             "name": "1/4 cup milk, plus more if needed",
             "original": "milk",
-            "originalName": "milk",
-            "unit": "cup",
-            "amount": 0.25
           },
           {
             "name": "Vegetable oil, for frying ",
             "original": "Vegetable oil",
-            "originalName": "Vegetable oil",
-            "unit": "a pinch",
-            "amount": 1
           },
           {
             "name": "2 cups all-purpose flour",
             "original": "all-purpose flour",
-            "originalName": "all-purpose flour",
-            "unit": "cups",
-            "amount": 2
           },
           {
             "name": "1/4 cup sugar ",
             "original": "sugar",
-            "originalName": "sugar",
-            "unit": "cup",
-            "amount": 0.25
           },
           {
             "name": "1 tablespoon baking powder",
             "original": "baking powder",
-            "originalName": "baking powder",
-            "unit": "tablespoon",
-            "amount": 1
           },
           {
             "name": "1/2 teaspoon kosher salt ",
             "original": "1 1/2 cups milk ",
-            "originalName": "",
-            "unit": "",
-            "amount": 1
           },
           {
             "name": "1 tablespoon vanilla extract ",
             "original": "vanilla extract",
-            "originalName": "vanilla extract",
-            "unit": "tablespoon",
-            "amount": 1
           },
           {
             "name": "4 large egg whites plus 2 large egg yolks ",
             "original": "egg",
-            "originalName": "egg",
-            "unit": "eggs",
-            "amount": 6
           },
           {
             "name": "8 tablespoons (1 stick) salted butter, melted ",
             "original": "butter",
-            "originalName": "butter",
-            "unit": "tablespoon",
-            "amount": 8
           },
           {
             "name": "1 to 2 jalapenos, chopped",
             "original": "jalapenos",
-            "originalName": "jalapenos",
-            "unit": "",
-            "amount": "1-2"
           },
           {
             "name": "1 cup pancake syrup",
             "original": "pancake syrup",
-            "originalName": "pancake syrup",
-            "unit": "cup",
-            "amount": 1
           },
           {
             "name": "1/4 cup bourbon ",
             "original": "bourbon",
-            "originalName": "bourbon",
-            "unit": "cup",
-            "amount": 0.25
           },
           {
             "name": "4 tablespoons (1/2 stick) salted butter ",
             "original": "butter",
-            "originalName": "butter",
-            "unit": "tablespoons",
-            "amount": 4
           },
           {
             "name": "1/4 teaspoon cayenne pepper ",
             "original": "cayenne pepper ",
-            "originalName": "cayenne pepper ",
-            "unit": "teaspoon",
-            "amount": 0.25
           }
         ],
         "Equipment": [
           {
-            "id": 2345,
             "name": "deepfrier"
           },
           {
-            "id": 124,
             "name": "cup"
           },
           {
-            "id": 3,
             "name": "measuring spoons"
           },
           {
-            "id": 4,
             "name": "mixing bowl"
           },
           {
-            "id": 5,
             "name": "oven"
           },
           {
-            "id": 6,
             "name": "waffle iron"
           },
           {
-            "id": 7,
             "name": "spantual/mixer"
           },
           {
-            "id": 8,
             "name": "whisk"
           },
           {
-            "id": 9,
             "name": "stove top"
           }
         ],
@@ -484,197 +400,118 @@ const main = async () => {
         "img": "https://images.unsplash.com/photo-1566554273541-37a9ca77b91f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
         "bio": "Having worked alongside many of top chefs in NYC, Anna brings a unique blend of flavor into each dish. Recently featured in chef's weekly.",
         "knownFor": "healthy, meal planning, low calorie",
-        "id": 563496,
         "title": "Chicken Tikka Masala",
         "image": "https://cafedelites.com/wp-content/uploads/2018/04/Best-Chicken-Tikka-Masala-IMAGE-2.jpg",
-        "imageType": "jpg",
         "servings": "5",
         "readyInMinutes": "45min",
-        "aggregateLikes": "20,000",
         "difficultyLevel": "medium",
         "summary": "Also called 'Butter Chicken, Chicken Tikki is easy to make and full of beautiful flavors'",
-        "dishTypes": [
-          "main dish",
-          "dinner"
-        ],
         "ingredients": [
           {
             "name": "boneless, skinless chicken",
-            "original": "chicken breasts",
-            "originalName": "Chicken breasts",
-            "unit": "oz",
-            "amount": 28
+            "original": "28 oz chicken breasts"
           },
           {
             "name": "plain yogurt",
-            "original": "plain yogurt",
-            "originalName": "plain yogurt",
-            "unit": "cup",
-            "amount": 0.5
+            "original": "1/2 cup plain yogurt"
           },
           {
             "name": "minced garlic",
-            "original": "Minced Garlic",
-            "originalName": "Minced Garlic",
-            "unit": "tbsp",
-            "amount": 1.5
+            "original": "1 1/2 tbsp Minced Garlic"
           },
           {
             "name": "minced ginger",
-            "original": "Minced Ginger",
-            "originalName": "Minced Ginger",
-            "unit": "tbsp",
-            "amount": 1
+            "original": "1 tbsp Minced Ginger"
           },
           {
             "name": "garam masala",
-            "original": "Garam Masala",
-            "originalName": "Garam Masala",
-            "unit": "tsp",
-            "amount": 2
+            "original": " 2 tsp Garam Masala"
           },
           {
             "name": "turmeric",
-            "original": "turmeric",
-            "originalName": "turmeric",
-            "unit": "tsp",
-            "amount": 1
+            "original": "1 tsp turmeric"
           },
           {
             "name": "ground cumin",
-            "original": "Ground cumin",
-            "originalName": "Ground cumin",
-            "unit": "tsp",
-            "amount": 1
+            "original": "1 tsp Ground cumin"
           },
           {
             "name": "red chili powder",
-            "original": "red chili powder",
-            "originalName": "red chili powder",
-            "unit": "tsp",
-            "amount": 1
+            "original": "1 tsp red chili powder"
           },
           {
             "name": "salt",
-            "original": "salt",
-            "originalName": "salt",
-            "unit": "tsp",
-            "amount": 1
+            "original": "1 tsp salt"
           },
           {
             "name": "olive oil",
-            "original": "olive oil",
-            "originalName": "olive oil",
-            "unit": "tbsp",
-            "amount": 2
+            "original": "2 tbsp olive oil"
           },
           {
             "name": "ghee",
-            "original": "ghee",
-            "originalName": "ghee",
-            "unit": "tbsp",
-            "amount": 2
+            "original": "2 tbsp ghee"
           },
           {
             "name": "onion",
-            "original": "onion",
-            "originalName": "onion",
-            "unit": "",
-            "amount": 1
+            "original": "1 onion"
           },
           {
             "name": "garlic",
-            "original": "garlic",
-            "originalName": "garlic",
-            "unit": "tbsp",
-            "amount": 1.5
+            "original": "1.5 tbsp garlic"
           },
           {
             "name": "ginger",
-            "original": "ginger",
-            "originalName": "ginger",
-            "unit": "tbsp",
-            "amount": 1
+            "original": "1 tbsp ginger"
           },
           {
             "name": "ground cumin",
-            "original": "ground cumin",
-            "originalName": "ground cumin",
-            "unit": "tsp",
-            "amount": 1.5
+            "original": "1.5 tsp ground cumin"
           },
           {
             "name": "garam masala",
-            "original": "garam masala",
-            "originalName": "garam masala",
-            "unit": "tsp",
-            "amount": 1.5
+            "original": "1.5 tsp garam masala"
           },
           {
             "name": "coriander",
-            "original": "coriander",
-            "originalName": "coriander",
-            "unit": "tsp",
-            "amount": 1
+            "original": "1 tsp coriander"
           },
           {
             "name": "crushed tomatoes",
-            "original": "crushed tomatoes",
-            "originalName": "crushed tomatoes",
-            "unit": "oz",
-            "amount": 14
+            "original": "14 oz crushed tomatoes"
           },
           {
             "name": "red chilli powder",
-            "original": "red chilli powder",
-            "originalName": "red chilli powder",
-            "unit": "tsp",
-            "amount": 1
+            "original": "1 tsp red chilli powder"
           },
           {
             "name": "salt",
-            "original": "salt",
-            "originalName": "salt",
-            "unit": "tsp",
-            "amount": 1.25
+            "original": "1.25 tbsp salt"
           },
           {
             "name": "heavy cream",
-            "original": "heavy cream",
-            "originalName": "heavy cream",
-            "unit": "cup",
-            "amount": 1
+            "original": "heavy cream"
           },
           {
             "name": "sugar",
-            "original": "sugar",
-            "originalName": "sugar",
-            "unit": "tbsp",
-            "amount": 1
+            "original": "1 tbsp sugar"
           },
           {
             "name": "kasoori methi",
-            "original": "kasoori methi",
-            "originalName": "kasoori methi",
-            "unit": "tsp",
-            "amount": 0.5
+            "original": "1/2 tsp kasoori methi"
+            
           }
         ],
         "Equipment": [
           {
-            "id": 1,
             "name": "large bowl"
           },
           {
-            "id": 2,
             "name": "skillet/pot"
           },
           {
-            "id": 3,
             "name": "pan"
           },
           {
-            "id": 4,
             "name": "blender"
           }
         ],
