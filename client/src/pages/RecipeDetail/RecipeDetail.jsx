@@ -132,7 +132,7 @@ class RecipeDetail extends Component {
           {/* import and map through review components */}
         </div>
         <div>
-          <ReviewCreate />
+          <ReviewCreate id={recipe[0] && recipe[0].id}/>
         </div>
         <div className="pageLink"></div>
         <h3>Top of Page ^</h3>

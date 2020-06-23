@@ -1,4 +1,4 @@
-const Review = require('../models/review')
+const Review = require('../models/recipe')
 const db = require('../db/connection')
 
 db.on('error', console.error.bind(console, 'MongoDB connection error:'))

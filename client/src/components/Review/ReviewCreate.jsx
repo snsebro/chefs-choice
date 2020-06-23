@@ -38,7 +38,7 @@ class ReviewCreate extends Component {
     const { review, created } = this.state;
 
     if (created) {
-      return <Redirect to={`/recipte/:id`} />;
+      return <Redirect to={`/recipes/${this.props.id}`} />;
     }
     return (
       <form className="create-form" onSubmit={this.handleSubmit}>
