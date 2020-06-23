@@ -555,103 +555,63 @@ const main = async () => {
         "img": "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
         "bio": "Having worked alongside many of top chefs in NYC, Jack brings a unique blend of flavor into each dish. Recently featured in chef's weekly.",
         "knownFor": "healthy, meal planning, low calorie",
-        "id": 148473,
         "title": "Lemon Butter Chicken",
         "image": "https://www.cookingclassy.com/wp-content/uploads/2018/07/lemon-butter-chicken-16-768x1152.jpg",
-        "imageType": "jpg",
         "servings": "4",
         "readyInMinutes": "30min",
-        "aggregateLikes": "",
         "difficultyLevel": "Easy",
         "summary": "",
-        "dishTypes": [
-          "main course",
-          "main dish",
-          "dinner"
-        ],
         "ingredients": [
           {
             "name": "4 5oz Chicken Breasts",
             "original": "4 Chicken Breasts",
-            "originalName": "Chicken Breasts",
-            "unit": "5 oz",
-            "amount": 4
           },
           {
             "name": "Salt & Freshly ground black pepper",
-            "original": "Salt & Freshly Ground black pepper",
-            "originalName": "Salt & Freshly Ground black pepper",
-            "unit": "to taste",
-            "amount": 1
+            "original": "Salt & Freshly Ground black pepper"
+
           },
           {
             "name": "1/3 cup all-purpose flour",
-            "original": "all purpose flour",
-            "originalName": "all purpose flour",
-            "unit": "cup",
-            "amount": "1/3"
+            "original": "all purpose flour"
           },
           {
             "name": "1 Tbsp olive oil",
-            "original": "olive oil",
-            "originalName": "olive oil",
-            "unit": "Tbsp",
-            "amount": 1
+            "original": "olive oil"
           },
           {
             "name": "4 Tbsp unsalted butter, sliced into 1 Tbsp pices",
-            "original": "unsalted butter, divided evenly",
-            "originalName": "unsalted butter",
-            "unit": "Tbsp",
-            "amount": 4
+            "original": "unsalted butter, divided evenly"
           },
           {
             "name": "1 1/2 tsp minced garlic",
-            "original": "minced garlic",
-            "originalName": "minced garlic",
-            "unit": "tsp",
-            "amount": "1-1/2"
+            "original": "minced garlic"
           },
           {
             "name": "1/2 cup low-sodium chicken broth",
-            "original": "low-sodium chicken broth",
-            "originalName": "low-sodium chicken broth",
-            "unit": "cup",
-            "amount": "1/2"
+            "original": "low-sodium chicken broth"
           },
           {
             "name": "3 Tbsp fresh lemon juice",
-            "original": "fresh lemon juice",
-            "originalName": "fresh lemon juice",
-            "unit": "Tbsp",
-            "amount": 3
+            "original": "fresh lemon juice"
           },
           {
             "name": "1/2 tsp fresh lemon zest",
-            "original": "fresh lemon zest",
-            "originalName": "fresh lemon zest",
-            "unit": "tsp",
-            "amount": "1/2"
+            "original": "fresh lemon zest"
           },
           {
             "name": "1 1/2 Tbsp minced fresh parsley (optional)",
-            "original": "minced fresh parsley (optional)",
-            "originalName": "minced fresh parsley (optional)",
-            "unit": "Tbsp",
-            "amount": "1 1/2"
+            "original": "minced fresh parsley (optional)"
           }
         ],
         "Equipment": [
           {
-            "id": 1,
             "name": "Shallow dish"
           },
           {
-            "id": 2,
             "name": "12 inch skillet"
           },
           {
-            "id": 3,
             "name": "Plate"
           }
         ],
@@ -703,77 +663,45 @@ const main = async () => {
         "img": "https://images.unsplash.com/photo-1488905971602-47901d26961b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
         "bio": "Having worked alongside many of top chefs in NYC, Dave brings a unique blend of flavor into each dish. Recently featured in chef's weekly.",
         "knownFor": "healthy, meal planning, low calorie",
-        "id": 431207,
         "title": "Grilled Salmon",
         "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1296&q=60",
-        "imageType": "jpg",
         "servings": 6,
         "readyInMinutes": 16,
-        "aggregateLikes": 200,
         "difficultyLevel": "easy",
         "summary": "A simple soy sauce and brown sugar marinade, with hints of lemon and garlic, are the perfect salty-sweet complement to rich salmon fillets. Even my 9 year old loves this recipe!",
-        "dishTypes": [
-          "lunch",
-          "main course",
-          "main dish",
-          "dinner"
-        ],
+    
         "ingredients": [
           {
             "name": "salmon fillets",
             "original": "salmon fillets",
-            "originalName": "",
-            "unit": "pounds",
-            "amount": 1.5
           },
           {
             "name": "lemon pepper",
-            "original": "lemon pepper",
-            "originalName": "",
-            "unit": "teaspoon",
-            "amount": 0.5
+            "original": "0.5 teaspons lemon pepper"
           },
           {
             "name": "garlic powder",
-            "original": "",
-            "originalName": "",
-            "unit": "teaspoon",
-            "amount": 0.25
+            "original": "0.25 teaspoons garilc powder"
           },
           {
             "name": "salt",
-            "original": "",
-            "originalName": "",
-            "unit": "teaspoon",
-            "amount": 0.5
+            "original": "0.5 teaspoons salt"
           },
           {
             "name": "soy sauce",
-            "original": "",
-            "originalName": "",
-            "unit": "cup",
-            "amount": 0.33
+            "original": "0.33 cups soy sauce"
           },
           {
             "name": "brown sugar",
-            "original": "",
-            "originalName": "",
-            "unit": "cup",
-            "amount": 0.33
+            "original": "0.33 cups brown sugar"
           },
           {
             "name": "water",
-            "original": "",
-            "originalName": "",
-            "unit": "cup",
-            "amount": 0.33
+            "original": "0.33 cups water"
           },
           {
             "name": "vegetable oil",
-            "original": "",
-            "originalName": "",
-            "unit": "cup",
-            "amount": 0.25
+            "original": "0.25 cup vegetable oil"
           }
         ],
         "Equipment": [
@@ -814,55 +742,34 @@ const main = async () => {
         "img": "https://images.unsplash.com/photo-1589372911714-e3f567bfa6a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
         "bio": "Been cooking since I was 12, always enjoyed learning new recipes and teaching things to people",
         "knownFor": "healthy, meal planning, low calorie",
-        "id": 12098,
         "title": "Grilled Bacon Jalapeno Wraps",
         "image": "https://images.unsplash.com/photo-1592005243970-8e62149fde11?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1296&q=60",
-        "imageType": "jpg",
         "servings": 6,
         "readyInMinutes": 20,
-        "aggregateLikes": 214,
         "difficultyLevel": "easy",
         "summary": "Jalapenos are stuffed with cream cheese, wrapped with bacon, and barbecued on the grill.",
-        "dishTypes": [
-          "lunch",
-          "main course",
-          "main dish",
-          "dinner"
-        ],
         "ingredients": [
           {
             "name": "jalapeno peppers",
-            "original": "",
-            "originalName": "",
-            "unit": "",
-            "amount": 6
+            "original": "6",
           },
           {
             "name": "cream cheese",
-            "original": "",
-            "originalName": "",
-            "unit": "ounces",
-            "amount": 8
+            "original": "8 ounces",
           },
           {
             "name": "bacon",
-            "original": "",
-            "originalName": "",
-            "unit": "slices",
-            "amount": 12
+            "original": "12 slices",
           }
         ],
         "Equipment": [
           {
-            "id": 1,
             "name": "grill"
           },
           {
-            "id": 2,
             "name": "kebab sticks"
           },
           {
-            "id": 3,
             "name": "toothpicks"
           }
         ],
