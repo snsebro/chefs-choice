@@ -213,7 +213,7 @@ const main = async () => {
         "title": "Chicken & Waffles",
         "image": "https://images.unsplash.com/photo-1565880112491-e7c4c313850d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
         "servings": "6",
-        "readyInMinutes": "45min",
+        "readyInMinutes": 45,
         "difficultyLevel": "hard",
         "summary": "If you like buttermilk fried chicken tenders and cornmeal waffles, then Southern-Style Chicken and Waffles are for you!  If you don’t want to fry a whole chicken, this easy chicken and waffles recipe is the answer with pan fried chicken tenders and crisp, tender buttermilk waffles from scratch.",
         "ingredients": [
@@ -391,14 +391,14 @@ const main = async () => {
         ]
       },
       {
-        "chefName": "Anna Reed",
+        "chefName": "Samantha Smith",
         "img": "https://images.unsplash.com/photo-1566554273541-37a9ca77b91f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
         "bio": "Having worked alongside many of top chefs in NYC, Anna brings a unique blend of flavor into each dish. Recently featured in chef's weekly.",
         "knownFor": "healthy, meal planning, low calorie",
         "title": "Chicken Tikka Masala",
         "image": "https://cafedelites.com/wp-content/uploads/2018/04/Best-Chicken-Tikka-Masala-IMAGE-2.jpg",
         "servings": "5",
-        "readyInMinutes": "45min",
+        "readyInMinutes": 45,
         "difficultyLevel": "medium",
         "summary": "Also called 'Butter Chicken, Chicken Tikki is easy to make and full of beautiful flavors'",
         "ingredients": [
@@ -553,9 +553,9 @@ const main = async () => {
         "title": "Lemon Butter Chicken",
         "image": "https://www.cookingclassy.com/wp-content/uploads/2018/07/lemon-butter-chicken-16-768x1152.jpg",
         "servings": "4",
-        "readyInMinutes": "30min",
+        "readyInMinutes": 30,
         "difficultyLevel": "Easy",
-        "summary": "",
+        "summary": "Lemon butter chicken is gewd",
         "ingredients": [
           {
             "name": "4 5oz Chicken Breasts",
@@ -968,7 +968,7 @@ const main = async () => {
         "title": "Perfect Fish Tacos",
         "image": "https://images.unsplash.com/photo-1512838243191-e81e8f66f1fd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
         "servings": "8",
-        "readyInMinutes": "35min",
+        "readyInMinutes": 35,
         "difficultyLevel": "easy",
         "summary": "Love fish tacos? Well, these are the end-all be-all. Read on to see what makes these tacos so special. The fish—we use cod, but any flaky variety works—marinates in a mixture of lime juice, chili powder, and cumin that will become your standard. (Seriously, steak or chicken marinated in this will also taste bomb.) But the real gem of this recipe is the cabbage slaw—don't skip it. It takes just a few minutes to toss together and it's brightness is the perfect condiment to the spiced cod. ",
         "ingredients": [
