@@ -30,7 +30,7 @@ const Recipe = new Schema(
     title: { type: String, required: true },
     image: { type: String, required: true },
     servings: { type: Number, required: true },
-    readyInMinutes: { type: String, required: true },
+    readyInMinutes: { type: Number, required: true },
     difficultyLevel: { type: String, required: true },
     summary: { type: String, required: true },
     ingredients: [IngredientSchema],
