@@ -35,8 +35,8 @@ const Recipe = new Schema(
     summary: { type: String, required: true },
     ingredients: [IngredientSchema],
     steps: [Steps],
-    Equipment: [Equipment]
-
+    Equipment: [Equipment],
+    reviews: [{type: Schema.Types.ObjectId, ref:'reviews'}]
   },
   { timestamps: true }
 )
