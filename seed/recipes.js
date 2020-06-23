@@ -1,10 +1,13 @@
 const db = require('../db/connection')
 const Recipe = require('../models/recipe')
+const Review = require('../models/review')
 
 db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 
 const main = async () => {
   await Recipe.deleteMany()
+  const Review1 = await Review.findById('5eebaabfa2d43e571938188b')
+  console.log(Review1)
   const recipes =
 [
   {
@@ -119,7 +122,8 @@ const main = async () => {
       {
         "name": "drainer"
       }
-    ]
+    ],
+    "reviews": Review1._id
   },
   {
     "chefName": "Dave Houghton",
