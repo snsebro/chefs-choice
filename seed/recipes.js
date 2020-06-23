@@ -905,55 +905,34 @@ const main = async () => {
         "img": "https://images.unsplash.com/photo-1589372911714-e3f567bfa6a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
         "bio": "Been cooking since I was 12, always enjoyed learning new recipes and teaching things to people",
         "knownFor": "healthy, meal planning, low calorie",
-        "id": 12098,
         "title": "Grilled Bacon Jalapeno Wraps",
         "image": "https://images.unsplash.com/photo-1592005243970-8e62149fde11?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1296&q=60",
-        "imageType": "jpg",
         "servings": 6,
         "readyInMinutes": 20,
-        "aggregateLikes": 214,
         "difficultyLevel": "easy",
         "summary": "Jalapenos are stuffed with cream cheese, wrapped with bacon, and barbecued on the grill.",
-        "dishTypes": [
-          "lunch",
-          "main course",
-          "main dish",
-          "dinner"
-        ],
         "ingredients": [
           {
             "name": "jalapeno peppers",
-            "original": "",
-            "originalName": "",
-            "unit": "",
-            "amount": 6
+            "original": "6",
           },
           {
             "name": "cream cheese",
-            "original": "",
-            "originalName": "",
-            "unit": "ounces",
-            "amount": 8
+            "original": "8 ounces",
           },
           {
             "name": "bacon",
-            "original": "",
-            "originalName": "",
-            "unit": "slices",
-            "amount": 12
+            "original": "12 slices",
           }
         ],
         "Equipment": [
           {
-            "id": 1,
             "name": "grill"
           },
           {
-            "id": 2,
             "name": "kebab sticks"
           },
           {
-            "id": 3,
             "name": "toothpicks"
           }
         ],
