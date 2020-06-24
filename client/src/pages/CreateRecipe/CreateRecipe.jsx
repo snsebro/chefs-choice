@@ -18,15 +18,65 @@ export default class CreateRecipe extends Component {
         servings: "",
         readyInMinutes: "",
         difficultyLevel: "",
+        ingredients: [{original:''}],
+        steps: [{step:''}],
+        Equipment: [{name:''}]
       },
     };
   }
+
+  deleteInput = (i) => {
+    let ingredients = this.state.recipe.ingredients
+    let steps = this.state.recipe.steps
+    let Equipment = this.state.recipe.Equipment
+
+    ingredients.splice(i, 1)
+    steps.splice(i, 1)
+    Equipment.splice(i, 1)
+    this.setState(prevState => ({
+      recipe: {
+        ...prevState.recipe,
+        ingredients,
+        steps,
+        Equipment
+      }
+    }))
+  }
+
   handleChange = (e) => {
     const { name, value } = e.target;
     this.setState(prevState=>({
       recipe: {...prevState.recipe,[name]: value}
-    }));
-  };
+    }))
+  }
+
+  handleInputs = (e, i) => {
+    const { name, value } = e.target
+    const ingredients = this.state.recipe.ingredients
+    const steps = this.state.recipe.steps
+    const Equipment = this.state.recipe.Equipment
+    ingredients[i] = ({[name]:value})
+    this.setState(prevState => ({
+      recipe: {
+        ...prevState.recipe, ingredients
+      }
+    }))
+
+    steps[i] = ({[name]:value})
+    this.setState(prevState => ({
+      recipe: {
+        ...prevState.recipe, steps
+      }
+    }))
+
+    Equipment[i] = ({[name]:value})
+    this.setState(prevState => ({
+      recipe: {
+        ...prevState.recipe, Equipment
+      }
+    }))
+  }
+
   render() {
     return (
       <div className="createRecipe">
@@ -100,9 +150,9 @@ export default class CreateRecipe extends Component {
           required
           onChange={this.handleChange}
         />
-        {<IngredientInput handleChange={this.handleChange} />}
-        {<StepsInput handleChange={this.handleChange} />}
-        {<EquipmentInput handleChange={this.handleChange} />}
+        {<IngredientInput deleteInput={this.deleteInput} recipe={this.state.recipe} handleInputs={this.handleInputs} handleChange={this.handleChange} />}
+        {<StepsInput handleChange={this.handleChange} deleteInput={this.deleteInput} handleInputs={this.handleInputs} recipe={this.state.recipe}/>}
+        {<EquipmentInput handleChange={this.handleChange} deleteInput={this.deleteInput} handleInputs={this.handleInputs} recipe={this.state.recipe}/>}
       </div>
     );
   }
