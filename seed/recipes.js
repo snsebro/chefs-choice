@@ -123,7 +123,7 @@ const main = async () => {
         "name": "drainer"
       }
     ],
-    "reviews": Review1._id
+    // "reviews": Review1._id
   },
   {
     "chefName": "Dave Houghton",
