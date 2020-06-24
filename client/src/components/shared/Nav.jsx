@@ -29,7 +29,7 @@ export default function Nav() {
           <NavLink className="link" to="/search">
             <Search className='nav-icon'/>  
           </NavLink>
-          <NavLink className="link" to="/bookmark">
+          <NavLink className="link" to="/create-recipe">
             <Bookmark className='nav-icon'/>
           </NavLink>
           <NavLink className="link" to="/">

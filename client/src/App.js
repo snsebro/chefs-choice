@@ -7,10 +7,11 @@ import ChefProfile from './pages/chef-profile/ChefProfile'
 import SearchPage from './pages/search-page/SearchPage'
 import RecipeDetail from './pages/RecipeDetail/RecipeDetail'
 import RecipeEdit from './pages/RecipeDetail/RecipeEdit'
+import CreateRecipe from './pages/CreateRecipe/CreateRecipe'
 import { getRecipes } from './services/reviews'
 
-
 import './App.css';
+
 
 class App extends Component {
   constructor() {
@@ -45,7 +46,8 @@ class App extends Component {
           <Route path='/chefs/:name' component={ChefProfile} />
           <Route exact path='/recipes/:id' render={(props) => <RecipeDetail recipes={this.state.recipes} updateRecipes={this.updateRecipes} />} />
           <Route path='/chefs/recipes/:id' render={(props) => <RecipeDetail recipes={this.state.recipes} updateRecipes={this.updateRecipes} />} />
-          <Route exact path='/recipes/:id/edit' render={(props) => <RecipeEdit updateRecipes={this.updateRecipes}/>} />
+          <Route exact path='/recipes/:id/edit' render={(props) => <RecipeEdit updateRecipes={this.updateRecipes} />} />
+          <Route path='/create-recipe' component={CreateRecipe}/>
         </Switch>
       </div>
     );
