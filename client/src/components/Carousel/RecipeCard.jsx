@@ -22,7 +22,7 @@ export default class RecipeCard extends Component {
                   <div className="bookmark">
                     <Bookmark />
                   </div>
-                  <Link to={`recipes/${recipe.title}`}>
+                  <Link to={`/recipes/${recipe._id}`}>
                     <div className="recipeName"><p>{recipe.title}</p></div>
                   </Link>
               </div>

@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 // import Layout from '../../components/shared/Layout'
 import './ChefPage.scss'
-import data from '../../recipe.json'
 import ChefProfile from '../chef-profile/ChefProfile'
+import { getRecipes } from '../../services/reviews'
 
 export default class ChefPage extends Component {
   constructor() {
@@ -14,12 +14,13 @@ export default class ChefPage extends Component {
   }
 
   async componentDidMount() {
-    const chefs = await data
+    const chefs = await getRecipes()
     this.setState({ chefs })
   }
 
   render() {
     const { chefs } = this.state
+    console.log(chefs)
     const allChefs = chefs.map(chef => {
       return (
 
@@ -31,7 +32,7 @@ export default class ChefPage extends Component {
             <div className='chefs-page-info'>
               <h2>{chef.chefName}</h2>
               <Link to={`/chefs/${chef.chefName}`}><h1>View Full Profile</h1></Link>
-              <ChefProfile chefs = {this.state.chefs} onChange={this.handleChange} inputValue = {this.state.chef}/>
+              {/* <ChefProfile chefs = {this.state.chefs} onChange={this.handleChange} inputValue = {this.state.chef}/> */}
             </div>
           </div>
           <p>Known for: {chef.knownFor}</p>
@@ -47,8 +48,8 @@ export default class ChefPage extends Component {
     // console.log(this.state.chefs)
     // console.log(uniqueChefs)
     // const backToChefs = [...uniqueChefs]
-    allChefs.splice(0, 1)
-    allChefs.splice(2, 1)
+    // allChefs.splice(0, 1)
+    // allChefs.splice(2, 1)
 
 
 
