@@ -23,7 +23,7 @@ const Equipment = new Schema(
 
 const Recipe = new Schema(
   {
-    chefName: { first: String, last: String },
+    chefName: { type: String, required: true },
     img: { type: String, required: true },
     bio: { type: String, required: true },
     knownFor: { type: String, required: true },

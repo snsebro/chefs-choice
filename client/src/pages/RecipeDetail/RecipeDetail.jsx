@@ -2,45 +2,45 @@ import React, { Component } from "react";
 import "../RecipeDetail/RecipeDetail.scss";
 import Bookmark from "../../assets/bookmark.png";
 import { withRouter } from 'react-router-dom';
-import {getReviews} from '../../services/reviews'
+import { getReviews, getRecipes } from '../../services/reviews'
 import Review from '../../components/Review/Review'
 import ReviewCreate from "../../components/Review/ReviewCreate";
 class RecipeDetail extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      recipe: [],
-      reviews: []
+      recipes:[],
+      recipe: []
     }
   }
+
   async componentDidMount() {
+    const recipes = await getRecipes()
+    console.log(recipes)
+    this.setState({ recipes })
+
     let id = this.props.match.params.id
     console.log(id)
-    console.log(this.props.recipes)
-    const recipePage = this.props.recipes.filter(recipe =>
-      recipe.id === +id)
-    console.log(...recipePage)
-    let recipeInfo = {...recipePage}
-    console.log(recipeInfo)
+
+    const recipePage = this.state.recipes.filter(recipe =>
+      recipe._id === id)
+    console.log(recipePage)
+
     this.setState({
       recipe: recipePage
     })
 
-    const newReviews = await getReviews()
-    this.setState({
-      reviews : newReviews
-    })
-    console.log(newReviews)
+    // const newReviews = await getReviews()
+    // this.setState({
+    //   reviews : newReviews
+    // })
+    // console.log(newReviews)
     
   }
   
   render() {
     let {recipe}= this.state;
     // console.log(recipe.ingredients)
-    {
-      recipe[0] &&
-      console.log(recipe[0].ingredients)
-    }
 
     //   function ScrollToTop() {
     //   const { toTop } = useLocation();

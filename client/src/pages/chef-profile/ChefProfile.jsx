@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router'
 import '../chef-profile/ChefProfile.scss'
-import data from '../../recipe.json'
+import {getRecipes} from '../../services/reviews'
 import Carousel from '../../components/Carousel/Carousel';
 
 class ChefProfile extends Component {
@@ -14,7 +14,8 @@ class ChefProfile extends Component {
   }
 
   async componentDidMount() {
-    this.setState({ chefs: data })
+    const chefs = await getRecipes()
+    this.setState({ chefs: chefs })
   }
 
   handleChange = (e) => {

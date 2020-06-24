@@ -1,9 +1,8 @@
 import React from 'react'
-import Layout from '../../components/shared/Layout'
 import { Link, Route } from 'react-router-dom'
 import Search from '../../components/Search'
 import "./SearchPage.scss";
-import recipes from '../../recipe.json'
+import {getRecipes} from '../../services/reviews'
 import RecipeDetails from '../RecipeDetail/RecipeDetail'
 
 class SearchPage extends React.Component {
@@ -18,6 +17,8 @@ class SearchPage extends React.Component {
   }
 
   async componentDidMount() {
+    const recipes = await getRecipes()
+    console.log(recipes)
     this.setState({ recipes })
   }
 
@@ -33,18 +34,18 @@ class SearchPage extends React.Component {
 
   handleSubmit = event => event.preventDefault()
 
-  async nextRecipe() {
-    this.setState((prevState) => ({
-      currentRecipe: [...prevState.currentRecipe, recipes],
-    }));
-    this.setState((prevState) => ({
-      index: prevState.index + 1, listOfRecipes: [...prevState.listOfRecipes, recipes]
-    }));
-  }
+  // async nextRecipe() {
+  //   this.setState((prevState) => ({
+  //     currentRecipe: [...prevState.currentRecipe, recipes],
+  //   }));
+  //   this.setState((prevState) => ({
+  //     index: prevState.index + 1, listOfRecipes: [...prevState.listOfRecipes, recipes]
+  //   }));
+  // }
 
-  previousRecipe = () => {
-    this.setState(prevState => ({ index: prevState.index - 1 }));
-  }
+  // previousRecipe = () => {
+  //   this.setState(prevState => ({ index: prevState.index - 1 }));
+  // }
 
   render() {
 
@@ -53,7 +54,7 @@ class SearchPage extends React.Component {
     const RECIPES = setRecipes.map(recipes =>
       <div className='recipe'>
         <img src={recipes.image} />
-        <div className="viewDetailsButton"><Link to={`/recipes/${recipes.id}`}>
+        <div className="viewDetailsButton"><Link to={`/recipes/${recipes._id}`}>
           <h3>View Details</h3></Link>
         </div>
         <div className="detail">
@@ -75,14 +76,14 @@ class SearchPage extends React.Component {
         <div className="recipes">
            {RECIPES}
         </div>
-        
+{/*         
         <footer>
         <div className="recipeButton">
          <button className="New" onClick={this.nextRecipe}>Next</button>
             <button className="Prev"  onClick={this.previousRecipe}>Previous</button>
          </div>
         </footer>
-        
+         */}
       </div>
       
     )
