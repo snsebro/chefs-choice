@@ -3,27 +3,27 @@ const Schema = mongoose.Schema
 
 const IngredientSchema = new Schema(
   {
-    name: {type: String, required: true},
+    name: { type: String, required: true },
     original: { type: String, required: true },
   }
 )
 
 const Steps = new Schema(
   {
-    number: {type: Number, required: true },
+    number: { type: Number, required: true },
     step: { type: String, required: true }
   }
 )
 
 const Equipment = new Schema(
   {
-    name: {type: String, required: true}
+    name: { type: String, required: true }
   }
 )
 
 const Recipe = new Schema(
   {
-    chefName: {first: String, last: String},
+    chefName: { type: String, required: true },
     img: { type: String, required: true },
     bio: { type: String, required: true },
     knownFor: { type: String, required: true },
@@ -35,8 +35,8 @@ const Recipe = new Schema(
     summary: { type: String, required: true },
     ingredients: [IngredientSchema],
     steps: [Steps],
-    Equipment: [Equipment]
-
+    Equipment: [Equipment],
+    reviews: [{type: Schema.Types.ObjectId, ref:'reviews'}]
   },
   { timestamps: true }
 )

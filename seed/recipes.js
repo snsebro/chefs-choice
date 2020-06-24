@@ -1,10 +1,13 @@
 const db = require('../db/connection')
 const Recipe = require('../models/recipe')
+const Review = require('../models/review')
 
 db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 
 const main = async () => {
   await Recipe.deleteMany()
+  const Review1 = await Review.findById('5eebaabfa2d43e571938188b')
+  console.log(Review1)
   const recipes =
 [
   {
@@ -14,7 +17,6 @@ const main = async () => {
     "knownFor": "healthy, meal planning, low calorie",
     "title": "Pasta with Garlic, Scallions, Cauliflower & Breadcrumbs",
     "image": "https://spoonacular.com/recipeImages/716429-556x370.jpg",
-    "imageType": "jpg",
     "servings": 2,
     "readyInMinutes": 45,
     "difficultyLevel": "easy",
@@ -120,7 +122,8 @@ const main = async () => {
       {
         "name": "drainer"
       }
-    ]
+    ],
+    "reviews": Review1._id
   },
   {
     "chefName": "Dave Houghton",
@@ -214,45 +217,41 @@ const main = async () => {
         "title": "Chicken & Waffles",
         "image": "https://images.unsplash.com/photo-1565880112491-e7c4c313850d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
         "servings": "6",
-        "readyInMinutes": "45min",
+        "readyInMinutes": 45,
         "difficultyLevel": "hard",
         "summary": "If you like buttermilk fried chicken tenders and cornmeal waffles, then Southern-Style Chicken and Waffles are for you!  If you don’t want to fry a whole chicken, this easy chicken and waffles recipe is the answer with pan fried chicken tenders and crisp, tender buttermilk waffles from scratch.",
         "ingredients": [
           {
-            "name": "skin-on chicken thighs",
+            "name": "chicken thighs",
             "original": "skin-on chicken thighs"
           },
           {
-            "name": "2 cups buttermilk ",
-            "original": "buttermilk"
+            "name": "buttermilk ",
+            "original": "2 cups buttermilk"
           },
           {
-            "name": "2 1/2 cups all-purpose flour, plus more if needed",
-            "original": "all-purpose flour",
+            "name": "all-purpose flour",
+            "original": "2 1/2 cups all-purpose flour",
           },
           {
-            "name": "1 tablespoon seasoned salt, such as Lawry's ",
-            "original": "seasoned salt",
+            "name": "seasoned salt",
+            "original": "1 tablespoon seasoned salt",
           },
           {
-            "name": "1 teaspoon paprika ",
-            "original": "paprika",
+            "name": "paprika",
+            "original": "1 teaspoon paprika",
           },
           {
-            "name": "1 teaspoon freshly ground black pepper",
-            "original": "freshly ground black pepper",
+            "name": "freshly ground black pepper",
+            "original": "1 teaspoon freshly ground black pepper",
           },
           {
-            "name": "1 teaspoon ground dried thyme ",
-            "original": "dried thyme",
+            "name": "dried thyme",
+            "original": "1 teaspoon dried thyme",
           },
           {
-            "name": "1/2 teaspoon cayenne pepper, plus more if needed",
-            "original": "cayenne pepper",
-          },
-          {
-            "name": "1/4 cup milk, plus more if needed",
-            "original": "milk",
+            "name": "cayenne pepper",
+            "original": "1/2 teaspoon cayenne pepper",
           },
           {
             "name": "Vegetable oil, for frying ",
@@ -263,15 +262,15 @@ const main = async () => {
             "original": "all-purpose flour",
           },
           {
-            "name": "1/4 cup sugar ",
-            "original": "sugar",
+            "name": "sugar",
+            "original": "1/4 cup sugar",
           },
           {
-            "name": "1 tablespoon baking powder",
-            "original": "baking powder",
+            "name": "baking powder",
+            "original": "1 tablespoon baking powder",
           },
           {
-            "name": "1/2 teaspoon kosher salt ",
+            "name": "milk",
             "original": "1 1/2 cups milk ",
           },
           {
@@ -279,32 +278,32 @@ const main = async () => {
             "original": "vanilla extract",
           },
           {
-            "name": "4 large egg whites plus 2 large egg yolks ",
-            "original": "egg",
+            "name": "eggs",
+            "original": "4 large egg whites plus 2 large egg yolks",
           },
           {
-            "name": "8 tablespoons (1 stick) salted butter, melted ",
-            "original": "butter",
+            "name": "salted butter",
+            "original": "8 tablespoons (1 stick) salted butter, melted",
           },
           {
-            "name": "1 to 2 jalapenos, chopped",
-            "original": "jalapenos",
+            "name": "jalapenos",
+            "original": "1 to 2 jalapenos, chopped",
           },
           {
-            "name": "1 cup pancake syrup",
-            "original": "pancake syrup",
+            "name": "pancake syrup",
+            "original": "1 cup pancake syrup"
           },
           {
-            "name": "1/4 cup bourbon ",
-            "original": "bourbon",
+            "name": "bourbon",
+            "original": "1/4 cup bourbon"
           },
           {
-            "name": "4 tablespoons (1/2 stick) salted butter ",
-            "original": "butter",
+            "name": "butter",
+            "original": "4 tablespoons (1/2 stick) salted butter"
           },
           {
-            "name": "1/4 teaspoon cayenne pepper ",
-            "original": "cayenne pepper ",
+            "name": "cayenne pepper ",
+            "original": "1/4 teaspoon cayenne pepper "
           }
         ],
         "Equipment": [
@@ -396,14 +395,14 @@ const main = async () => {
         ]
       },
       {
-        "chefName": "Anna Reed",
+        "chefName": "Samantha Smith",
         "img": "https://images.unsplash.com/photo-1566554273541-37a9ca77b91f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
         "bio": "Having worked alongside many of top chefs in NYC, Anna brings a unique blend of flavor into each dish. Recently featured in chef's weekly.",
         "knownFor": "healthy, meal planning, low calorie",
         "title": "Chicken Tikka Masala",
         "image": "https://cafedelites.com/wp-content/uploads/2018/04/Best-Chicken-Tikka-Masala-IMAGE-2.jpg",
         "servings": "5",
-        "readyInMinutes": "45min",
+        "readyInMinutes": 45,
         "difficultyLevel": "medium",
         "summary": "Also called 'Butter Chicken, Chicken Tikki is easy to make and full of beautiful flavors'",
         "ingredients": [
@@ -558,9 +557,9 @@ const main = async () => {
         "title": "Lemon Butter Chicken",
         "image": "https://www.cookingclassy.com/wp-content/uploads/2018/07/lemon-butter-chicken-16-768x1152.jpg",
         "servings": "4",
-        "readyInMinutes": "30min",
+        "readyInMinutes": 30,
         "difficultyLevel": "Easy",
-        "summary": "",
+        "summary": "Lemon butter chicken is gewd",
         "ingredients": [
           {
             "name": "4 5oz Chicken Breasts",
@@ -706,15 +705,12 @@ const main = async () => {
         ],
         "Equipment": [
           {
-            "id": 1,
             "name": "skillet"
           },
           {
-            "id": 2,
             "name": "mixing bowl"
           },
           {
-            "id": 3,
             "name": "grill"
           }
         ],
@@ -793,162 +789,86 @@ const main = async () => {
         "img": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
         "bio": "Been cooking since I was 12, always enjoyed learning new recipes and teaching things to people",
         "knownFor": "healthy, meal planning, low calorie",
-        "id": 713437,
         "title": "Chicken Sushi Burrito",
         "image": "https://healthynibblesandbits.com/wp-content/uploads/2016/02/Sushi-Burrito-10.jpg",
-        "imageType": "jpg",
         "servings": 2,
         "readyInMinutes": 55,
-        "aggregateLikes": 362,
         "difficultyLevel": "medium",
         "summary": "These chicken sushi burritos are great for lunch or dinner. This recipe makes 4 burritos and each burrito can serve 1 to 2 people",
-        "dishTypes": [
-          "lunch",
-          "main course",
-          "main dish",
-          "dinner"
-        ],
         "ingredients": [
           {
-            "meta": [],
             "name": "Rice",
-            "original": "5 cups cooked rice",
-            "originalName": "Sushi Rice",
-            "unit": "cups",
-            "amount": 5.0
+            "original": "5 cups cooked rice"
           },
           {
-            "meta": [],
             "name": "Seasoning",
-            "original": "4 tablespoons sushi seasoning",
-            "originalName": "Sushi Seasoning",
-            "unit": "tbsp",
-            "amount": 1.0
+            "original": "4 tablespoons sushi seasoning"
           },
           {
-            "meta": [],
             "name": "kosher salt",
             "original": "pinch of kosher salt",
-            "originalName": "kosher salt",
-            "unit": "pinch",
-            "amount": 1
           },
           {
-            "meta": [],
             "name": "Chicken",
-            "original": "1 1/4 pounds chicken breast",
-            "originalName": "1 1/4 pounds chicken breast",
-            "unit": "pounds",
-            "amount": 1.25
+            "original": "1 1/4 pounds chicken breast"
           },
           {
-            "meta": [],
             "name": "kosher salt",
-            "original": "generous pinch of kosher salt",
-            "originalName": "generous pinch of kosher salt",
-            "unit": "pinch",
-            "amount": 1
+            "original": "generous pinch of kosher salt"
           },
           {
-            "meta": [],
             "name": "chili powder",
-            "original": "1 teaspoon chili powder",
-            "originalName": "1 teaspoon chili powder",
-            "unit": "tspn",
-            "amount": 1
+            "original": "1 teaspoon chili powder"
           },
           {
-            "meta": [],
             "name": "cajun seasoning",
-            "original": "1 teaspoon of cajun seasoning",
-            "originalName": "1 teaspoon of cajun seasoning",
-            "unit": "tspn",
-            "amount": 1
+            "original": "1 teaspoon of cajun seasoning"
           },
           {
-            "meta": [],
             "name": "granulated garlic",
-            "original": "1/2 teaspoon granulated garlic",
-            "originalName": "1/2 teaspoon granulated garlic",
-            "unit": "tspn",
-            "amount": 0.5
+            "original": "1/2 teaspoon granulated garlic"
           },
           {
-            "meta": [],
             "name": "Guacamole",
-            "original": "1 large avocado",
-            "originalName": "1 large avocado",
-            "unit": "N/A",
-            "amount": 1
+            "original": "1 large avocado"
           },
           {
-            "meta": [],
             "name": "Lime juice",
-            "original": "1 tbspn lime juice",
-            "originalName": "1 tbsn lime juice",
-            "unit": "tbpsn",
-            "amount": 1
+            "original": "1 tbspn lime juice"
           },
           {
-            "meta": [],
             "name": "garlic clove",
             "original": "1 garlic clove",
-            "originalName": "1 garlic clove",
-            "unit": "N/A",
-            "amount": 1
           },
           {
-            "meta": [],
             "name": "Chopped red onion",
             "original": "2 tbspn chopped red onion",
-            "originalName": "2 tbspn chopped red onion",
-            "unit": "tbspn",
-            "amount": 2
           },
           {
-            "meta": [],
             "name": "Red Pepper",
             "original": "1 small red pepper",
-            "originalName": "1 small red pepper",
-            "unit": "N/A",
-            "amount": 1
           },
           {
-            "meta": [],
             "name": "carrot",
             "original": "1 carrot, peeled and cut to matchsticks",
-            "originalName": "1 carrot, peeled and cut to matchsticks",
-            "unit": "N/A",
-            "amount": 1
           },
           {
-            "meta": [],
             "name": "Persian Cucumber",
             "original": "1 persian cucumber, cut to matchsticks",
-            "originalName": "1 persian cucumber, cut to matchsticks",
-            "unit": "N/A",
-            "amount": 1
           },
           {
-            "meta": [],
             "name": "Roasted suhi seasweed (nori)",
             "original": "4 sheets of roasted sushi seaweed (nori)",
-            "originalName": "4 sheets of roasted sushi seaweed (nori)",
-            "unit": "sheets",
-            "amount": 4
           }
         ],
         "Equipment": [
           {
-            "id": 437,
             "name": "sushi mat"
           },
           {
-            "id": 438,
             "name": "pan"
           },
           {
-            "id": 367,
             "name": "bowl"
           }
         ],
@@ -976,72 +896,44 @@ const main = async () => {
         "img": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
         "bio": "From Wisconsin, I love exploring the world of creativity. Looking to connect with other chefs, professional and amateur", 
         "knownFor": "healthy, meal planning, low calorie",
-        "id": 4370711,
         "title": "Deviled Eggs Recipe",
         "image": "https://embed.widencdn.net/img/mccormick/k8zkuxfqsq/1365x1365px/easy_deviled_eggs_5347.jpg?crop=true&anchor=342,0&q=80&color=ffffffff&u=o2hyef",
-        "imageType": "jpg",
         "servings": 2,
         "readyInMinutes": 34,
-        "aggregateLikes": 540,
         "difficultyLevel": "easy",
         "summary": "Deviled eggs are hard boiled eggs where the yolk is mixed with mayonnaise, mustard, vinegar, salt and pepper. The little sprinkle of paprika on top is the perfect finishing touch.",
-        "dishTypes": [
-          "lunch",
-          "main course",
-          "main dish",
-          "dinner"
-        ],
+      
         "ingredients": [
           {
             "name": "Large eggs",
-            "original": "6 large eggs",
-            "originalName": "6 large eggs",
-            "unit": "N/A",
-            "amount": 6.0
+            "original": "6 large eggs"
           },
           {
             "name": "mayonnaise",
-            "original": "3 tbsp mayonnaise",
-            "originalName": "3 tbsp mayonnaise",
-            "unit": "tbspn",
-            "amount": 3.0
+            "original": "3 tbsp mayonnaise"
           },
           {
             "name": "Dijon Mustard",
-            "original": "1 tsp Dijon mustard",
-            "originalName": "1 tsp Dijon mustard",
-            "unit": "1 tsp",
-            "amount": 1.0
+            "original": "1 tsp Dijon mustard"
           },
           {
             "name": "apple cider vinegar",
-            "original": "1 tsp apple cider vinegar",
-            "originalName": "1 tsp apple cider vinegar",
-            "unit": "tsp",
-            "amount": 1.0
+            "original": "1 tsp apple cider vinegar"
           },
           {
             "name": "salt and pepper",
-            "original": "salt and pepper, to taste",
-            "originalName": "salt and pepper, to taste",
-            "unit": "pinch",
-            "amount": 1.0
+            "original": "salt and pepper, to taste"
           },
           {
             "name": "paprika",
-            "original": "1 tbsn paprika, for garnish",
-            "originalName": "1 tbsn paprika, for garnish",
-            "unit": "1 tbsn",
-            "amount": 1.0
+            "original": "1 tbsn paprika, for garnish"
           }
         ],
         "Equipment": [
           {
-            "id": 674,
             "name": "pot"
           },
           {
-            "id": 693,
             "name": "spoon"
           }
         ],
@@ -1077,190 +969,112 @@ const main = async () => {
         "img": "https://images.unsplash.com/photo-1546961329-78bef0414d7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
         "bio": "From Maine, I love cooking seafood. Looking to share with the world my passion for cooking",
         "knownFor": "healthy, meal planning, low calorie",
-        "id": 232543,
         "title": "Perfect Fish Tacos",
         "image": "https://images.unsplash.com/photo-1512838243191-e81e8f66f1fd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-        "imageType": "jpg",
         "servings": "8",
-        "readyInMinutes": "35min",
-        "aggregateLikes": "8.6/10",
+        "readyInMinutes": 35,
         "difficultyLevel": "easy",
         "summary": "Love fish tacos? Well, these are the end-all be-all. Read on to see what makes these tacos so special. The fish—we use cod, but any flaky variety works—marinates in a mixture of lime juice, chili powder, and cumin that will become your standard. (Seriously, steak or chicken marinated in this will also taste bomb.) But the real gem of this recipe is the cabbage slaw—don't skip it. It takes just a few minutes to toss together and it's brightness is the perfect condiment to the spiced cod. ",
-        "dishTypes": [
-          "lunch",
-          "main course",
-          "main dish",
-          "dinner"
-        ],
         "ingredients": [
           {
-            "name": "3 tbsp. extra-virgin olive oil",
-            "original": "extra-virgin olive oil",
-            "originalName": "extra-virgin olive oil",
-            "unit": "tbsp",
-            "amount": 3
+            "name": "extra-virgin olive oil",
+            "original": "3 tbsp. extra-virgin olive oil"
           },
           {
-            "name": "Juice of 1 lime",
-            "original": "Lime",
-            "originalName": "Lime",
-            "unit": "",
-            "amount": 1
+            "name": "lime",
+            "original": "Juice of 1 Lime"
           },
           {
-            "name": "2 tsp. chili powder",
-            "original": "chili powder",
-            "originalName": "chili powder",
-            "unit": "tsp.",
-            "amount": 2
+            "name": "chili powder",
+            "original": "2 tsp. chili powder"
           },
           {
-            "name": "1 tsp. paprika ",
-            "original": "paprika",
-            "originalName": "paprika",
-            "unit": "tsp.",
-            "amount": 1
+            "name": "paprika ",
+            "original": "1 tsp. paprika"
           },
           {
-            "name": "1/2 tsp. ground cumin",
-            "original": "ground cumin",
-            "originalName": "ground cumin",
-            "unit": "tsp.",
-            "amount": 0.5
+            "name": "ground cumin",
+            "original": "1/2 tsp. ground cumin"
           },
           {
-            "name": "1/2 tsp. cayenne pepper",
-            "original": "cayenne pepper",
-            "originalName": "cayenne pepper",
-            "unit": "tsp.",
-            "amount": 0.5
+            "name": "ayenne pepper",
+            "original": "1/2 tsp. cayenne pepper"
           },
           {
-            "name": "1 1/2 lb. cod",
-            "original": "cod",
+            "name": "cod",
+            "original": "1 1/2 lb. cod",
             "originalName": "cod",
             "unit": "lbs",
             "amount": 1.5
           },
           {
-            "name": "1/2 tbsp. vegetable oil",
-            "original": "vegetable oil",
-            "originalName": "vegetable oil",
-            "unit": "tbsp.",
-            "amount": 0.5
+            "name": "vegetable oil",
+            "original": "1/2 tbsp. vegetable oil"
           },
           {
             "name": "Kosher salt",
-            "original": "Kosher salt",
-            "originalName": "Kosher salt",
-            "unit": "",
-            "amount": 1
-          },
-          {
-            "name": "Kosher salt",
-            "original": "Kosher salt",
-            "originalName": "Kosher salt",
-            "unit": "",
-            "amount": 1
+            "original": "Kosher salt to taste"
           },
           {
             "name": "8 corn tortillas",
-            "original": "corn tortillas",
-            "originalName": "corn tortillas",
-            "unit": "",
-            "amount": 8
+            "original": "corn tortillas"
           },
           {
-            "name": "1 avocado, diced",
-            "original": "avocado",
+            "name": "avocado",
+            "original": "1 diced avocado",
             "originalName": "avocado",
             "unit": "",
             "amount": 1
           },
           {
-            "name": "Lime wedges, for serving",
-            "original": "Lime wedges",
+            "name": "Lime wedges",
+            "original": "Lime wedges, for serving",
             "originalName": "Lime wedges",
             "unit": "",
             "amount": 1
           },
           {
             "name": "Sour cream",
-            "original": "Sour cream",
-            "originalName": "Sour cream",
-            "unit": "",
-            "amount": 1
+            "original": "1 cup Sour cream"
           },
           {
-            "name": "1/4 c. mayonnaise",
-            "original": "mayonnaise",
-            "originalName": "mayonnaise",
-            "unit": "cups",
-            "amount": 0.25
+            "name": "mayonnaise",
+            "original": "1/4 cup mayonnaise"
           },
           {
-            "name": "1 lime",
-            "original": "1 lime",
-            "originalName": "1 lime",
-            "unit": "juice",
-            "amount": 1
+            "name": "lime",
+            "original": "1 lime"
           },
           {
-            "name": "2 tbsp. freshly chopped cilantr",
-            "original": "cilantr",
-            "originalName": "cilantr",
-            "unit": "tbsp.",
-            "amount": 2
+            "name": "freshly chopped cilantro",
+            "original": "2 tbsp. freshly chopped cilantro"
           },
           {
-            "name": "1 tbsp. honey",
-            "original": "honey",
-            "originalName": "honey",
-            "unit": "tbsp.",
-            "amount": 1
+            "name": "honey",
+            "original": "1 tbsp. honey"
           },
           {
-            "name": "2 cup shredded purple cabbage",
-            "original": "purple cabbage",
-            "originalName": "purple cabbage",
-            "unit": "cup",
-            "amount": 2
+            "name": "shredded purple cabbage",
+            "original": "2 cup shredded purple cabbage"
           },
           {
-            "name": "1 c. corn kernels",
-            "original": "corn kernels",
-            "originalName": "corn kernels",
-            "unit": "cup",
-            "amount": 1
+            "name": "corn kernels",
+            "original": "1 cup corn kernels"
           },
           {
-            "name": "1 jalapeño, minced",
-            "original": "jalapeño",
-            "originalName": "jalapeño",
-            "unit": "minced",
-            "amount": 1
+            "name": "jalapeño",
+            "original": "1 minced jalapeño"
           }
         ],
         "Equipment": [
           {
-            "id": 1,
-            "name": ""
+            "name": "Bowl"
           },
           {
-            "id": 2,
-            "name": ""
+            "name": "Whisk"
           },
           {
-            "id": 3,
-            "name": ""
-          },
-          {
-            "id": 4,
-            "name": ""
-          },
-          {
-            "id": 5,
-            "name": ""
+            "name": "Skillet"
           }
         ],
         "steps": [

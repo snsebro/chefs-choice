@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom'
 import RecipeList from '../../components/RecipeList';
 import './Hompage.scss';
-import recipes from '../../recipe.json';
+import {getRecipes} from '../../services/reviews'
 import Carousel from '../../components/Carousel/Carousel';
 import Inspire from '../../components/shared/Icons/Inspire/Inspire';
 import Search from '../../components/shared/Icons/Search/Hero/SearchHero';
@@ -12,9 +12,17 @@ export default class Hompage extends Component {
   constructor() {
     super()
     this.state = {
-      recipes: recipes
+      recipes: []
     }
   }
+
+  async componentDidMount() {
+    const recipes = await getRecipes()
+    console.log(recipes)
+    this.setState({ recipes })
+  }
+
+
   render() {
     return (
       <div className='hompage'>
@@ -41,12 +49,12 @@ export default class Hompage extends Component {
         <div className='community'>
           <h2>Join Our Community</h2>
           <div className="community-carousel">
-            <img src={this.state.recipes[0].image} alt=""/>
+            {/* <img src={this.state.recipes[0].image} alt=""/>
             <img src={this.state.recipes[1].image} alt="" />
             <img src={this.state.recipes[2].image} alt="" />
             <img src={this.state.recipes[3].image} alt=""/>
             <img src={this.state.recipes[4].image} alt="" />
-            <img src={this.state.recipes[5].image} alt=""/>
+            <img src={this.state.recipes[5].image} alt=""/> */}
           </div>
         </div>
         <div className='social-links'>
