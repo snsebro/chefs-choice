@@ -31,6 +31,34 @@ class RecipeEdit extends Component {
       }
     }))
   }
+  handleStepsChange = (event, index, id) => {
+    const { name, value } = event.target
+    const step = this.state.recipes.steps[index]
+    step[name] = value
+    const steps = this.state.recipes.steps
+    steps.splice(index, 1, step)
+    console.log(steps)
+    this.setState(prevState => ({
+      recipes: {
+        ...prevState.recipes,
+        steps
+      }
+    }))
+  }
+  handleEquipmentChange = (event, index, id) => {
+    const { name, value } = event.target
+    const equipment = this.state.recipes.Equipment[index]
+    equipment[name] = value
+    const equipments = this.state.recipes.Equipment
+    equipments.splice(index, 1, equipment)
+    console.log(equipments)
+    this.setState(prevState => ({
+      recipes: {
+        ...prevState.recipes,
+        equipments
+      }
+    }))
+  }
   handleSubmit = async (event) => {
     event.preventDefault()
     let { id } = this.props.match.params
@@ -56,6 +84,28 @@ class RecipeEdit extends Component {
                     name='original'
                     required
                     onChange={(event) => this.handleIngredientsChange(event, index, ingredient._id)}
+                  />
+                </>
+            )}
+                 {this.state.recipes.steps.map((steps, index) =>
+                <>
+                  <input
+                    className="input-steps"
+                    value={steps.step}
+                    name='step'
+                    required
+                    onChange={(event) => this.handleStepsChange(event, index, steps._id)}
+                  />
+                </>
+            )}
+               {this.state.recipes.Equipment.map((Equipment, index) =>
+                <>
+                  <input
+                    className="input-Equipment"
+                    value={Equipment.name}
+                    name='name'
+                    required
+                    onChange={(event) => this.handleEquipmentChange(event, index, Equipment._id)}
                   />
                 </>
             )}
