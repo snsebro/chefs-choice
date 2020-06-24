@@ -6,6 +6,7 @@ import ChefPage from './pages/chef-page/ChefPage'
 import ChefProfile from './pages/chef-profile/ChefProfile'
 import SearchPage from './pages/search-page/SearchPage'
 import RecipeDetail from './pages/RecipeDetail/RecipeDetail'
+import RecipeEdit from './pages/RecipeDetail/RecipeEdit'
 import { getRecipes } from './services/reviews'
 
 
@@ -42,8 +43,9 @@ class App extends Component {
           <Route path='/search' component={SearchPage} />
           <Route exact path='/chefs' component={ChefPage} />
           <Route path='/chefs/:name' component={ChefProfile} />
-          <Route path='/recipes/:id' render={(props) => <RecipeDetail recipes={this.state.recipes} updateRecipes={this.updateRecipes} />} />
+          <Route exact path='/recipes/:id' render={(props) => <RecipeDetail recipes={this.state.recipes} updateRecipes={this.updateRecipes} />} />
           <Route path='/chefs/recipes/:id' render={(props) => <RecipeDetail recipes={this.state.recipes} updateRecipes={this.updateRecipes} />} />
+          <Route exact path='/recipes/:id/edit' render={(props) => <RecipeEdit updateRecipes={this.updateRecipes}/>} />
         </Switch>
       </div>
     );

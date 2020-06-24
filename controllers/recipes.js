@@ -3,6 +3,15 @@ const db = require('../db/connection')
 
 db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 
+const getRecipe = async (req, res) => {
+  try {
+    const recipe = await Recipe.findById(req.params.id)
+    res.json(recipe)
+  } catch (error) {
+    res.status(500).json({ error: error.message })
+  }
+}
+
 const getRecipes = async (req, res) => {
   try {
     const recipe = await Recipe.find()
@@ -51,6 +60,7 @@ const deleteRecipe = async (req, res) => {
 }
 
 module.exports = {
+  getRecipe,
   getRecipes,
   createRecipe,
   updateRecipe,
