@@ -52,15 +52,20 @@ class SearchPage extends React.Component {
     const setRecipes = this.state.filteredRecipes ? this.state.filteredRecipes : this.state.recipes
 
     const RECIPES = setRecipes.map(recipes =>
-      <div className='recipe'>
-        <img src={recipes.image} />
+      <div className='recipe-each'>
+        <div className="searchImage">
+          <img className="searchimage" src={recipes.image} />
+          </div>
         <div className="viewDetailsButton"><Link to={`/recipes/${recipes._id}`}>
           <h3>View Details</h3></Link>
         </div>
-        <div className="detail">
-          <div className="name">{recipes.title}</div>
-          <div className="user">{recipes.chefName}</div>
-          <div className="description">{recipes.summary}</div>
+        <div className="search-page-detail">
+          <div className="recipe-title-search">{recipes.title}</div>
+          <div className="chef-info-searchpage">
+          <img className="chef-search-img" src={recipes.img} />
+            <div className="chefName-search">BY: {recipes.chefName}</div>
+            </div>
+          <div className="description-search">{recipes.summary}</div>
         </div>
       </div>
 
