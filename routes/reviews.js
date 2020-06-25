@@ -9,6 +9,7 @@ router.post('/reviews', controllers.createReview)
 router.put('/reviews/:id', controllers.updateReview)
 router.delete('/reviews/:id', controllers.deleteReview)
 
+router.get('/recipes/:id', recipeControllers.getRecipe)
 router.get('/recipes', recipeControllers.getRecipes)
 router.post('/recipes', recipeControllers.createRecipe)
 router.put('/recipes/:id', recipeControllers.updateRecipe)

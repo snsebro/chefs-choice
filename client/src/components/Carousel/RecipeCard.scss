@@ -18,24 +18,25 @@
   height: 73.5px;
 }
 
-.bookmark img {
+.bookmark {
   position: relative;
   height: 16px;
   width: 12px;
-  left: 100px;
-  bottom: 10px;
-  z-index: 2;
+  left: 85px;
+  bottom: 15px;
+  z-index: 1;
 }
 
 .recipeName {
   padding: none;
   width: 112px;
-  height: 32px;
+  height: 60px;
   position: relative;
   left: 0px;
   bottom: 20px;
   overflow: hidden;
   margin-bottom: none;
+  z-index: 2;
 }
 
 .recipeName p {
@@ -43,6 +44,7 @@
   font-weight: 0;
   padding-left: 0;
   margin: 0;
+  padding-top: 9px;
 }
 
 .card a {

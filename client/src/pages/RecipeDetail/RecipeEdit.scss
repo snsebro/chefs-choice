@@ -1,0 +1,21 @@
+.edit-container{
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  margin: 10px auto;
+}
+
+.edit-header {
+  text-align: center;
+}
+
+input {
+  margin: 3px 0px;
+}
+
+// .form{
+//   display: flex;
+//   width: 50px;
+//   // flex-wrap: wrap;
+  
+// }
