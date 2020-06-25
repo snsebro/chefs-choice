@@ -1,13 +1,13 @@
 .recipePage {
   display: flex;
   flex-direction: column;
-  width: 320px;
+  width: 100%;
   height: fit-content;
 }
 
 .recipePage img {
-  height: 186px;
-  width: 320px;
+  height: 30vh;
+  width: 100%;
   object-fit: cover;
 }
 
@@ -45,7 +45,7 @@
   position: relative;
   width: 57px;
   top: 15px;
-  left: 130px;
+  left: 45%;
   z-index: 2;
 }
 
@@ -54,7 +54,7 @@ h1 {
   align-items: center;
   justify-content: center;
   height: 38px;
-  width: 320px;
+  width: 100%;
   background-color: #731763;
   font-size: 20px;
   color: #ffffff;
@@ -104,15 +104,15 @@ li {
   object-fit: cover;
   top: -131px;
   bottom: 0px;
-  height: 186px;
-  width: 320px;
+  height: 30vh;
+  width: 100%;
 }
 
 
 .bookmarkIcon img{
   position: relative;
-  left: 290px;
-  bottom: -70px;
+  left: 85%;
+  bottom: 125%;
   height: 20px;
   width: 20px;
   z-index: 2;

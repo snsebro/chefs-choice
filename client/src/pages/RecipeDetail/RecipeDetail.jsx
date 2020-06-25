@@ -115,7 +115,7 @@ class RecipeDetail extends Component {
               <button className="edit-button"><Link className="edit-link" to={`/recipes/${recipe[0]._id}/edit`}>Edit</Link></button>
               <button className="delete-button" onClick={() => deleteRecipe(recipe[0]._id)}>Delete</button>
             </div>
-            <div className="customize dropDown shaddow">
+            {/* <div className="customize dropDown shaddow">
               <h1>Customize V</h1>
               <div className="list">
                 <h3>Try some new twists</h3>
@@ -123,8 +123,8 @@ class RecipeDetail extends Component {
 
                 </ul>
               </div>
-            </div>
-            <div className="addOns dropDown shaddow">
+            </div> */}
+            {/* <div className="addOns dropDown shaddow">
               <h1>Add-ons V</h1>
               <div className="list">
                 <h3>Give these a try</h3>
@@ -136,11 +136,10 @@ class RecipeDetail extends Component {
                 <h3>See what others thought</h3>
               </div>
               <Review reviews={this.state.reviews} />
-              {/* import and map through review components */}
             </div>
             <div>
               <ReviewCreate id={recipe[0] && recipe[0].id} />
-            </div>
+            </div> */}
             <div className="pageLink"></div>
             <h3>Top of Page ^</h3>
           </div>

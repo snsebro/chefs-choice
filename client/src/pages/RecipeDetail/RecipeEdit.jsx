@@ -73,6 +73,7 @@ class RecipeEdit extends Component {
     }
     return (
       <>
+        <h2 className='edit-header'>Edit Recipe</h2>
         {this.state.recipes &&
           <div className='edit-container' >
             <form onSubmit={this.handleSubmit}>
