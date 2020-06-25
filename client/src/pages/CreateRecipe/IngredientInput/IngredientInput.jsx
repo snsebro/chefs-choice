@@ -10,13 +10,15 @@ export default class IngredientInput extends Component {
 
 
   increment = async (e) => {
+    e.preventDefault()
     await this.props.handleInputs({ target: { name: 'original', value: '' } }, this.state.numInputs)
     this.setState((prevState) => ({
       numInputs: prevState.numInputs + 1,
     }));
   };
 
-  decrement = () => {
+  decrement = (e) => {
+    e.preventDefault()
     this.setState((prevState) => ({
       numInputs: prevState.numInputs - 1,
     }));
@@ -31,12 +33,13 @@ export default class IngredientInput extends Component {
         <input 
           onChange={(e) => { this.props.handleInputs(e, i) }}
           value={this.props.recipe.ingredients[i].original}
-          placeholder="amount of ingredient and its name"
+          placeholder="Amount & name of ingredient"
           type="text"
           name="original"
           required
         />
           <button onClick={() => { this.decrement(); this.props.deleteInput(i) }}>-</button>
+          <button onClick={this.increment}>+</button>
          </>
       );
     }
@@ -45,8 +48,8 @@ export default class IngredientInput extends Component {
   render() {
     return (
       <>
-        <button onClick={this.increment}>+</button>
-        <div>{this.createInputs()}</div>
+        
+        <div className="ingredients">{this.createInputs()}</div>
       </>
     );
   }

@@ -9,13 +9,15 @@ export default class StepsInput extends Component {
   }
 
   increment = async (e) => {
+    e.preventDefault()
     await this.props.handleInputs({ target: { name: 'step', value: '' } }, this.state.numInputs)
     this.setState((prevState) => ({
       numInputs: prevState.numInputs + 1,
     }));
   };
 
-  decrement = () => {
+  decrement = (e) => {
+    e.preventDefault()
     this.setState((prevState) => ({
       numInputs: prevState.numInputs - 1,
     }));
@@ -30,12 +32,13 @@ export default class StepsInput extends Component {
           <input
             onChange={(e) => { this.props.handleInputs(e, i) }}
             value={this.props.recipe.steps[i].step}
-            placeholder="instructions"
+            placeholder="Instructions"
             type="text"
             name="step"
             required
           />
           <button onClick={() => { this.decrement(); this.props.deleteInput(i) }}>-</button>
+          <button onClick={this.increment}>+</button>
         </>
       );
     }
@@ -46,11 +49,7 @@ export default class StepsInput extends Component {
   render() {
     return (
       <>
-        {/* <input placeholder="step number" type="text" name="number" required /> */}
-        {/* <input placeholder="instructions" type="text" name="step" required />
-      </div> */}
-       <button onClick={this.increment}>+</button>
-        <div>{this.createInputs()}</div>
+        <div className="instructions">{this.createInputs()}</div>
       </>
     );
   }
