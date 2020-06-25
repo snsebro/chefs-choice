@@ -1,9 +1,8 @@
 import React from 'react'
-import { Link, Route } from 'react-router-dom'
+import { Link} from 'react-router-dom'
 import Search from '../../components/Search'
 import "./SearchPage.scss";
 import {getRecipes} from '../../services/reviews'
-import RecipeDetails from '../RecipeDetail/RecipeDetail'
 
 class SearchPage extends React.Component {
   constructor() {
@@ -54,7 +53,7 @@ class SearchPage extends React.Component {
     const RECIPES = setRecipes.map(recipes =>
       <div className='recipe-each'>
         <div className="searchImage">
-          <img className="searchimage" src={recipes.image} />
+          <img className="searchimage" src={recipes.image} alt='recipe'/>
           </div>
         <div className="viewDetailsButton"><Link to={`/recipes/${recipes._id}`}>
           <h3>View Details</h3></Link>
@@ -62,7 +61,7 @@ class SearchPage extends React.Component {
         <div className="search-page-detail">
           <div className="recipe-title-search">{recipes.title}</div>
           <div className="chef-info-searchpage">
-          <img className="chef-search-img" src={recipes.img} />
+          <img className="chef-search-img" alt='recipe' src={recipes.img} />
             <div className="chefName-search">BY: {recipes.chefName}</div>
             </div>
           <div className="description-search">{recipes.summary}</div>
@@ -76,7 +75,7 @@ class SearchPage extends React.Component {
     return (
       <div className="search">
         <h1>Search</h1>
-        <Search onChange={this.handleSubmit} value={this.state.filterValue} onChange={this.handleSearchChange} />
+        <Search onSubmit={this.handleSubmit} value={this.state.filterValue} onChange={this.handleSearchChange} />
         <form className="sort-container" onSubmit={this.handleSubmit}></form>
         <div className="recipes">
            {RECIPES}

@@ -14,11 +14,18 @@ margin: 0px;
   border: 5px solid #ffffff;
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
   margin-right: 50px;
-  margin-top: 50px;
+  // margin-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 28px;
+}
+
+.chef-profile-header {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .chef {
@@ -40,7 +47,10 @@ margin: 0px;
   justify-content: left;
   align-items: flex-start;
   text-align: left;
-  margin: 0 10px;
+  // margin: 0 10px;
+  padding: 0 10px 10px 10px;
+  // box-shadow: 0 6px 5px -1px rgba(0, 0, 0, 0.12)
+  box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.12)
 }
 
 .chef-recipes{
@@ -69,4 +79,21 @@ h3{
 
 .first-time p {
   margin: 10px;
+}
+
+.chef-social-media {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  padding: 0px;
+}
+
+
+.ribbon {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  z-index: 2;
+  top: 5px;
+  left: -67px;
 }

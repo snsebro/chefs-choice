@@ -8,7 +8,7 @@ export default class Button extends Component {
     return (
     <>
         <Link to="/search">
-        <img src={Search} />
+        <img src={Search} alt='chef'/>
         </Link>
     </>
     );

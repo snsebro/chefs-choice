@@ -3,7 +3,7 @@ import "../RecipeDetail/RecipeDetail.scss";
 import Bookmark from "../../assets/bookmark.png";
 import { withRouter } from 'react-router-dom';
 import { Link } from 'react-router-dom'
-import { getReviews, getRecipes, deleteRecipe } from '../../services/reviews'
+import {  getRecipes, deleteRecipe } from '../../services/reviews'
 import Review from '../../components/Review/Review'
 import ReviewCreate from "../../components/Review/ReviewCreate";
 class RecipeDetail extends Component {
@@ -56,17 +56,17 @@ class RecipeDetail extends Component {
           <div className="recipePage">
             <div className="overlay">
               <div className="back">
-                <img src="https://static.thenounproject.com/png/1991936-200.png" />
+                <img alt='play button' src="https://static.thenounproject.com/png/1991936-200.png" />
               </div>
               <div className="playButton">
-                <img src="https://pluspng.com/img-png/play-button-png-play-button-png-picture-1024.png" />
+                <img alt='video' src="https://pluspng.com/img-png/play-button-png-play-button-png-picture-1024.png" />
               </div>
               <div className="bookmarkIcon">
-                <img src={Bookmark} />
+                <img alt='bookmark' src={Bookmark} />
               </div>
               <div className="video">
                 {recipe[0] &&
-                  <img src={recipe[0].image} />}
+                  <img alt='recipe' src={recipe[0].image} />}
               </div>
             </div>
 

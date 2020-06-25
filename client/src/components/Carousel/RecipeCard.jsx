@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import '../Carousel/RecipeCard.scss';
-import { Bookmark } from '../../assets/bookmark.png'
 import {ReactComponent as Bookmark2} from '../../assets/bookmark - Disabled.svg'
 // import Bookmark from '../shared/Icons/Bookmark/Disabled/Bookmark'
 
@@ -19,7 +18,7 @@ export default class RecipeCard extends Component {
               return (
               <div className="card">
                   <div className="mealPhoto">
-                    <img src={recipe.image} />
+                    <img src={recipe.image} alt='recipe'/>
                   </div>
                   <div className="bookmark">
                     <Bookmark2 />

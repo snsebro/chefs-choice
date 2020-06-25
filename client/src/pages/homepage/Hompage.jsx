@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom'
-import RecipeList from '../../components/RecipeList';
 import './Hompage.scss';
 import {getRecipes} from '../../services/reviews'
 import Carousel from '../../components/Carousel/Carousel';

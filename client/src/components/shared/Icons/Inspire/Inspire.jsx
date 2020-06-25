@@ -6,7 +6,7 @@ export default class Button extends Component {
   render() {
     return (
     <>
-      <img src={Inspire} />
+      <img src={Inspire} alt='inspire'/>
     </>
     );
   }

@@ -2,8 +2,11 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 // import Layout from '../../components/shared/Layout'
 import './ChefPage.scss'
-import ChefProfile from '../chef-profile/ChefProfile'
 import { getRecipes } from '../../services/reviews'
+import { ReactComponent as Instagram } from '../../assets/instagram.svg'
+import { ReactComponent as Facebook } from '../../assets/facebook.svg'
+import { ReactComponent as Pinterest } from '../../assets/pinterest.svg'
+import {ReactComponent as Youtube} from '../../assets/youtube.svg'
 
 export default class ChefPage extends Component {
   constructor() {
@@ -28,7 +31,7 @@ export default class ChefPage extends Component {
           <h2 className='top-chef' >This Week's Top Chefs:</h2>
 
           <div className='general-chef-display'>
-            <img className='profile-pic' src={chef.img} />
+            <img className='profile-pic' src={chef.img} alt='chef'/>
             <div className='chefs-page-info'>
               <h2>{chef.chefName}</h2>
               <Link to={`/chefs/${chef.chefName}`}><h1>View Full Profile</h1></Link>
@@ -57,8 +60,8 @@ export default class ChefPage extends Component {
       <>
         <div className='intro-header'>
           <div className='image-header'>
-            <img className='image1' src='https://images.unsplash.com/photo-1556911220-e15b29be8c8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80' />
-            <img className='image2' src='https://images.unsplash.com/photo-1466637574441-749b8f19452f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60' />
+            <img alt='chef' className='image1' src='https://images.unsplash.com/photo-1556911220-e15b29be8c8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80' />
+            <img alt ='chef' className='image2' src='https://images.unsplash.com/photo-1466637574441-749b8f19452f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60' />
           </div>
           <div className='middle-block'>
             <h1>What is a Top Chef?</h1>
@@ -72,10 +75,15 @@ export default class ChefPage extends Component {
         <div className='spotlight'>
           <h2 className='on'>Spotlight On:</h2>
           <div className='below-spotlight'>
-            <img src='https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60' className='img-spotlight' />
+            <img alt='chef' src='https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60' className='img-spotlight' />
             <div className='chef-page-info'>
               <h2>Jennifer Thomas</h2>
-              <img src='' alt='media-icons' ></img>
+              <div className='chef-social-media'>
+                <Instagram />
+                <Facebook />
+                <Pinterest />
+                <Youtube />
+          </div>
             </div>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis eget urna risus facilisis sit in fusce.

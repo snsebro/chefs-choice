@@ -14,11 +14,13 @@
     .image1 {
       width: 50.2%;
       height: auto;
+      object-fit: cover;
     }
 
     .image2 {
       width: 50.2%;
       height: auto;
+      object-fit: cover;
     }
 
     
@@ -90,7 +92,7 @@
       border: 4px solid white;
       box-shadow: 0px -10px 20px rgb(150, 150, 150);
       box-shadow: 0px 10px 20px rgb(150, 150, 150);
-      background-size: contain;
+      object-fit: cover;
     } 
 
     .chef-page-info {
@@ -142,11 +144,12 @@
       border: 4px solid white;
       box-shadow: 0px -10px 20px rgb(150, 150, 150);
       box-shadow: 0px 10px 20px rgb(150, 150, 150);
+      object-fit: cover;
     } 
 
     .chefs-page-info {
       width: 30%;
-      margin-left: 50px;
+      margin-left: 25px;
     
       h1 {
       color: rgb(226, 135, 62);
@@ -169,6 +172,12 @@
     margin-top: -140px;
     text-align: center;
   }
+}
+
+.chef-social-media{
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 10px;
 }
 
 
