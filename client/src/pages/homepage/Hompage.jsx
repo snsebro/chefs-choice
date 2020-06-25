@@ -37,9 +37,26 @@ export default class Hompage extends Component {
           <h2>Top Chefs of the Week</h2>
           <Link to='/chefs'><button>Find a Chef</button></Link><br/>
             <div className='images'>
-              <img src='unkonwn.jpg' /> 
-              <img src='unkonwn.jpg' />
-              <img src='unkonwn.jpg' />
+              <div className='chef'>
+                <div className='chef-face' style={{backgroundImage: `url("https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60")`}}></div>
+                <div className='chef-name'>
+                  <h5>Benny Hana</h5>
+                </div>
+              </div>
+              <div className='chef'>
+              <div className='chef-face'
+              style={{backgroundImage: `url("https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60")`}}></div>
+                <div className='chef-name'>
+                  <h5>Ramsey Gordon</h5>
+                </div>
+              </div>
+              <div className='chef'>
+              <div className='chef-face'
+              style={{backgroundImage: `url("https://images.unsplash.com/photo-1546961329-78bef0414d7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60")`}}></div>
+                <div className='chef-name'>
+                  <h5>Tina Snow</h5>
+                </div>
+              </div>
             </div>
         </div>
         <div className='top-recipes'>

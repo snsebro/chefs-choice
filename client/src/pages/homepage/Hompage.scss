@@ -26,12 +26,12 @@
   background-size: cover;
 }
 
-.search-plan-inspire{
-    height: 70%;
-    width: 70%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.search-plan-inspire {
+  height: 70%;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .icon {
@@ -42,7 +42,7 @@
 .top-chefs {
   display: flex;
   flex-direction: column;
-  height: 215px;
+  height: 250px;
   background-image: url(../../assets/chef-image-large.png);
   background-size: cover;
   background-position: center;
@@ -53,22 +53,57 @@
 }
 
 .top-chefs button {
-  background-color: #EF8325;
+  background-color: #ef8325;
   outline: none;
   border: none;
   color: white;
   border-radius: 2px;
   width: 150px;
   height: 44px;
-
 }
 
 .images {
-  height: 48%;
-  width: 60%;
+  height: 50%;
+  width: 80%;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  border: 1px solid black;
+}
+
+.chef {
+  width: 30%;
+  height: 90%;
+  // border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.chef-face {
+  height: 100%;
+  width: 70%;
+  border: 1px solid black;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 1000px;
+  margin-bottom: 5px;
+}
+
+.chef-name {
+  height: 20%;
+  width: 100%;
+  // border: 1px solid black;
+  color: black;
+}
+
+.chef-name h5 {
+  margin: 0;
+  padding: 0;
+  font-size: 8px;
 }
 
 h1 {
@@ -77,8 +112,8 @@ h1 {
 }
 
 .recipes {
-display: flex;
-width: 100%;
+  display: flex;
+  width: 100%;
 }
 
 .recipes img {
@@ -112,6 +147,3 @@ width: 100%;
   height: 100px;
   margin: 0 7px;
 }
-
-
-
