@@ -31,7 +31,7 @@
   width: 70%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .icon {
@@ -126,24 +126,34 @@ h1 {
   font-size: 14px;
 }
 
-.community-carousel {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-  height: 113px;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  padding-left: 5px;
-  padding-top: 5px;
-  margin-left: 0;
-}
+// .community-carousel {
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: space-between;
+//   width: 100%;
+//   height: 113px;
+//   overflow-x: scroll;
+//   overflow-y: hidden;
+//   padding-left: 5px;
+//   padding-top: 5px;
+//   margin-left: 0;
+// }
 
-.community-carousel img {
-  top: 0px;
-  left: 0px;
-  object-fit: cover;
-  width: 125px;
-  height: 100px;
-  margin: 0 7px;
+// .community-carousel img {
+//   top: 0px;
+//   left: 0px;
+//   object-fit: cover;
+//   width: 125px;
+//   height: 100px;
+//   margin: 0 7px;
+// }
+
+.social-media{
+  display: flex;
+  margin:0 auto;
+  border: 1px solid black;
+  height: 75px;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
 }

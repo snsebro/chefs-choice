@@ -7,6 +7,10 @@ import Carousel from '../../components/Carousel/Carousel';
 import Inspire from '../../components/shared/Icons/Inspire/Inspire';
 import Search from '../../components/shared/Icons/Search/Hero/SearchHero';
 import Plan from '../../components/shared/Icons/Plan/Plan';
+import { ReactComponent as Instagram } from '../../assets/instagram.svg'
+import { ReactComponent as Facebook } from '../../assets/facebook.svg'
+import { ReactComponent as Pinterest } from '../../assets/pinterest.svg'
+import {ReactComponent as Youtube} from '../../assets/youtube.svg'
 
 export default class Hompage extends Component {
   constructor() {
@@ -28,9 +32,9 @@ export default class Hompage extends Component {
       <div className='hompage'>
         <div className='center'>
           <div className='search-plan-inspire'>
-           <div className='icon search'><Search /></div>
-            <div className='icon inspire'><Inspire /></div>
-            <div className='icon plan'><Plan /></div>
+           <div className='icon-search'><Search /></div>
+            <div className='icon-inspire'><Inspire /></div>
+            <div className='icon-plan'><Plan /></div>
           </div>
         </div>
         <div className='top-chefs'>
@@ -66,6 +70,7 @@ export default class Hompage extends Component {
         <div className='community'>
           <h2>Join Our Community</h2>
           <div className="community-carousel">
+            <Carousel recipes={this.state.recipes}/>
             {/* <img src={this.state.recipes[0].image} alt=""/>
             <img src={this.state.recipes[1].image} alt="" />
             <img src={this.state.recipes[2].image} alt="" />
@@ -76,6 +81,13 @@ export default class Hompage extends Component {
         </div>
         <div className='social-links'>
           <h2>Follow us on</h2>
+          <div className='social-media'>
+            <Instagram />
+            <Facebook />
+            <Pinterest />
+            <Youtube />
+          </div>
+
         </div>
       </div>
     )
