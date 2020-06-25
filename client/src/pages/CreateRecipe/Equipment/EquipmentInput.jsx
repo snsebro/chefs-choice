@@ -9,13 +9,15 @@ export default class EquipmentInput extends Component {
   }
 
   increment = async (e) => {
+    e.preventDefault()
     await this.props.handleInputs({ target: { name: 'name', value: '' } }, this.state.numInputs)
     this.setState((prevState) => ({
       numInputs: prevState.numInputs + 1,
     }));
   };
 
-  decrement = () => {
+  decrement = (e) => {
+    e.preventDefault()
     this.setState((prevState) => ({
       numInputs: prevState.numInputs - 1,
     }));
@@ -30,12 +32,13 @@ export default class EquipmentInput extends Component {
           <input
             onChange={(e) => { this.props.handleInputs(e, i) }}
             value={this.props.recipe.Equipment[i].name}
-            placeholder="tools"
+            placeholder="Tools needed"
             type="text"
             name="name"
             required
           />
           <button onClick={() => { this.decrement(); this.props.deleteInput(i) }}>-</button>
+          <button onClick={this.increment}>+</button>
         </>
       );
     }
@@ -49,8 +52,8 @@ export default class EquipmentInput extends Component {
         {/* <input placeholder="step number" type="text" name="number" required /> */}
         {/* <input placeholder="instructions" type="text" name="step" required />
       </div> */}
-       <button onClick={this.increment}>+</button>
-        <div>{this.createInputs()}</div>
+       {/* <button onClick={this.increment}>+</button> */}
+        <div className="tools">{this.createInputs()}</div>
       </>
     );
   }

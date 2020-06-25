@@ -58,7 +58,7 @@ export const getRecipes = async () => {
 
 export const createRecipe = async recipe => {
   try {
-      const response = await api.post('/recipe', recipe)
+      const response = await api.post('/recipes', recipe)
       return response.data
   } catch (error) {
       throw error
