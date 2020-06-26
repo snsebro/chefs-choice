@@ -21,7 +21,6 @@ export default class Hompage extends Component {
 
   async componentDidMount() {
     const recipes = await getRecipes()
-    console.log(recipes)
     this.setState({ recipes })
   }
 

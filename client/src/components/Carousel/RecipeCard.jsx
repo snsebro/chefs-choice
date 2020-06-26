@@ -13,10 +13,10 @@ export default class RecipeCard extends Component {
           this.props.recipes &&
           this.props.recipes
             .filter((recipe, idx) => idx < 4)
-            .map((recipe) => {
+            .map((recipe, index) => {
            
               return (
-              <div className="card">
+              <div className="card" key={index}>
                   <div className="mealPhoto">
                     <img src={recipe.image} alt='recipe'/>
                   </div>

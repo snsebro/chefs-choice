@@ -19,14 +19,11 @@ class App extends Component {
     this.state = {
       recipes: []
     }
-
   }
 
   async componentDidMount() {
     const recipes = await getRecipes()
-    console.log(recipes)
     this.setState({ recipes })
-    console.log(this.state.recipes)
   }
 
   updateRecipes = async () => {

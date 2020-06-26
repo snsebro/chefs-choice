@@ -23,10 +23,9 @@ export default class ChefPage extends Component {
 
   render() {
     const { chefs } = this.state;
-    console.log(chefs);
-    const allChefs = chefs.map((chef) => {
+    const allChefs = chefs.map((chef, index) => {
       return (
-        <div key={chef.id} className="Chef-List">
+        <div key={index} className="Chef-List">
           <h2 className="top-chef">This Week's Top Chefs:</h2>
 
           {this.state.chefs &&

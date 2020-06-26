@@ -118,4 +118,30 @@ li {
   z-index: 2;
 }
 
+.button-container{
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.button-container button {
+  border: 1px solid white;
+  background-color: orange;
+  border-color: white;
+  margin-bottom: 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+.button-container a {
+  text-decoration: none;
+  color: white;
+}
+
+.edit-link a{
+  text-decoration: none;
+  color: white;
+}
+
+
 

@@ -17,7 +17,6 @@ class SearchPage extends React.Component {
 
   async componentDidMount() {
     const recipes = await getRecipes()
-    console.log(recipes)
     this.setState({ recipes })
   }
 
@@ -51,7 +50,7 @@ class SearchPage extends React.Component {
     const setRecipes = this.state.filteredRecipes ? this.state.filteredRecipes : this.state.recipes
 
     const RECIPES = setRecipes.map(recipes =>
-      <div className='recipe-each'>
+      <div className='recipe-each' key={recipes._id}>
         <div className="searchImage">
           <img className="searchimage" src={recipes.image} alt='recipe'/>
           </div>
@@ -66,12 +65,9 @@ class SearchPage extends React.Component {
             </div>
           <div className="description-search">{recipes.summary}</div>
         </div>
-      </div>
-
-      
+      </div>    
     )
   
-
     return (
       <div className="search">
         <h1>Search</h1>
@@ -80,14 +76,6 @@ class SearchPage extends React.Component {
         <div className="recipes">
            {RECIPES}
         </div>
-{/*         
-        <footer>
-        <div className="recipeButton">
-         <button className="New" onClick={this.nextRecipe}>Next</button>
-            <button className="Prev"  onClick={this.previousRecipe}>Previous</button>
-         </div>
-        </footer>
-         */}
       </div>
       
     )

@@ -57,8 +57,6 @@ export default class CreateRecipe extends Component {
   //for inputs on subcomponents
   handleInputs = (e, i) => {
     const { name, value } = e.target;
-    console.log(name);
-    console.log(value);
     const ingredients = this.state.recipe.ingredients;
     const steps = this.state.recipe.steps;
     const Equipment = this.state.recipe.Equipment;
@@ -82,9 +80,8 @@ export default class CreateRecipe extends Component {
 
   handleSubmit = async (e) => {
     e.preventDefault()
-    const created = await createRecipe(this.state.recipe)
+    await createRecipe(this.state.recipe)
     this.setState({ created: true })
-    console.log(this.state.created)
   }
 
   render() {

@@ -49,7 +49,6 @@ export const getRecipe = async id => {
 export const getRecipes = async () => {
   try {
     const response = await api.get('/recipes')
-    console.log(response)
     return response.data
   } catch (error) {
       throw error
