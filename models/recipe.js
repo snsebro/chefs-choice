@@ -3,14 +3,14 @@ const Schema = mongoose.Schema
 
 const IngredientSchema = new Schema(
   {
-    name: { type: String, required: true },
+    name: { type: String, required: false },
     original: { type: String, required: true },
   }
 )
 
 const Steps = new Schema(
   {
-    number: { type: Number, required: true },
+    number: { type: Number, required: false },
     step: { type: String, required: true }
   }
 )
