@@ -1,14 +1,7 @@
-# chefs-choice
-
-# PROJECT 3 PLANNING WORKSHEET README TEMPLATE <!-- omit in toc -->
-
-The Project Planning section **should be completed** before you complete this project to ensure your team is aligned as you kick off. We recommend that you use Trello or Github Projects to create a project plan and assign tasks to each member of the team.
-
 ## Overview
 
 **Chefs Choice** 
 
-Add your project description.
 
 ### Team Members
 
@@ -16,7 +9,7 @@ Add your project description.
 - [Bryce Langille](https://github.com/brycelangille)
 - [Gerand McDowell](https://github.com/deucemac)
 - [Jack South](https://github.com/jackksouth) 
-- [Shayne Sebro](https://github.com/snebro) (Team Leader) 
+- [Shayne Sebro](https://github.com/snsebro) (Team Leader) 
 
 ## Group Expectations
 
@@ -61,7 +54,6 @@ Add your project description.
 
 ## Sprint 1
 
-> Sprint 1 should result in a well-planned and easily-communicated project, ensuring that the client's deliverable will be achievable and meet specifications within the time frame estimated.
 
 **Chefs Choice** lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
 
